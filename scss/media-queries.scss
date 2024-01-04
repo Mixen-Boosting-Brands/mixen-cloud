@@ -1,0 +1,125 @@
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+
+// Small devices (landscape phones, 576px and up)
+@include media-breakpoint-up(sm) {
+    header {
+        .btn {
+            @include font-size(0.8rem);
+        }
+    }
+    .common-dark {
+        h1 {
+            &::after {
+                right: -34px;
+                width: 112px;
+                height: 112px;
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+    .common-dark {
+        h1 {
+            &::after {
+                right: -42px;
+                width: 124px;
+                height: 124px;
+            }
+        }
+    }
+
+    #soluciones {
+        .card {
+            padding: 80px 60px;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+    .menu {
+        width: 40%;
+        border-left: 1px solid $primary;
+    }
+
+    #jumbotron {
+        min-height: auto;
+        padding: 100px 0;
+
+        .thumb {
+            height: auto;
+        }
+    
+        .thumb-1 {
+            @include background('../images/jumbotron/thumb-1.png', center, cover);
+            height: 458px;
+        }
+
+        @for $i from 2 through 3 {
+            .thumb-#{$i} {
+                height: 227px;
+            }
+        }
+    }
+
+    #problematicas {
+        h1 {
+            line-height: 1.2;
+    
+            span:last-child {
+                top: -10px;
+            }
+        }
+    }
+
+    .common-dark {
+        h1 {
+            &::after {
+                right: -42px;
+                width: 132px;
+                height: 132px;
+            }
+        }
+    }
+
+    #soluciones {
+        .card {
+            min-height: 280px;
+            padding: unset;
+
+            .card-body {
+                flex: unset;
+            }
+        }
+    }
+
+    #mixen-cloud {
+        padding: 100px 0;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+    .common-dark {
+        h1 {
+            &::after {
+                right: -42px;
+                width: 148px;
+                height: 148px;
+            }
+        }
+    }
+
+    #soluciones {
+        .card {
+            min-height: 320px;
+        }
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@include media-breakpoint-up(xxl) {
+
+}

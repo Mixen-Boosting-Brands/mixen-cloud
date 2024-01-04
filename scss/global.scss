@@ -1,0 +1,493 @@
+// Global styles
+::-moz-selection {
+    color: $white;
+    background: $primary;
+}
+
+::selection {
+    color: $white;
+    background: $primary;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'circular_stdlight', sans-serif;
+    position: relative;
+
+    p {
+        @include font-size(0.9rem);
+    }
+}
+
+header,
+section,
+footer {
+    width: 100%;
+    float: left;
+}
+
+.mh-100 {
+    min-height: 100vh;
+}
+
+a {
+    color: $primary;
+    text-decoration: none;
+    @include transition(ease, 0.3s);
+
+    &:hover,
+    &:focus {
+        color: $secondary;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'trapmedium', sans-serif;
+    text-transform: uppercase;
+}
+
+.py-60 {
+    padding: 60px 0;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.py-30 {
+    padding: 30px 0;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.whatsapp {
+    @include whatsapp-button;
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn,
+.card {
+    border-radius: 0;
+}
+
+.ico-arrow {
+    max-width: 40px;
+    vertical-align: baseline;
+}
+
+.separador {
+    background-color: $primary;
+    width: 40px;
+    height: 5px;
+    margin: 30px auto;
+}
+
+table {
+    @include font-size(0.8rem);
+
+    tr {
+        opacity: 0.3;
+        @include transition(ease, 0.3s);
+
+        &:hover,
+        &:focus {
+            cursor: crosshair;
+            opacity: 1;
+        }
+    }
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 15px 30px;
+    // color: ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    @include font-size(1.8rem);
+    @include transition(ease, 0.2s);
+
+    #logo-navbar {
+        width: 200px;
+        @include transition(ease, 0.2s);
+    }
+
+    .btn {
+        @include font-size(0.7rem);
+    }
+
+    #mburger {
+        color: $primary;
+        position: relative;
+        top: 4px;
+
+        &:hover,
+        &:focus {
+            color: $secondary;
+        }
+    }
+}
+
+.navbar-scroll {
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-backdrop-filter: saturate(300%) blur(32px);
+            backdrop-filter: saturate(300%) blur(32px);
+    border-bottom: 1px solid $primary;
+    padding: 10px 30px !important;
+    @include transition(ease, 0.3s);
+
+    #logo-navbar {
+        width: 180px !important;
+    }
+
+    .btn {
+        background-color: rgba(255, 255, 255, 0);
+        -webkit-backdrop-filter: saturate(300%) blur(32px);
+                backdrop-filter: saturate(300%) blur(32px);
+
+        &:hover,
+        &:focus {
+            background-color: $primary;
+        }
+    }
+}
+
+#mapa {
+    line-height: 0;
+    
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+#jumbotron {
+    min-height: 100vh;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+
+    .swiper-jumbotron {
+        position: relative;
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            background-color: $white;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+
+            &::after {
+                @include font-size(1.4rem);
+                color: $primary;
+            }
+        }
+    }
+
+    .thumb {
+        width: 100%;
+        height: 200px;
+        position: relative;
+
+        a {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+    }
+
+    @for $i from 1 through 3 {
+        .thumb-#{$i} {
+            @include background('../images/jumbotron/thumb-#{$i}.png', center top, cover);
+        }
+    }
+}
+
+#problematicas {
+    padding-bottom: 100px;
+
+    h1 {
+        line-height: 1.8rem;
+
+        span:last-child {
+            position: relative;
+        }
+    }
+
+    .cards {
+        @include font-size(0.8rem);
+    }
+}
+
+.common-dark {
+    h1 {
+        @include font-size(4rem);
+        position: relative;
+        display: inline-block;
+
+        &::after {
+            position: absolute;
+            @include background('../images/common-dark/after-titulo-1.png', center, contain);
+            content: "";
+            @include absolute-center-y;
+            right: -30px;
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
+#soluciones {
+    background-color: #ECEAE7;
+
+    .card {
+        text-align: center;
+        padding: 80px;
+        @include font-size(0.8rem);
+
+        p {
+            color: $secondary;
+        }
+    }
+
+    .container-fluid-bottom {
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+
+        .swiper-soluciones-top > .swiper-wrapper,
+        .swiper-soluciones-bottom > .swiper-wrapper {
+            transition-timing-function : linear;
+            justify-content: space-evenly;
+
+            .swiper-slide {
+                position: relative;
+
+                &::after {
+                    content: "●";
+                    position: absolute;
+                    @include absolute-center-y;
+                    right: 0;
+                }
+            }
+        }
+    }
+}
+
+#mixen-cloud {
+    color: $white;
+    padding: 60px 0;
+
+    h1 {
+        @include font-size(6rem);
+        line-height: 4rem;
+
+        span {
+            @include font-size(2rem);
+        }
+    }
+
+    .btn-outline-secondary {
+        --bs-btn-padding-y: .25rem;
+        --bs-btn-padding-x: 1rem;
+        --bs-btn-font-size: .75rem;
+        border-color: $white;
+        color: $white;
+
+        &:hover,
+        &:focus {
+            background-color: $white;
+            color: $primary;
+        }
+    }
+}
+
+.common-light {
+    h1 {
+        @include font-size(4rem);
+    }
+
+    h2 {
+        text-transform: none;
+    }
+
+    .swiper-resultados,
+    .swiper-podcast {
+        width: 100%;
+        float: left;
+        overflow: hidden;
+        padding-top: 60px;
+        position: relative;
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            background-color: $primary;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            top: 30px;
+
+            &::after {
+                @include font-size(0.8rem);
+                color: $white;
+            }
+        }
+
+        .swiper-button-prev {
+            left: auto;
+            right: 50px;
+        }
+
+        .swiper-button-next {
+            right: 0;
+        }
+    }
+}
+
+#podcast {
+    h2 {
+        text-transform: uppercase;
+    }
+
+    h3 {
+        @include font-size(1rem);
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        .badge {
+            @include font-size(0.7rem);
+            position: absolute;
+            @include absolute-center-y;
+            right: 0;
+            padding: 7px 12px 5px;
+        }
+
+        &::after {
+            background-color: $primary;
+            height: 1px;
+            flex: 1;
+            margin-left: 1rem;
+            content: '';
+        }
+    }
+}
+
+#blog {
+    background-color: $primary;
+    color: $white;
+
+    a {
+        color: $white;
+        text-decoration: none;
+        @include transition(ease, 0.3s);
+    
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+    }
+
+    h1 {
+        &::after {
+            @include background('../images/common-dark/after-titulo-2.png', center, contain);
+        }
+    }
+
+    h2 {
+        @include font-size(1rem);
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        .badge {
+            background-color: $white !important;
+            color: $primary;
+            @include font-size(0.7rem);
+            position: absolute;
+            @include absolute-center-y;
+            right: 0;
+            padding: 7px 12px 5px;
+        }
+
+        &::after {
+            background-color: $white;
+            height: 1px;
+            flex: 1;
+            margin-left: 1rem;
+            content: '';
+        }
+    }
+
+    .text-muted {
+        color: #717171 !important;
+    }
+
+    nav {
+        color: #717171;
+
+        .navs {
+            .nav-link {
+                padding: 5px 15px 5px 0;
+
+                &:first-child {}
+            }
+
+            .nav-link.active {
+                color: $white;
+            }
+        }
+    }
+}
+
+footer {
+    padding: 100px 0 60px;
+
+    a {
+        @include font-size(0.9rem);
+        color: $secondary;
+
+        &:hover,
+        &:focus {
+            color: $primary;
+        }
+    }
+}
