@@ -127,7 +127,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 my-lg-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/footer/thumb.jpg" alt="" class="img-fluid">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/footer/thumb.jpg" alt="" class="img-fluid" loading="lazy">
                 </div>
             </div>
             <div class="row">

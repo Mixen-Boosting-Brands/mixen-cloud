@@ -5,7 +5,7 @@
             <div class="row py-30">
                 <div class="col text-center">
                     <h1 id="smart-is-the-new-sexy">
-                        Smart <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid"> <span class="fs-4">es el nuevo sexy</span>
+                        Smart <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid" loading="lazy"> <span class="fs-4">es el nuevo sexy</span>
                     </h1>
                 </div>
             </div>
@@ -92,7 +92,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-1.png" alt="" class="img-fluid">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                         </div>
                         <div class="col-8">
                             <h4>Falta de diferenciación</h4>
@@ -104,7 +104,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-2.png" alt="" class="img-fluid">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-2.png" alt="" class="img-fluid" loading="lazy">
                         </div>
                         <div class="col-8">
                             <h4>Falta de acceso a mercados digitales</h4>
@@ -116,7 +116,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4 col-lg-12 mb-3">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-3.png" alt="" class="img-fluid">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-3.png" alt="" class="img-fluid" loading="lazy">
                         </div>
                         <div class="col-8 col-lg-12">
                             <h4>Falta de estrategias de marketing efectivas</h4>
@@ -128,7 +128,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-4.png" alt="" class="img-fluid">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-4.png" alt="" class="img-fluid" loading="lazy">
                         </div>
                         <div class="col-8">
                             <h4>Dificultad para la innovación y adaptación</h4>
@@ -321,7 +321,7 @@
             <div class="row text-center">
                 <div class="col">
                     <h1 class="mb-3">
-                        <span class="fs-4">¿Cómo</span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid"> lo logramos?
+                        <span class="fs-4">¿Cómo</span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid" loading="lazy"> lo logramos?
                     </h1>
                     <p>Para poder ofrecerte presencia, relevancia e inteligencia, hemos diseñado los siguientes servicios:</p>
                     <div class="separador"></div>
@@ -434,7 +434,7 @@
                             <div class="swiper-slide">
                                 <h2>Farmacias Guadalajara</h2>
                                 <a href="#">
-                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid">
+                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid" loading="lazy">
                                 </a>
                             </div>
                             <!-- /Fin Slide -->
@@ -442,7 +442,7 @@
                             <div class="swiper-slide">
                                 <h2>Farmacias Guadalajara</h2>
                                 <a href="#">
-                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid">
+                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid" loading="lazy">
                                 </a>
                             </div>
                             <!-- /Fin Slide -->
@@ -478,7 +478,7 @@
                                 <div class="row">
                                     <div class="col-lg-6 mb-3 my-lg-auto">
                                         <a href="#">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/podcast/thumb-1.png" alt="" class="img-fluid">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/podcast/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="col-lg-6 my-auto">
@@ -499,7 +499,7 @@
                             <div class="row">
                                 <div class="col-lg-6 mb-3 my-lg-auto">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/podcast/thumb-1.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/podcast/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                                     </a>
                                 </div>
                                 <div class="col-lg-6 my-auto">
@@ -555,7 +555,7 @@
                             <div class="row">
                                 <div class="col-lg-6 mb-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -567,7 +567,7 @@
                                 </div>
                                 <div class="col-lg-6 mb-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -583,7 +583,7 @@
                             <div class="row">
                                 <div class="col-lg-6 mb-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -595,7 +595,7 @@
                                 </div>
                                 <div class="col-lg-6 mb-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -611,7 +611,7 @@
                             <div class="row">
                                 <div class="col-lg-6 mb-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -623,7 +623,7 @@
                                 </div>
                                 <div class="col-lg-6 mb-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -639,7 +639,7 @@
                             <div class="row">
                                 <div class="col-lg-6 mb-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -651,7 +651,7 @@
                                 </div>
                                 <div class="col-lg-6 mb-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -667,7 +667,7 @@
                             <div class="row">
                                 <div class="col-lg-6 mb-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -679,7 +679,7 @@
                                 </div>
                                 <div class="col-lg-6 mb-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
