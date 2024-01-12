@@ -33,10 +33,10 @@
             <nav>
                 <ul class="list-unstyled">
                     <li>
-                        <a class="anchor" id="btn-nav-1" href="#problematicas">Problemáticas</a>
+                        <a class="anchor" id="btn-nav-1" href="#problematicas">Problemáticas comunes</a>
                     </li>
                     <li>
-                        <a class="anchor" id="btn-nav-2" href="#soluciones">Soluciones</a>
+                        <a class="anchor" id="btn-nav-2" href="#soluciones">Nuestras soluciones</a>
                     </li>
                     <li>
                         <a class="anchor" id="btn-nav-3" href="#como-lo-logramos">¿Cómo lo logramos?</a>
@@ -45,7 +45,7 @@
                         <a class="anchor" id="btn-nav-4" href="#mixen-cloud">Mixen Cloud</a>
                     </li>
                     <li>
-                        <a class="anchor" id="btn-nav-5" href="#portafolio">Portafolio</a>
+                        <a class="anchor" id="btn-nav-5" href="#portafolio">Proyectos destacados</a>
                     </li>
                     <li>
                         <a class="anchor" id="btn-nav-6" href="#podcast">Podcast</a>
@@ -55,8 +55,8 @@
                     </li>
                 </ul>
             </nav>
-            <a href="https://wa.me/5216145154943?text=Hola%20Mixen,%20necesito%20información." class="anchor btn btn-outline-primary rounded-pill" id="btn-contacto">
-                <i class="fa-regular fa-comment-dots"></i> ¿Hablamos?
+            <a href="https://wa.me/5216145154943?text=Hola%20Mixen,%20necesito%20información." class="anchor btn btn-outline-primary rounded-pill" id="btn-contacto" target="_blank">
+                <span class="d-lg-none">¿Hablamos?</span><span class="d-none d-lg-inline-block">Hablemos de tu proyecto</span>
             </a>
             <div id="social">
                 <ul class="list-inline">
@@ -68,11 +68,6 @@
                     <li class="list-inline-item">
                         <a href="https://www.instagram.com/mixenmx/" target="_blank">
                             <i class="fa-brands fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">
-                            <i class="fa-brands fa-x-twitter"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
@@ -88,7 +83,7 @@
                         <i class="far fa-envelope"></i> <a href="mailto:hola@mixen.mx">hola@mixen.mx</a>
                     </li>
                     <li>
-                        <i class="fas fa-phone"></i> <a href="tel:+526145154943">+52 1 (614) 515 4943</a>
+                        <img src="./assets/images/ico-wa-business.svg" alt="" class="ico-wa-business img-fluid" loading="lazy"> <a href="https://wa.me/5216145154943?text=Hola%20Mixen,%20necesito%20información." target="_blank">+52 1 (614) 515 4943</a>
                     </li>
                 </ul>
             </div>
@@ -104,8 +99,8 @@
                     </a>
                 </div>
                 <div class="col-7 col-lg-8 my-auto text-end">
-                    <a href="https://wa.me/5216145154943?text=Hola%20Mixen,%20necesito%20información." class="btn btn-outline-primary rounded-pill me-3">
-                        <i class="fa-regular fa-comment-dots"></i> ¿Hablamos?
+                    <a href="https://wa.me/5216145154943?text=Hola%20Mixen,%20necesito%20información." class="btn btn-outline-primary rounded-pill me-3" target="_blank">
+                        <img src="./assets/images/ico-wa-business.svg" alt="" class="ico-wa-business img-fluid" loading="lazy"> <span class="d-lg-none">¿Hablamos?</span><span class="d-none d-lg-inline-block">Hablemos de tu proyecto</span>
                     </a>
                     <a id="mburger" href="javascript:void(0)">
                         <i class="fas fa-bars"></i>

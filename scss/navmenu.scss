@@ -1,5 +1,5 @@
 .menu {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
     -webkit-backdrop-filter: saturate(300%) blur(32px);
             backdrop-filter: saturate(300%) blur(32px);
     width: 100%;
@@ -35,8 +35,14 @@
         text-align: center;
         // color: ;
 
+        .logo,
+        .ico-wa-business {
+            -webkit-filter: invert(0%) sepia(5%) saturate(34%) hue-rotate(149deg) brightness(97%) contrast(101%);
+                    filter: invert(0%) sepia(5%) saturate(34%) hue-rotate(149deg) brightness(97%) contrast(101%);
+        }
+
         .logo {
-            width: 180px;
+            width: 280px;
         }
 
         nav,
@@ -105,7 +111,7 @@
 }
 
 #backdrop {
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.8);
     position: absolute;
     top: 0;
     left: 0;

@@ -21,37 +21,7 @@ const swiperSolucionesTop = new Swiper('.swiper-soluciones-top', {
     // configure Swiper to use modules
     modules: [Autoplay],
 
-    speed: 5000,
-    centeredSlides: true,
-    slidesPerView: 2,
-    loop: true,
-    autoplay: {
-        delay: 1,
-        disableOnInteraction: false,
-    },
-    noSwiping: true,
-    noSwipingClass: 'no-swiping',
-    breakpoints: {
-        576: {
-          slidesPerView: 2,
-        },
-        768: {
-          slidesPerView: 4,
-        },
-        992: {
-          slidesPerView: 6,
-        },
-        1200: {
-            slidesPerView: 8,
-        },
-    },
-});
-
-const swiperSolucionesBottom = new Swiper('.swiper-soluciones-bottom', {
-    // configure Swiper to use modules
-    modules: [Autoplay],
-
-    speed: 5000,
+    speed: 4500,
     centeredSlides: true,
     slidesPerView: 2,
     loop: true,
@@ -78,9 +48,71 @@ const swiperSolucionesBottom = new Swiper('.swiper-soluciones-bottom', {
     },
 });
 
+/*
+const swiperSolucionesBottom = new Swiper('.swiper-soluciones-bottom', {
+    // configure Swiper to use modules
+    modules: [Autoplay],
+
+    speed: 5500,
+    centeredSlides: true,
+    slidesPerView: 2,
+    loop: true,
+    autoplay: {
+        delay: 1,
+        disableOnInteraction: false,
+        reverseDirection: true,
+    },
+    noSwiping: true,
+    noSwipingClass: 'no-swiping',
+    breakpoints: {
+        576: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 4,
+        },
+        992: {
+          slidesPerView: 6,
+        },
+        1200: {
+            slidesPerView: 8,
+        },
+    },
+});
+*/
+
 const swiperResultados = new Swiper('.swiper-resultados', {
   // configure Swiper to use modules
   modules: [Navigation],
+
+  // Navigation arrows
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+  },
+});
+
+const swiperRelacionados = new Swiper('.swiper-relacionados', {
+  // configure Swiper to use modules
+  modules: [Navigation],
+
+  // Optional parameters
+  spaceBetween: 30,
+  slidesPerView: 1,
+  breakpoints: {
+    576: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    992: {
+      slidesPerView: 3,
+    },
+    1200: {
+        slidesPerView: 3,
+    },
+},
 
   // Navigation arrows
   navigation: {
@@ -98,4 +130,33 @@ const swiperPodcast = new Swiper('.swiper-podcast', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
   },
+});
+
+const swiperClientes = new Swiper('.swiper-clientes', {
+  // configure Swiper to use modules
+  modules: [Autoplay],
+
+  // Optional parameters
+  spaceBetween: 30,
+  slidesPerView: 2,
+  loop: true,
+  grabCursor: true,
+  autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+  },
+  breakpoints: {
+    576: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 4,
+    },
+    992: {
+      slidesPerView: 6,
+    },
+    1200: {
+        slidesPerView: 8,
+    },
+},
 });

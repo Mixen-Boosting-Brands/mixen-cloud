@@ -1,0 +1,79 @@
+.is-single {
+    .logo,
+    .ico-wa-business {
+        -webkit-filter: invert(100%) sepia(3%) saturate(11%) hue-rotate(349deg) brightness(103%) contrast(103%);
+                filter: invert(100%) sepia(3%) saturate(11%) hue-rotate(349deg) brightness(103%) contrast(103%);
+    }
+
+    #navbar {
+        color: $white !important;
+
+        .btn {
+            border-color: $white;
+            color: $white;
+    
+            &:hover,
+            &:focus {
+                background-color: $primary;
+            }
+        }
+
+        #mburger {
+            color: $white;
+        }
+    }
+
+    .navbar-scroll {
+        color: $black !important;
+    
+        .btn {
+            border-color: $black !important;
+            color: $black !important;
+    
+            &:hover,
+            &:focus {
+                background-color: $primary;
+                color: $white !important;
+            }
+        }
+
+        #mburger {
+            color: $black !important;
+        }
+
+        .ico-wa-business {
+            -webkit-filter: invert(0%) sepia(5%) saturate(34%) hue-rotate(149deg) brightness(97%) contrast(101%);
+                    filter: invert(0%) sepia(5%) saturate(34%) hue-rotate(149deg) brightness(97%) contrast(101%);
+        }
+    }
+
+    #jumbotron {
+        min-height: 40vh;
+    }
+    
+    #body {
+        .titulo,
+        .subtitulo {
+            padding-left: 15px;
+            position: relative;
+        }
+
+        .titulo {
+            &::before {
+                background-color: $black;
+                position: absolute;
+                left: 0;
+                top: 22px;
+                content: '';
+                width: 5px;
+                height: 40px;
+            }
+        }
+
+        .subtitulo {
+            color: $secondary;
+            text-transform: uppercase;
+            top: -15px;
+        }
+    }
+}

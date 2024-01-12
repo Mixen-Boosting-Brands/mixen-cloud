@@ -86,6 +86,11 @@ h6 {
 
 .btn {
     text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+        text-decoration: none !important;
+    }
 }
 
 .card {
@@ -124,12 +129,22 @@ table {
             opacity: 1;
         }
     }
+
+    .focus {
+        opacity: 1;
+    }
+}
+
+.ico-wa-business {
+    width: 16px;
+    vertical-align: sub;
+    margin-right: 3px;
 }
 
 header {
     width: 100%;
     height: auto;
-    padding: 15px 30px;
+    padding: 15px 0;
     // color: ;
     position: fixed;
     top: 0;
@@ -145,6 +160,16 @@ header {
 
     .btn {
         @include font-size(0.7rem);
+
+        &:hover,
+        &:focus {
+            background-color: $primary;
+
+            .ico-wa-business {
+                -webkit-filter: invert(100%) sepia(3%) saturate(11%) hue-rotate(349deg) brightness(103%) contrast(103%);
+                        filter: invert(100%) sepia(3%) saturate(11%) hue-rotate(349deg) brightness(103%) contrast(103%);
+            }
+        }
     }
 
     #mburger {
@@ -164,8 +189,13 @@ header {
     -webkit-backdrop-filter: saturate(300%) blur(32px);
             backdrop-filter: saturate(300%) blur(32px);
     border-bottom: 1px solid $primary;
-    padding: 10px 30px !important;
+    padding: 10px 0 !important;
     @include transition(ease, 0.3s);
+
+    #logo-navbar {
+        -webkit-filter: invert(0%) sepia(5%) saturate(34%) hue-rotate(149deg) brightness(97%) contrast(101%);
+                filter: invert(0%) sepia(5%) saturate(34%) hue-rotate(149deg) brightness(97%) contrast(101%);
+    }
 
     #logo-navbar {
         width: 180px !important;
@@ -179,6 +209,11 @@ header {
         &:hover,
         &:focus {
             background-color: $primary;
+
+            .ico-wa-business {
+                -webkit-filter: invert(100%) sepia(3%) saturate(11%) hue-rotate(349deg) brightness(103%) contrast(103%);
+                        filter: invert(100%) sepia(3%) saturate(11%) hue-rotate(349deg) brightness(103%) contrast(103%);
+            }
         }
     }
 }
@@ -276,12 +311,19 @@ header {
     background-color: #ECEAE7;
 
     .card {
+        background: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 1)) !important;
         text-align: center;
         padding: 80px;
         @include font-size(0.8rem);
+        @include transition(ease, 0.3s);
 
         p {
             color: $secondary;
+        }
+
+        &:hover,
+        &:focus {
+            background: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 0.8)) !important;
         }
     }
 
@@ -337,6 +379,15 @@ header {
     }
 }
 
+#portafolio {
+    #ico-arrow {
+        max-width: 25px;
+        -webkit-transform: scaleY(-1);
+            -ms-transform: scaleY(-1);
+                transform: scaleY(-1);
+    }
+}
+
 .common-light {
     h1 {
         @include font-size(4rem);
@@ -347,7 +398,8 @@ header {
     }
 
     .swiper-resultados,
-    .swiper-podcast {
+    .swiper-podcast,
+    .swiper-relacionados {
         width: 100%;
         float: left;
         overflow: hidden;
