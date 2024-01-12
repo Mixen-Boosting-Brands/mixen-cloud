@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
-	<section id="jumbotron">
+    <section id="jumbotron">
         <div class="container">
             <div class="row py-30">
                 <div class="col text-center">
                     <h1 id="smart-is-the-new-sexy">
-                        Smart <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid" loading="lazy"> <span class="fs-4">es el nuevo sexy</span>
+                        Smart <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid"> <span class="fs-4">is the new sexy</span>
                     </h1>
                 </div>
             </div>
@@ -40,36 +40,11 @@
                                 </div>
                             </div>
                             <!-- /Fin Slide -->
-                            <!-- Inicio Slide -->
-                            <div class="swiper-slide">
-                                <div class="row g-1">
-                                    <div class="col-lg-8">
-                                        <div class="thumb thumb-1">
-                                            <a href="#"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="row gy-1">
-                                            <div class="col-12">
-                                                <div class="thumb thumb-2">
-                                                    <a href="#"></a>
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="thumb thumb-3">
-                                                    <a href="#"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Fin Slide -->
                         </div>
 
                         <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
+                        <!-- div class="swiper-button-prev"></div -->
+                        <!-- div class="swiper-button-next"></div -->
                     </div>
                 </div>
             </div>
@@ -92,7 +67,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-1.png" alt="" class="img-fluid" loading="lazy">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-1.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-8">
                             <h4>Falta de diferenciación</h4>
@@ -104,7 +79,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-2.png" alt="" class="img-fluid" loading="lazy">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-2.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-8">
                             <h4>Falta de acceso a mercados digitales</h4>
@@ -115,8 +90,8 @@
                 <div class="col-lg-6">
                     <hr>
                     <div class="row">
-                        <div class="col-4 col-lg-12 mb-3">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-3.png" alt="" class="img-fluid" loading="lazy">
+                        <div class="col-4 col-lg-12 mb-1 mb-lg-3">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-3.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-8 col-lg-12">
                             <h4>Falta de estrategias de marketing efectivas</h4>
@@ -128,7 +103,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-4">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-4.png" alt="" class="img-fluid" loading="lazy">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-4.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-8">
                             <h4>Dificultad para la innovación y adaptación</h4>
@@ -142,7 +117,7 @@
 
     <section id="soluciones" class="common-dark py-60">
         <div class="container mb-5">
-            <div class="row mb-3">
+            <div class="row mb-1 mb-lg-3">
                 <div class="col-lg-7">
                     <h1>
                         Nuestras<br>
@@ -153,7 +128,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="card text-bg-primary mb-3">
+                    <div class="card text-bg-primary mb-1 mb-lg-3">
                         <div class="card-body">
                             <h4 class="card-title">
                                 <i class="fa-solid fa-earth-americas"></i> Presencia
@@ -163,7 +138,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card text-bg-primary mb-3">
+                    <div class="card text-bg-primary mb-1 mb-lg-3">
                         <div class="card-body">
                             <h4 class="card-title">
                                 <i class="fa-solid fa-square-up-right"></i> Relevancia
@@ -173,7 +148,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card text-bg-primary mb-3">
+                    <div class="card text-bg-primary mb-1 mb-lg-3">
                         <div class="card-body">
                             <h4 class="card-title">
                                 <i class="fa-solid fa-lightbulb"></i> Inteligencia
@@ -186,7 +161,7 @@
         </div>
         <div class="container-fluid container-fluid-bottom">
             <div class="row">
-                <div class="col-12 mb-3">
+                <div class="col-12 mb-1 mb-lg-3">
                     <!-- Slider main container -->
                     <div class="swiper-soluciones-top">
                         <!-- Additional required wrapper -->
@@ -246,15 +221,6 @@
                             <div class="swiper-slide">
                                 App Development
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <!-- Slider main container -->
-                    <div class="swiper-soluciones-bottom">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper no-swiping">
-                            <!-- Slides -->
                             <div class="swiper-slide">
                                 Customer Experience
                             </div>
@@ -320,8 +286,8 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col">
-                    <h1 class="mb-3">
-                        <span class="fs-4">¿Cómo</span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid" loading="lazy"> lo logramos?
+                    <h1 class="mb-1 mb-lg-3">
+                        <span class="fs-4">¿Cómo</span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid"> lo logramos?
                     </h1>
                     <p>Para poder ofrecerte presencia, relevancia e inteligencia, hemos diseñado los siguientes servicios:</p>
                     <div class="separador"></div>
@@ -334,13 +300,13 @@
                             <tbody>
                                 <tr>
                                     <th scope="row">
-                                        <h1 class="fs-4">Desarrollo de marca</h1>
+                                        <h1 class="fs-4">Branding</h1>
                                     </th>
                                     <td>Crea una identidad única y memorable mediante diseño y mensajes impactantes.</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        <h1 class="fs-4">Desarrollo web</h1>
+                                        <h1 class="fs-4">Web</h1>
                                     </th>
                                     <td>Transforma tu visión en una experiencia en línea excepcional. Creamos soluciones.</td>
                                 </tr>
@@ -370,9 +336,9 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        <h1 class="fs-4">Multimedia content</h1>
+                                        <h1 class="fs-4">Contenido</h1>
                                     </th>
-                                    <td>Cuenta tu historia de manera convincente con contenido relevante y valioso, estableciendo autoridad y manteniendo el compromiso de tu audiencia.</td>
+                                    <td>Cuenta tu historia de manera convincente con contenido multimedia relevante y valioso, estableciendo autoridad y manteniendo el compromiso de tu audiencia.</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">
@@ -382,7 +348,7 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">
-                                        <h1 class="fs-4">Automation</h1>
+                                        <h1 class="fs-4">Automatización</h1>
                                     </th>
                                     <td>Optimizamos operaciones con automatización para aumentar eficienca, reducir trabajo manual y enfocarte en el crecimiento.</td>
                                 </tr>
@@ -397,17 +363,17 @@
     <section id="mixen-cloud" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/mixen-cloud/bg.png">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 mb-3 my-lg-auto">
+                <div class="col-lg-8 mb-1 mb-lg-3 my-lg-auto">
                     <h1>
-                        <span>Let's be safe with</span><br>
+                        <span>Almacenamiento inteligente</span><br>
                         Mixen Cloud
                     </h1>
                 </div>
                 <div class="col-lg-4 my-auto">
-                    <a href="#" class="btn btn-outline-secondary rounded-pill mb-3">
+                    <a href="#" class="btn btn-outline-secondary rounded-pill mb-1 mb-lg-3">
                         ¿Qué es?
                     </a>
-                    <p>Plataforma segura, versátil y escalable para tus aplicaciones y datos en la nube. Tenemos la infraestructura tecnológica que necesitas.</p>
+                    <p>Plataforma segura, versátil y escalable para tus aplicaciones, web, aplicaciones y datos en la nube. Tenemos la infraestructura tecnológica que necesitas.</p>
                     <i class="fa-solid fa-cloud"></i>
                 </div>
             </div>
@@ -419,8 +385,8 @@
             <div class="row">
                 <div class="col">
                     <h1>
-                        Our<br>
-                        results
+                        Proyectos<br>
+                        destacados
                     </h1>
                 </div>
             </div>
@@ -432,18 +398,38 @@
                         <div class="swiper-wrapper">
                             <!-- Inicio Slide -->
                             <div class="swiper-slide">
-                                <h2>Farmacias Guadalajara</h2>
-                                <a href="#">
-                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid" loading="lazy">
-                                </a>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h2>Farmacias Guadalajara</h2>
+                                        <a href="#">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h2>Farmacias Guadalajara</h2>
+                                        <a href="#">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                             <!-- /Fin Slide -->
                             <!-- Inicio Slide -->
                             <div class="swiper-slide">
-                                <h2>Farmacias Guadalajara</h2>
-                                <a href="#">
-                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid" loading="lazy">
-                                </a>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h2>Farmacias Guadalajara</h2>
+                                        <a href="#">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h2>Farmacias Guadalajara</h2>
+                                        <a href="#">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                             <!-- /Fin Slide -->
                         </div>
@@ -457,14 +443,122 @@
         </div>
     </section>
 
-    <section id="podcast" class="common-light py-60">
+    <section id="clientes" class="common-light py-60">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <h1>
-                        We have<br>
-                        a podcast
+                        Nuestros clientes
                     </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <!-- Slider main container -->
+                    <div class="swiper swiper-clientes">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Abitat.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Alsuper.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/American-Industries.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Bafar.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Brunswick.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Burger.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Canadevi.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Cedehm.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Century.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Coparmex.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Ctu.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Farmacias-Guadalajara.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Fibras-y-Semillas.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Grupo-Harinas.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/ISAD.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/KIA.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/LaSalle.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Pemex.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Queretaro.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Real.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Seguros-MTY.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Sulawe.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Tec-de-MTY.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Tec-Milenio.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/UACH.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Unilever.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Walmart.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="podcast" class="common-light py-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 my-auto">
+                    <h1 class="mb-0">
+                        Podcast
+                    </h1>
+                </div>
+                <div class="col-6 my-auto text-end">
+                    <a href="#" class="btn btn-outline-primary rounded-pill">
+                        <i class="fa-solid fa-headphones-simple"></i> Escuchar más episodios
+                    </a>
                 </div>
             </div>
             <div class="row">
@@ -476,9 +570,9 @@
                             <!-- Inicio Slide -->
                             <div class="swiper-slide">
                                 <div class="row">
-                                    <div class="col-lg-6 mb-3 my-lg-auto">
+                                    <div class="col-lg-6 mb-1 mb-lg-3 my-lg-auto">
                                         <a href="#">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/podcast/thumb-1.png" alt="" class="img-fluid" loading="lazy">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/podcast/thumb-1.png" alt="" class="img-fluid">
                                         </a>
                                     </div>
                                     <div class="col-lg-6 my-auto">
@@ -497,9 +591,9 @@
                            <!-- Inicio Slide -->
                            <div class="swiper-slide">
                             <div class="row">
-                                <div class="col-lg-6 mb-3 my-lg-auto">
+                                <div class="col-lg-6 mb-1 mb-lg-3 my-lg-auto">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/podcast/thumb-1.png" alt="" class="img-fluid" loading="lazy">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/podcast/thumb-1.png" alt="" class="img-fluid">
                                     </a>
                                 </div>
                                 <div class="col-lg-6 my-auto">
@@ -536,16 +630,27 @@
                     </h1>
                 </div>
                 <div class="col-lg-6 my-3 my-lg-auto">
-                    <p class="text-small text-muted mb-0">Search by:</p>
-                    <nav>
-                        <div class="navs d-flex justify-content-start" id="nav-tab" role="tablist">
-                            <button class="nav-link active" id="nav-cat-1-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-1" type="button" role="tab" aria-controls="nav-cat-1" aria-selected="true">All</button>
-                            <button class="nav-link" id="nav-cat-2-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-2" type="button" role="tab" aria-controls="nav-cat-2" aria-selected="false">Digital world</button>
-                            <button class="nav-link" id="nav-cat-3-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-3" type="button" role="tab" aria-controls="nav-cat-3" aria-selected="false">Our opinion</button>
-                            <button class="nav-link" id="nav-cat-4-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-4" type="button" role="tab" aria-controls="nav-cat-4" aria-selected="false">Design</button>
-                            <button class="nav-link" id="nav-cat-5-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-5" type="button" role="tab" aria-controls="nav-cat-5" aria-selected="false">Work</button>
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <a href="#" class="btn btn-outline-secondary rounded-pill">
+                                <i class="fa-solid fa-blog"></i> Ver todos las entradas
+                            </a>
                         </div>
-                    </nav>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="text-small text-muted mb-0">Search by:</p>
+                            <nav>
+                                <div class="navs d-flex justify-content-start" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-cat-1-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-1" type="button" role="tab" aria-controls="nav-cat-1" aria-selected="true">All</button>
+                                    <button class="nav-link" id="nav-cat-2-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-2" type="button" role="tab" aria-controls="nav-cat-2" aria-selected="false">Digital world</button>
+                                    <button class="nav-link" id="nav-cat-3-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-3" type="button" role="tab" aria-controls="nav-cat-3" aria-selected="false">Our opinion</button>
+                                    <button class="nav-link" id="nav-cat-4-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-4" type="button" role="tab" aria-controls="nav-cat-4" aria-selected="false">Design</button>
+                                    <button class="nav-link" id="nav-cat-5-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-5" type="button" role="tab" aria-controls="nav-cat-5" aria-selected="false">Work</button>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -553,9 +658,9 @@
                     <div class="tab-content" id="nav-blog">
                         <div class="tab-pane fade show active" id="nav-cat-1" role="tabpanel" aria-labelledby="nav-cat-1-tab" tabindex="0">
                             <div class="row">
-                                <div class="col-lg-6 mb-3 mb-lg-0">
+                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -565,9 +670,9 @@
                                     </a>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
                                 </div>
-                                <div class="col-lg-6 mb-3 mb-lg-0">
+                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -581,9 +686,9 @@
                         </div>
                         <div class="tab-pane fade" id="nav-cat-2" role="tabpanel" aria-labelledby="nav-cat2-tab" tabindex="0">
                             <div class="row">
-                                <div class="col-lg-6 mb-3 mb-lg-0">
+                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -593,9 +698,9 @@
                                     </a>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
                                 </div>
-                                <div class="col-lg-6 mb-3 mb-lg-0">
+                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -609,9 +714,9 @@
                         </div>
                         <div class="tab-pane fade" id="nav-cat-3" role="tabpanel" aria-labelledby="nav-cat-3-tab" tabindex="0">
                             <div class="row">
-                                <div class="col-lg-6 mb-3 mb-lg-0">
+                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -621,9 +726,9 @@
                                     </a>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
                                 </div>
-                                <div class="col-lg-6 mb-3 mb-lg-0">
+                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -637,9 +742,9 @@
                         </div>
                         <div class="tab-pane fade" id="nav-cat-4" role="tabpanel" aria-labelledby="nav-cat-4-tab" tabindex="0">
                             <div class="row">
-                                <div class="col-lg-6 mb-3 mb-lg-0">
+                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -649,9 +754,9 @@
                                     </a>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
                                 </div>
-                                <div class="col-lg-6 mb-3 mb-lg-0">
+                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -665,9 +770,9 @@
                         </div>
                         <div class="tab-pane fade" id="nav-cat-5" role="tabpanel" aria-labelledby="nav-cat-5-tab" tabindex="0">
                             <div class="row">
-                                <div class="col-lg-6 mb-3 mb-lg-0">
+                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
@@ -677,9 +782,9 @@
                                     </a>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
                                 </div>
-                                <div class="col-lg-6 mb-3 mb-lg-0">
+                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
                                     <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid" loading="lazy">
+                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
