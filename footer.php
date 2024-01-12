@@ -1,47 +1,75 @@
-	<footer>
+    <footer>
         <div class="container">
-            <div class="row mb-3">
+            <div class="row mb-1 mb-lg-3">
                 <div class="col-lg-6">
                     <div class="row mb-4">
                         <div class="col-6">
                             <nav>
                                 <ul class="list-unstyled">
                                     <li>
-                                        Our Solutions
+                                        Nuestras soluciones
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#soluciones">
+                                            Presencia
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#soluciones">
+                                            Relevancia
+                                        </a>
+                                    </li>
+                                    <li class="mb-5">
+                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#soluciones">
+                                           Inteligencia
+                                        </a>
+                                    </li>
+                                    <li>
+                                        Cómo lo logramos
+                                    </li>
+                                    <li>
+                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                            Branding
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                            Web
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
                                             e-Commerce
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
                                             Social Media
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            App Development
+                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                            Development
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            Customer Experience
+                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                            CX
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            Content Management
+                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                            Contenido
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
                                             SEO/SEM
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            Automation
+                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                            Automatización
                                         </a>
                                     </li>
                                 </ul>
@@ -51,7 +79,7 @@
                             <nav>
                                 <ul class="list-unstyled">
                                     <li>
-                                        Portfolio
+                                        Proyectos destacados
                                     </li>
                                     <li>
                                         <a href="#">
@@ -72,16 +100,11 @@
                             <nav>
                                 <ul class="list-unstyled">
                                     <li>
-                                        Our opinion
+                                        Almacenamiento inteligente
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            Blog
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            The Team
+                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#mixen-cloud">
+                                            Mixen Cloud
                                         </a>
                                     </li>
                                 </ul>
@@ -91,11 +114,16 @@
                             <nav>
                                 <ul class="list-unstyled">
                                     <li>
-                                        Platform
+                                        Nuestra opinión
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            Mixen Cloud
+                                        <a class="anchor" href="#blog">
+                                            Blog
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="anchor" href="#podcast">
+                                            Podcast
                                         </a>
                                     </li>
                                 </ul>
@@ -106,19 +134,14 @@
                         <div class="col-6">
                             <nav>
                                 <ul class="list-unstyled">
-                                    <li class="mb-3">
+                                    <li class="mb-1 mb-lg-3">
                                         <a href="#">
-                                            Privacy Policy
+                                            Unirme al equipo
                                         </a>
                                     </li>
-                                    <li class="mb-3">
+                                    <li class="mb-1 mb-lg-3">
                                         <a href="#">
-                                            Cookie Policy
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            Terms & Conditions
+                                            Política de privacidad
                                         </a>
                                     </li>
                                 </ul>
@@ -126,13 +149,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 my-lg-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/footer/thumb.jpg" alt="" class="img-fluid" loading="lazy">
+                <div class="col-lg-6">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/footer/thumb.png" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <p class="mb-0">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. All rights reserved.</p>
+                    <p class="mb-0">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. Todos los derechos reservados.</p>
                 </div>
                 <div class="col text-end">
                     <p class="mb-0">Made with <i class="fa-solid fa-heart" alt="love" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="love"></i> @ Mixen</p>

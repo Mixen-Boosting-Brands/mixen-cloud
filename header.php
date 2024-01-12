@@ -33,25 +33,25 @@
             <nav>
                 <ul class="list-unstyled">
                     <li>
-                        <a class="anchor" id="btn-nav-1" href="#problematicas">Problemáticas comunes</a>
+                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-1" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#problematicas">Problemáticas comunes</a>
                     </li>
                     <li>
-                        <a class="anchor" id="btn-nav-2" href="#soluciones">Nuestras soluciones</a>
+                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-2" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#soluciones">Nuestras soluciones</a>
                     </li>
                     <li>
-                        <a class="anchor" id="btn-nav-3" href="#como-lo-logramos">¿Cómo lo logramos?</a>
+                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-3" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">¿Cómo lo logramos?</a>
                     </li>
                     <li>
-                        <a class="anchor" id="btn-nav-4" href="#mixen-cloud">Mixen Cloud</a>
+                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-4" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#mixen-cloud">Mixen Cloud</a>
                     </li>
                     <li>
-                        <a class="anchor" id="btn-nav-5" href="#portafolio">Proyectos destacados</a>
+                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-5" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#portafolio">Proyectos destacados</a>
                     </li>
                     <li>
-                        <a class="anchor" id="btn-nav-6" href="#podcast">Podcast</a>
+                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-6" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#podcast">Podcast</a>
                     </li>
                     <li>
-                        <a class="anchor" id="btn-nav-7" href="#blog">Blog</a>
+                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> id="btn-nav-7" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#blog">Blog</a>
                     </li>
                 </ul>
             </nav>
@@ -94,7 +94,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-5 col-lg-4 my-auto">
-                    <a href="#">
+                    <a href="<?php echo esc_url( home_url() ); ?>">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo.svg" alt="Mixen: Boosting Brands" class="logo img-fluid" id="logo-navbar">
                     </a>
                 </div>
