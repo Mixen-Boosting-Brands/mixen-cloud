@@ -380,6 +380,10 @@ header {
 }
 
 #portafolio {
+    a {
+        text-decoration: none;
+    }
+    
     #ico-arrow {
         max-width: 25px;
         -webkit-transform: scaleY(-1);
