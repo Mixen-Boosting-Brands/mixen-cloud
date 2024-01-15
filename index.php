@@ -658,30 +658,36 @@
                     <div class="tab-content" id="nav-blog">
                         <div class="tab-pane fade show active" id="nav-cat-1" role="tabpanel" aria-labelledby="nav-cat-1-tab" tabindex="0">
                             <div class="row">
+                            <?php
+                                $args = array(
+                                    'category_name' => 'blog', // Specify the category slug here
+                                    'posts_per_page' => 6,    // Use -1 to fetch all posts from the category
+                                );
+
+                                $query = new WP_Query($args);
+
+                                if ($query->have_posts()): while ($query->have_posts()) : $query->the_post();
+                            ?>
                                 <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
-                                    <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
+                                    <a href="<?php the_permalink(); ?>">
+                                        <?php the_post_thumbnail('home-blog', array('class' => 'img-fluid')); ?>
                                     </a>
                                     <a href="#">
                                         <h2 class="mt-3">
-                                            AI & the marketing world
-                                            <span class="badge bg-secondary rounded-pill">Nov 20, 2023</span>
+                                            <?php the_title(); ?>
+                                            <span class="date badge bg-secondary rounded-pill">
+                                                <time datetime="<?php the_time('Y-m-d'); ?> <?php the_time('H:i'); ?>">
+                                                    <?php echo get_the_date('j \d\e F, Y'); ?>
+                                                </time>
+                                            </span>
                                         </h2>
                                     </a>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
+                                    <?php html5wp_excerpt('html5wp_index'); ?>
                                 </div>
-                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
-                                    <a href="#">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/blog/thumb-1.png" alt="" class="img-fluid">
-                                    </a>
-                                    <a href="#">
-                                        <h2 class="mt-3">
-                                            The MIT Museum
-                                            <span class="badge bg-secondary rounded-pill">Nov 20, 2023</span>
-                                        </h2>
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laboriosam tempora repudiandae cupiditate temporibus aut ullam nihil necessitatibus officia nesciunt! Alias ab placeat et eum tempora, iste veniam enim obcaecati?</p>
-                                </div>
+                            <?php 
+                                endwhile; endif;
+                                wp_reset_postdata();
+                            ?>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="nav-cat-2" role="tabpanel" aria-labelledby="nav-cat2-tab" tabindex="0">
