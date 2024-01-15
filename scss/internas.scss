@@ -53,6 +53,8 @@
 
         #overlay {
             background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.7));
+            -webkit-backdrop-filter: saturate(300%) blur(32px);
+            backdrop-filter: saturate(300%) blur(32px);
             // background: rgba(0, 0, 0, 0.6);
             position: absolute;
             top: 0;
