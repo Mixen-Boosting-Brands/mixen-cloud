@@ -14,150 +14,66 @@
                     <div class="swiper-relacionados">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
+            <?php
+                // Get the current post's tags
+                $tags = wp_get_post_tags(get_the_ID());
+
+                if ($tags) {
+                    $tag_ids = array();
+                    foreach ($tags as $tag) {
+                        $tag_ids[] = $tag->term_id;
+                    }
+
+                    // Query related posts based on shared tags
+                    $args = array(
+                        'tag__in' => $tag_ids,
+                        'post__not_in' => array(get_the_ID()), // Exclude the current post
+                        'posts_per_page' => 9, // Adjust the number of related posts to display
+                        'ignore_sticky_posts' => 1,
+                    );
+
+                    $related_query = new WP_Query($args);
+
+                    if ($related_query->have_posts()) :
+                        while ($related_query->have_posts()) : $related_query->the_post();
+                            $excerpt = get_the_excerpt();
+                            $words = explode(' ', $excerpt);
+                            
+                            if (count($words) > 30) {
+                                $words = array_slice($words, 0, 30);
+                                $excerpt = implode(' ', $words) . '...';
+                            }
+                            // Your loop content for related posts here
+                            ?>
                             <!-- Inicio Slide -->
                             <div class="swiper-slide">
                                 <div class="row">
                                     <div class="col-12">
-                                        <a href="#">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid mb-3">
+                                        <a href="<?php the_permalink(); ?>">
+                                        <?php the_post_thumbnail('relacionados', array('class' => 'img-fluid mb-3')); ?>>
                                         </a>
                                         <div class="row">
                                             <div class="col-10 my-auto">
-                                                <a href="#">
-                                                    <h2>Farmacias Guadalajara</h2>
+                                                <a href="<?php the_permalink(); ?>">
+                                                    <h2><?php the_title(); ?></h2>
                                                 </a>
                                             </div>
                                             <div class="col-2 my-auto text-end">
-                                                <a href="#">
+                                                <a href="<?php the_permalink(); ?>">
                                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" id="ico-arrow" class="img-fluid">
                                                 </a>
                                             </div>
                                         </div>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deserunt corporis explicabo enim illo assumenda ullam cumque reprehenderit nisi modi labore maiores, debitis saepe cupiditate illum, earum et voluptate quisquam!</p>
+                                        <?php echo $excerpt; ?>
                                     </div>
                                 </div>
                             </div>
                             <!-- /Fin Slide -->
-                             <!-- Inicio Slide -->
-                             <div class="swiper-slide">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <a href="#">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid mb-3">
-                                        </a>
-                                        <div class="row">
-                                            <div class="col-10 my-auto">
-                                                <a href="#">
-                                                    <h2>Farmacias Guadalajara</h2>
-                                                </a>
-                                            </div>
-                                            <div class="col-2 my-auto text-end">
-                                                <a href="#">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" id="ico-arrow" class="img-fluid">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deserunt corporis explicabo enim illo assumenda ullam cumque reprehenderit nisi modi labore maiores, debitis saepe cupiditate illum, earum et voluptate quisquam!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Fin Slide -->
-                             <!-- Inicio Slide -->
-                             <div class="swiper-slide">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <a href="#">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid mb-3">
-                                        </a>
-                                        <div class="row">
-                                            <div class="col-10 my-auto">
-                                                <a href="#">
-                                                    <h2>Farmacias Guadalajara</h2>
-                                                </a>
-                                            </div>
-                                            <div class="col-2 my-auto text-end">
-                                                <a href="#">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" id="ico-arrow" class="img-fluid">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deserunt corporis explicabo enim illo assumenda ullam cumque reprehenderit nisi modi labore maiores, debitis saepe cupiditate illum, earum et voluptate quisquam!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Fin Slide -->
-                             <!-- Inicio Slide -->
-                             <div class="swiper-slide">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <a href="#">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid mb-3">
-                                        </a>
-                                        <div class="row">
-                                            <div class="col-10 my-auto">
-                                                <a href="#">
-                                                    <h2>Farmacias Guadalajara</h2>
-                                                </a>
-                                            </div>
-                                            <div class="col-2 my-auto text-end">
-                                                <a href="#">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" id="ico-arrow" class="img-fluid">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deserunt corporis explicabo enim illo assumenda ullam cumque reprehenderit nisi modi labore maiores, debitis saepe cupiditate illum, earum et voluptate quisquam!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Fin Slide -->
-                             <!-- Inicio Slide -->
-                             <div class="swiper-slide">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <a href="#">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid mb-3">
-                                        </a>
-                                        <div class="row">
-                                            <div class="col-10 my-auto">
-                                                <a href="#">
-                                                    <h2>Farmacias Guadalajara</h2>
-                                                </a>
-                                            </div>
-                                            <div class="col-2 my-auto text-end">
-                                                <a href="#">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" id="ico-arrow" class="img-fluid">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deserunt corporis explicabo enim illo assumenda ullam cumque reprehenderit nisi modi labore maiores, debitis saepe cupiditate illum, earum et voluptate quisquam!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Fin Slide -->
-                             <!-- Inicio Slide -->
-                             <div class="swiper-slide">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <a href="#">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid mb-3">
-                                        </a>
-                                        <div class="row">
-                                            <div class="col-10 my-auto">
-                                                <a href="#">
-                                                    <h2>Farmacias Guadalajara</h2>
-                                                </a>
-                                            </div>
-                                            <div class="col-2 my-auto text-end">
-                                                <a href="#">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" id="ico-arrow" class="img-fluid">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deserunt corporis explicabo enim illo assumenda ullam cumque reprehenderit nisi modi labore maiores, debitis saepe cupiditate illum, earum et voluptate quisquam!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Fin Slide -->
+                            <?php
+                        endwhile;
+                        wp_reset_postdata(); // Reset post data after the custom query
+                    endif;
+            ?>
                         </div>
 
                         <!-- If we need navigation buttons -->
