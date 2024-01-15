@@ -1,5 +1,6 @@
 <?php 
 	get_header();
+	
 	// Get the post thumbnail ID
 	$post_thumbnail_id = get_post_thumbnail_id();
 
