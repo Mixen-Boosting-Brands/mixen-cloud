@@ -21,7 +21,7 @@
                         <small>
 						<?php
 							// Get the author's name
-							$author_name = get_the_author();
+							$author_name = get_the_author_meta('display_name', $post->post_author);
 
 							// Get the post date
 							$post_date = get_the_date('j \d\e F, Y');
@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="col">
 					<?php the_content(); ?>
-					
+
 					<?php edit_post_link(); ?>
                 </div>
             </div>
