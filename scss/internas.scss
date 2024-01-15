@@ -58,15 +58,22 @@
             position: relative;
         }
 
-        .titulo {
+        .titulo,
+        .titulo-cpt {
             &::before {
                 background-color: $black;
                 position: absolute;
                 left: 0;
-                top: 22px;
+                top: 16px;
                 content: '';
                 width: 5px;
                 height: 40px;
+            }
+        }
+
+        .titulo-cpt {
+            &::before {
+                top: 22px;
             }
         }
 
