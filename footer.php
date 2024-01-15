@@ -117,12 +117,12 @@
                                         Nuestra opinión
                                     </li>
                                     <li>
-                                        <a class="anchor" href="#blog">
+                                        <a class="anchor" href="<?php echo get_category_link(2); ?>">
                                             Blog
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="anchor" href="#podcast">
+                                        <a class="anchor" href="<?php echo get_category_link(45); ?>">
                                             Podcast
                                         </a>
                                     </li>
@@ -140,7 +140,7 @@
                                         </a>
                                     </li>
                                     <li class="mb-1 mb-lg-3">
-                                        <a href="#">
+                                        <a href="<?php echo get_permalink(3); ?>">
                                             Política de privacidad
                                         </a>
                                     </li>

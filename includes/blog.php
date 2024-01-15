@@ -19,7 +19,7 @@
                 <div class="col-lg-6 my-3 my-lg-auto">
                     <div class="row mb-4">
                         <div class="col-12">
-                            <a href="<?php echo get_category_link(45); ?>" class="btn btn-outline-secondary rounded-pill">
+                            <a href="<?php echo get_category_link(2); ?>" class="btn btn-outline-secondary rounded-pill">
                                 <i class="fa-solid fa-blog"></i> Ver todos las entradas
                             </a>
                         </div>
