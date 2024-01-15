@@ -649,10 +649,15 @@
                             <nav>
                                 <div class="navs d-flex justify-content-start" id="nav-tab" role="tablist">
                                     <button class="nav-link active" id="nav-cat-1-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-1" type="button" role="tab" aria-controls="nav-cat-1" aria-selected="true">All</button>
-                                    <button class="nav-link" id="nav-cat-2-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-2" type="button" role="tab" aria-controls="nav-cat-2" aria-selected="false">Digital world</button>
-                                    <button class="nav-link" id="nav-cat-3-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-3" type="button" role="tab" aria-controls="nav-cat-3" aria-selected="false">Our opinion</button>
-                                    <button class="nav-link" id="nav-cat-4-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-4" type="button" role="tab" aria-controls="nav-cat-4" aria-selected="false">Design</button>
-                                    <button class="nav-link" id="nav-cat-5-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-5" type="button" role="tab" aria-controls="nav-cat-5" aria-selected="false">Work</button>
+                                <?php
+                                    $tags = get_tags();
+
+                                    if ($tags): $counter = 2; foreach ($tags as $tag):
+                                ?>
+                                    <button class="nav-link" id="nav-cat-<?php echo $counter; ?>-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-<?php echo $counter; ?>" type="button" role="tab" aria-controls="nav-cat-<?php echo $counter; ?>" aria-selected="false"><?php echo esc_html($tag->name); ?></button>
+                                <?php 
+                                    endforeach; endif;
+                                ?>
                                 </div>
                             </nav>
                         </div>
