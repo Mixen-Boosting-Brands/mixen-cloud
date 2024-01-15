@@ -677,7 +677,7 @@
                                             <?php the_title(); ?>
                                             <span class="date badge bg-secondary rounded-pill">
                                                 <time datetime="<?php the_time('Y-m-d'); ?> <?php the_time('H:i'); ?>">
-                                                    <?php echo get_the_date('j \d\e F, Y'); ?>
+                                                    <?php echo get_the_date('M j, Y'); ?>
                                                 </time>
                                             </span>
                                         </h2>
