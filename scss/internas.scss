@@ -69,6 +69,7 @@
         }
 
         .titulo,
+        .titulo-page,
         .titulo-cpt {
             &::before {
                 background-color: $black;
@@ -78,6 +79,12 @@
                 content: '';
                 width: 5px;
                 height: 40px;
+            }
+        }
+
+        .titulo-page {
+            &::before {
+                top: 6px;
             }
         }
 

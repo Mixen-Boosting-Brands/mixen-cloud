@@ -16,7 +16,7 @@
         <div class="container">
             <div class="row mb-1 mb-lg-3">
                 <div class="col">
-					<h1 class="titulo">
+					<h1 class="titulo-page">
                         <span class="fs-4"><?php the_title(); ?></span>
                     </h1>
                 </div>
