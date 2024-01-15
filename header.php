@@ -20,7 +20,7 @@
 
     <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/styles.css">
 </head>
-<body>
+<body <?php if( !is_home() ): ?>class="is-single"<?php endif; ?>>
     <div id="backdrop"></div>
     <div class="menu">
         <a id="cerrar-menu" href="javascript:void(0)">
