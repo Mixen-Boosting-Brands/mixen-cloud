@@ -37,7 +37,7 @@ footer {
 
 a {
     color: $primary;
-    text-decoration: none;
+    text-decoration: underline;
     @include transition(ease, 0.3s);
 
     &:hover,
@@ -537,6 +537,7 @@ footer {
     a {
         @include font-size(0.9rem);
         color: $secondary;
+        text-decoration: none;
 
         &:hover,
         &:focus {
