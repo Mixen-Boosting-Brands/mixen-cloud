@@ -8,7 +8,9 @@
 	$post_thumbnail_url = wp_get_attachment_image_src($post_thumbnail_id, 'large');
 ?>
 
-	<section id="jumbotron" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo $post_thumbnail_url[0]; ?>"></section>
+	<section id="jumbotron" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo $post_thumbnail_url[0]; ?>">
+		<div id="overlay"></div>
+	</section>
 
     <section id="body" class="py-60">
         <div class="container">
