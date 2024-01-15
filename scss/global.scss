@@ -486,6 +486,7 @@ header {
 
     h2 {
         @include font-size(1rem);
+        padding-right: 96px;
         position: relative;
         display: flex;
         align-items: center;
