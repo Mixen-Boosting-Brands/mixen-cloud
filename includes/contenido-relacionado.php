@@ -73,6 +73,7 @@
                         endwhile;
                         wp_reset_postdata(); // Reset post data after the custom query
                     endif;
+                }
             ?>
                         </div>
 
