@@ -667,6 +667,13 @@
                                 $query = new WP_Query($args);
 
                                 if ($query->have_posts()): while ($query->have_posts()) : $query->the_post();
+                                    $excerpt = get_the_excerpt();
+                                    $words = explode(' ', $excerpt);
+                                    
+                                    if (count($words) > 30) {
+                                        $words = array_slice($words, 0, 30);
+                                        $excerpt = implode(' ', $words) . '...';
+                                    }
                             ?>
                                 <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
                                     <a href="<?php the_permalink(); ?>">
@@ -682,7 +689,7 @@
                                             </span>
                                         </h2>
                                     </a>
-                                    <?php the_excerpt(); ?>
+                                    <?php echo $excerpt; ?>
                                 </div>
                             <?php 
                                 endwhile; endif;
