@@ -1,6 +1,13 @@
-<?php get_header(); ?>
+<?php 
+	get_header();
+	// Get the post thumbnail ID
+	$post_thumbnail_id = get_post_thumbnail_id();
 
-	<section id="jumbotron" class="parallax-window" data-parallax="scroll" data-image-src="<?php the_post_thumbnail('large', array('class' => 'img-fluid')); ?>"></section>
+	// Get the raw URL of the post thumbnail
+	$post_thumbnail_url = wp_get_attachment_image_src($post_thumbnail_id, 'large');
+?>
+
+	<section id="jumbotron" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo $post_thumbnail_url[0]; ?>"></section>
 
     <section id="body" class="py-60">
         <div class="container">
@@ -21,7 +28,7 @@
 									$post_date = get_the_date('j \d\e F, Y');
 
 									// Get the published time
-									$published_time = get_the_time('H:i');
+									$published_time = get_the_time('g:i a');
 
 									// Output the post data
 									echo 'Publicado por ' . $author_name . ' el ' . $post_date . ' a la(s) ' . $published_time;
@@ -44,7 +51,5 @@
     </section>
 
     <?php get_template_part( 'includes/contenido-relacionado' ); ?>
-
-	<?php get_template_part( 'includes/blog' ); ?>
 
 <?php get_footer(); ?>
