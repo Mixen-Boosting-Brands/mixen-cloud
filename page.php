@@ -19,11 +19,6 @@
 					<h1 class="titulo">
                         <span class="fs-4"><?php the_title(); ?></span>
                     </h1>
-                    <p class="subtitulo">
-                        <small>
-							
-						</small>
-                    </p>
                 </div>
             </div>
             <div class="row">
