@@ -1,6 +1,6 @@
 <?php 
 	get_header();
-	
+
 	// Get the post thumbnail ID
 	$post_thumbnail_id = get_post_thumbnail_id();
 
@@ -19,26 +19,19 @@
                     </h1>
                     <p class="subtitulo">
                         <small>
-							<ul class="list-inline">
-								<li class="list-inline-item">
-								<?php
-									// Get the author's name
-									$author_name = get_the_author();
+						<?php
+							// Get the author's name
+							$author_name = get_the_author();
 
-									// Get the post date
-									$post_date = get_the_date('j \d\e F, Y');
+							// Get the post date
+							$post_date = get_the_date('j \d\e F, Y');
 
-									// Get the published time
-									$published_time = get_the_time('g:i a');
+							// Get the published time
+							$published_time = get_the_time('g:i a');
 
-									// Output the post data
-									echo 'Publicado por ' . $author_name . ' el ' . $post_date . ' a la(s) ' . $published_time;
-								?>
-								</li>
-								<li class="list-inline-item">
-									<?php edit_post_link(); ?>
-								</li>
-							</ul>
+							// Output the post data
+							echo 'Publicado por ' . $author_name . ' el ' . $post_date . ' a la(s) ' . $published_time;
+						?>
 						</small>
                     </p>
                 </div>
@@ -46,6 +39,8 @@
             <div class="row">
                 <div class="col">
 					<?php the_content(); ?>
+					
+					<?php edit_post_link(); ?>
                 </div>
             </div>
         </div>
