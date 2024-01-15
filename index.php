@@ -661,7 +661,7 @@
                             <?php
                                 $args = array(
                                     'category_name' => 'blog', // Specify the category slug here
-                                    'posts_per_page' => 6,    // Use -1 to fetch all posts from the category
+                                    'posts_per_page' => 2,    // Use -1 to fetch all posts from the category
                                 );
 
                                 $query = new WP_Query($args);
@@ -682,7 +682,7 @@
                                             </span>
                                         </h2>
                                     </a>
-                                    <?php html5wp_excerpt('html5wp_index'); ?>
+                                    <?php the_excerpt(); ?>
                                 </div>
                             <?php 
                                 endwhile; endif;
