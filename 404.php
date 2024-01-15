@@ -1,39 +1,6 @@
 <?php get_header(); ?>
 
-	<main role="main" aria-label="Content">
-		<!-- section -->
-		<section>
-
-			<!-- article -->
-			<article id="post-404">
-
-				<h1><?php esc_html_e( 'Page not found', 'html5blank' ); ?></h1>
-				<h2>
-					<a href="<?php echo esc_url( home_url() ); ?>"><?php esc_html_e( 'Return home?', 'html5blank' ); ?></a>
-				</h2>
-
-			</article>
-			<!-- /article -->
-
-		</section>
-		<!-- /section -->
-	</main>
-
-<?php get_sidebar(); ?>
-
-<?php get_footer(); ?>
-
-<?php 
-	get_header();
-
-	// Get the post thumbnail ID
-	$post_thumbnail_id = get_post_thumbnail_id();
-
-	// Get the raw URL of the post thumbnail
-	$post_thumbnail_url = wp_get_attachment_image_src($post_thumbnail_id, 'large');
-?>
-
-	<section id="jumbotron" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo $post_thumbnail_url[0]; ?>">
+	<section id="jumbotron" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bg-404.png">
 		<div id="overlay"></div>
 	</section>
 
