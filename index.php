@@ -547,6 +547,15 @@
         </div>
     </section>
 
+<?php
+    $args = array(
+        'category_name' => 'podcast', // Specify the category slug here
+        'posts_per_page' => 1,    // Use -1 to fetch all posts from the category
+    );
+
+    $podcastQuery = new WP_Query($args);
+    if ($podcastQuery->have_posts()): while ($podcastQuery->have_posts()) : $podcastQuery->the_post();
+?>
     <section id="podcast" class="common-light py-60">
         <div class="container">
             <div class="row">
@@ -625,7 +634,20 @@
             </div>
         </div>
     </section>
+<?php 
+    endwhile; endif;
+    wp_reset_postdata();
+?>
 
+<?php
+    $args = array(
+        'category_name' => 'blog', // Specify the category slug here
+        'posts_per_page' => 1,    // Use -1 to fetch all posts from the category
+    );
+
+    $blogQuery = new WP_Query($args);
+    if ($blogQuery->have_posts()): while ($blogQuery->have_posts()) : $blogQuery->the_post();
+?>
     <section id="blog" class="common-dark py-60">
         <div class="container">
             <div class="row">
@@ -719,7 +741,7 @@
                                 $args = array(
                                     'category_name' => 'blog', // Specify the category slug here
                                     'posts_per_page' => 2,    // Use -1 to fetch all posts from the category
-                                    'tag__in' => array($tag->term_id) // Replace 'your-tag-slug' with the actual tag slug
+                                    'tag__in' => array($tag->term_id), // Pass an array of tag IDs
                                 );
 
                                 $query = new WP_Query($args);
@@ -763,5 +785,9 @@
             </div>
         </div>
     </section>
+<?php 
+    endwhile; endif;
+    wp_reset_postdata();
+?>
 
 <?php get_footer(); ?>
