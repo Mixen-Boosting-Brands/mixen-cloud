@@ -115,7 +115,7 @@
         &:hover,
         &:focus {
             color: $primary !important;
-            text-decoration: none;
+            text-decoration: none !important;
 
         }
     }
@@ -123,6 +123,7 @@
     .active {
         .page-link {
             border-color: $white !important;
+            color: $white !important;
         }
     }
 }
