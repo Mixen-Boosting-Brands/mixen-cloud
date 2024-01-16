@@ -121,6 +121,8 @@
     }
 
     .active {
-        border-color: $white !important;
+        .page-link {
+            border-color: $white !important;
+        }
     }
 }
