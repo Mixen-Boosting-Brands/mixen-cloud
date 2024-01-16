@@ -20,13 +20,13 @@
                                     <div class="col-lg-6">
                                         <h2>Farmacias Guadalajara</h2>
                                         <a href="#">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="col-lg-6">
                                         <h2>Farmacias Guadalajara</h2>
                                         <a href="#">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid" loading="lazy">
                                         </a>
                                     </div>
                                 </div>
@@ -38,13 +38,13 @@
                                     <div class="col-lg-6">
                                         <h2>Farmacias Guadalajara</h2>
                                         <a href="#">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid" loading="lazy">
                                         </a>
                                     </div>
                                     <div class="col-lg-6">
                                         <h2>Farmacias Guadalajara</h2>
                                         <a href="#">
-                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid">
+                                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/resultados/slide-1.png" alt="" class="img-fluid" loading="lazy">
                                         </a>
                                     </div>
                                 </div>

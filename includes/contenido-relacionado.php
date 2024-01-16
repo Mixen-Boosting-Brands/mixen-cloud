@@ -60,7 +60,7 @@
                                             </div>
                                             <div class="col-2 my-auto text-end">
                                                 <a href="<?php the_permalink(); ?>">
-                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" id="ico-arrow" class="img-fluid">
+                                                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" id="ico-arrow" class="img-fluid" loading="lazy">
                                                 </a>
                                             </div>
                                         </div>

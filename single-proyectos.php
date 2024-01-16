@@ -17,7 +17,7 @@
             <div class="row mb-1 mb-lg-3">
                 <div class="col">
                     <h1 class="titulo">
-                        <span class="fs-4"><?php the_title(); ?></span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid"> <?php if( get_field('tipo_de_proyecto') ): ?><?php the_field('tipo_de_proyecto'); ?><?php endif; ?>
+                        <span class="fs-4"><?php the_title(); ?></span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid" loading="lazy"> <?php if( get_field('tipo_de_proyecto') ): ?><?php the_field('tipo_de_proyecto'); ?><?php endif; ?>
                     </h1>
                     <p class="subtitulo">
                         <small><?php if( get_field('ubicacion') ): ?><?php the_field('ubicacion'); ?><?php endif; ?> - <?php if( get_field('servicios') ): ?><?php the_field('servicios'); ?><?php endif; ?></small>
@@ -50,7 +50,7 @@
 		<?php if( have_rows('nuestra_solucion') ): while( have_rows('nuestra_solucion') ): the_row(); ?>
             <div class="row mb-5">
                 <div class="col-lg-8">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/internas/thumb-1.png" alt="" class="img-fluid">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/internas/thumb-1.png" alt="" class="img-fluid" loading="lazy">
                 </div>
             </div>
             <div class="row mb-5">
@@ -59,14 +59,14 @@
 					<p><?php the_sub_field('texto_nuestra_solucion'); ?></p>
 				</div>
                 <div class="col-lg-5">
-                    <img src="<?php the_sub_field('imagen_nuestra_solucion'); ?>" alt="" class="img-fluid">
+                    <img src="<?php the_sub_field('imagen_nuestra_solucion'); ?>" alt="" class="img-fluid" loading="lazy">
                 </div>
             </div>
 		<?php endwhile; endif; ?>
 		<?php if( have_rows('nuestros_resultados') ): while( have_rows('nuestros_resultados') ): the_row(); ?>
             <div class="row">
                 <div class="col-lg-5">
-                    <img src="<?php the_sub_field('imagen_nuestros_resultados'); ?>" alt="" class="img-fluid">
+                    <img src="<?php the_sub_field('imagen_nuestros_resultados'); ?>" alt="" class="img-fluid" loading="lazy">
                 </div>
                 <div class="col-lg-6">
                     <h4>Nuestros resultados</h4>
@@ -83,7 +83,7 @@
             <div class="row text-center">
                 <div class="col">
                     <h1 class="mb-1 mb-lg-3">
-                        <span class="fs-4">¿Cómo</span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid"> lo logramos?
+                        <span class="fs-4">¿Cómo</span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid" loading="lazy"> lo logramos?
                     </h1>
                     <p>Para poder ofrecerte presencia, relevancia e inteligencia, hemos diseñado los siguientes servicios:</p>
                     <div class="separador"></div>
