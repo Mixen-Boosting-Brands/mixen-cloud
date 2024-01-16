@@ -114,7 +114,7 @@
                                     </th>
                                     <td>Impulsa tus ventas en línea con nuestras soluciones de comercio electrónico, ofreemos una experiencia de compra segura y eficiente.</td>
                                 </tr>
-                                <tr <?php $servicios_values = get_field('servicios'); if( in_array('Social media', $servicios_values) ): ?>class="focus"<?php endif; ?>>
+                                <tr <?php $servicios_values = get_field('servicios'); if( in_array('Social Media', $servicios_values) ): ?>class="focus"<?php endif; ?>>
                                     <th scope="row">
                                         <h1 class="fs-4">Social media</h1>
                                     </th>
