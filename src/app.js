@@ -6,7 +6,6 @@ import '../src/smooth-scrolling';
 import '../src/form-ajax';
 import '../src/aos';
 import '../src/swipers';
-import '../src/iframes';
 import 'jquery-parallax.js'
 // import '../src/gsap';
 

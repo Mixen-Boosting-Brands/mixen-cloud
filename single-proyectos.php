@@ -27,7 +27,7 @@
 		<?php if( get_field('video') ): ?>
             <div class="row mb-5">
                 <div class="col">
-					<div class="ratio ratio-21x9">
+					<div class="video-responsive">
 						<?php the_field('video'); ?>
 					</div>
                 </div>
