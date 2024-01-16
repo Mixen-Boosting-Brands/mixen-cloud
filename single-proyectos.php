@@ -20,21 +20,7 @@
                         <span class="fs-4"><?php the_title(); ?></span>
                     </h1>
                     <p class="subtitulo">
-                        <small>
-						<?php
-							// Get the author's name
-							$author_name = get_the_author_meta('display_name', $post->post_author);
-
-							// Get the post date
-							$post_date = get_the_date('j \d\e F, Y');
-
-							// Get the published time
-							$published_time = get_the_time('g:i a');
-
-							// Output the post data
-							echo 'Publicado por ' . $author_name . ' el ' . $post_date . ' a la(s) ' . $published_time;
-						?>
-						</small>
+                        <small>Chihuahua, Chih. México - Branding / Social Media / Multimedia Content</small>
                     </p>
                 </div>
             </div>
