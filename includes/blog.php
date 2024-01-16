@@ -28,7 +28,7 @@
                         <div class="col-12">
                             <p class="text-small text-muted mb-0">Buscar por:</p>
                             <nav>
-                                <div class="navs d-flex justify-content-start" id="nav-tab" role="tablist">
+                                <div class="navs d-flex flex-wrap justify-content-start" id="nav-tab" role="tablist">
                                     <button class="nav-link active" id="nav-cat-1-tab" data-bs-toggle="tab" data-bs-target="#nav-cat-1" type="button" role="tab" aria-controls="nav-cat-1" aria-selected="true">All</button>
                                 <?php
                                     $tags = get_tags();
