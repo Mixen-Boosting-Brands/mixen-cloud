@@ -26,7 +26,7 @@
             </div>
             <div class="row mb-5">
                 <div class="col">
-					<div class="ratio ratio-16x9">
+					<div class="ratio ratio-21x9">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/kcoFqvzs1uU?si=zx-jF5l9MEIRVjrB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 					</div>
                 </div>
