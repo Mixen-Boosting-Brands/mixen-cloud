@@ -51,7 +51,7 @@
             </div>
 			<div class="row">
 				<div class="col text-center">
-					<?php get_template_part( 'pagination' ); ?>
+					<?php echo bootstrap_pagination(); ?>
 				</div>
 			</div>
         </div>
