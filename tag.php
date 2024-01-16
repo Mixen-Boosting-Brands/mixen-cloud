@@ -10,7 +10,7 @@
                     </h1>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mb-5">
                 <div class="col">
                     <div class="tab-content" id="nav-blog">
                         <div class="tab-pane fade show active" id="nav-cat-1" role="tabpanel" aria-labelledby="nav-cat-1-tab" tabindex="0">
