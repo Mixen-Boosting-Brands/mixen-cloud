@@ -17,10 +17,10 @@
             <div class="row mb-1 mb-lg-3">
                 <div class="col">
                     <h1 class="titulo">
-                        <span class="fs-4">Suláwe</span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid"> Identity
+                        <span class="fs-4">Suláwe</span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid"> <?php if( get_field('tipo_de_proyecto') ): ?><?php the_field('tipo_de_proyecto'); ?><?php endif; ?>
                     </h1>
                     <p class="subtitulo">
-                        <small>Chihuahua, Chih. México - Branding / Social Media / Multimedia Content</small>
+                        <small><?php if( get_field('ubicacion') ): ?><?php the_field('ubicacion'); ?><?php endif; ?> - <?php if( get_field('servicios') ): ?><?php the_field('servicios'); ?><?php endif; ?></small>
                     </p>
                 </div>
             </div>
