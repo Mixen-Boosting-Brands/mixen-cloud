@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<section id="blog" class="common-dark py-60">
+	<section id="blog" class="common-dark py-60" style="padding-top: 100px;">
         <div class="container">
             <div class="row">
                 <div class="col-12my-auto">
