@@ -127,12 +127,12 @@
                                     </li>
                                     <li>
                                         <a href="<?php echo get_category_link(2); ?>">
-                                            <?php get_cat_name(2); ?>
+                                            <?php echo get_cat_name(2); ?>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="<?php echo get_category_link(45); ?>">
-                                            <?php get_cat_name(45); ?>
+                                            <?php echo get_cat_name(45); ?>
                                         </a>
                                     </li>
                                 </ul>
@@ -150,7 +150,7 @@
                                     </li>
                                     <li class="mb-1 mb-lg-3">
                                         <a href="<?php echo get_permalink(3); ?>">
-                                            <?php get_the_title(45); ?>
+                                            <?php echo get_the_title(45); ?>
                                         </a>
                                     </li>
                                 </ul>
