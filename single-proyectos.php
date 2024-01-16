@@ -20,7 +20,7 @@
                         <span class="fs-4"><?php the_title(); ?></span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid" loading="lazy"> <?php if( get_field('tipo_de_proyecto') ): ?><?php the_field('tipo_de_proyecto'); ?><?php endif; ?>
                     </h1>
                     <p class="subtitulo">
-                        <small><?php if( get_field('ubicacion') ): ?><?php the_field('ubicacion'); ?><?php endif; ?> - <?php if( get_field('servicios') ): ?><?php the_field('servicios'); ?><?php endif; ?></small>
+                        <small><?php if( get_field('ubicacion') ): ?><?php the_field('ubicacion'); ?><?php endif; ?> - <?php $servicios = get_field( 'servicios' ); if( $servicios ): ?><?php echo implode( ' / ', $servicios ); ?><?php endif; ?></small>
                     </p>
                 </div>
             </div>
