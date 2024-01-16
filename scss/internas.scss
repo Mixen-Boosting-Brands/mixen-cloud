@@ -110,4 +110,11 @@
 
 .pagination {
     --bs-pagination-bg: transparent;
+
+    .page-link {
+        &:hover,
+        &:focus {
+            color: $primary;
+        }
+    }
 }
