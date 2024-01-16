@@ -67,7 +67,7 @@
                                         $excerpt = implode(' ', $words) . '...';
                                     }
                             ?>
-                                <div class="col-lg-6 mb-1 mb-lg-3 mb-lg-0">
+                                <div class="col-lg-6 mb-3">
                                     <a href="<?php the_permalink(); ?>">
                                         <?php the_post_thumbnail('home-blog', array('class' => 'img-fluid')); ?>
                                     </a>
