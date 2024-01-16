@@ -47,7 +47,7 @@
 				</div>
 			<?php endif; ?>
             </div>
-			<?php if( get_field('imagen_descanso') ): ?>
+		<?php if( get_field('imagen_descanso') ): ?>
             <div class="row mb-5">
                 <div class="col-lg-8">
                     <img src="<?php the_field('imagen_descanso'); ?>" alt="" class="img-fluid" loading="lazy">
