@@ -10,17 +10,17 @@
                                         Nuestras soluciones
                                     </li>
                                     <li>
-                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#soluciones">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#soluciones">
                                             Presencia
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#soluciones">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#soluciones">
                                             Relevancia
                                         </a>
                                     </li>
                                     <li class="mb-5">
-                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#soluciones">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#soluciones">
                                            Inteligencia
                                         </a>
                                     </li>
@@ -28,47 +28,47 @@
                                         Cómo lo logramos
                                     </li>
                                     <li>
-                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
                                             Branding
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
                                             Web
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
                                             e-Commerce
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
                                             Social Media
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
                                             Development
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
                                             CX
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
                                             Contenido
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
                                             SEO/SEM
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
                                             Automatización
                                         </a>
                                     </li>
@@ -103,7 +103,7 @@
                                         Almacenamiento inteligente
                                     </li>
                                     <li>
-                                        <a class="anchor" href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#mixen-cloud">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#mixen-cloud">
                                             Mixen Cloud
                                         </a>
                                     </li>
@@ -117,12 +117,12 @@
                                         Nuestra opinión
                                     </li>
                                     <li>
-                                        <a class="anchor" href="<?php echo get_category_link(2); ?>">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php echo get_category_link(2); ?>">
                                             Blog
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="anchor" href="<?php echo get_category_link(45); ?>">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php echo get_category_link(45); ?>">
                                             Podcast
                                         </a>
                                     </li>
