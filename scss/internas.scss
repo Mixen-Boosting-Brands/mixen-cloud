@@ -122,8 +122,9 @@
 
     .active {
         .page-link {
+            background-color: $white !important;
             border-color: $white !important;
-            color: $white !important;
+            color: $primary !important;
         }
     }
 }
