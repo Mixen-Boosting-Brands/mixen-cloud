@@ -117,12 +117,12 @@
                                         Nuestra opinión
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php echo get_category_link(2); ?>">
+                                        <a href="<?php echo get_category_link(2); ?>">
                                             Blog
                                         </a>
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php echo get_category_link(45); ?>">
+                                        <a href="<?php echo get_category_link(45); ?>">
                                             Podcast
                                         </a>
                                     </li>
