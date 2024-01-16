@@ -150,7 +150,7 @@
                                     </li>
                                     <li class="mb-1 mb-lg-3">
                                         <a href="<?php echo get_permalink(3); ?>">
-                                            <?php echo get_the_title(45); ?>
+                                            <?php echo get_the_title(3); ?>
                                         </a>
                                     </li>
                                 </ul>
