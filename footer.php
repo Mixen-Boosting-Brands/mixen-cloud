@@ -88,8 +88,8 @@
                                         'category__in'   => array(48),   // Specify the category ID
                                     );
 
-                                    $proyectosQuery = new WP_Query($args);
-                                    if ($proyectosQuery->have_posts()): while ($proyectosQuery->have_posts()) : $proyectosQuery->the_post();
+                                    $proyectosFooterQuery = new WP_Query($args);
+                                    if ($proyectosFooterQuery->have_posts()): while ($proyectosFooterQuery->have_posts()) : $proyectosFooterQuery->the_post();
                                 ?>
                                     <li>
                                         <a href="<?php the_permalink(); ?>">

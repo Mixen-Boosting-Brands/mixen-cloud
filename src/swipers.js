@@ -85,6 +85,24 @@ const swiperResultados = new Swiper('.swiper-resultados', {
   // configure Swiper to use modules
   modules: [Navigation],
 
+  // Optional parameters
+  spaceBetween: 30,
+  slidesPerView: 1,
+  breakpoints: {
+    576: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    992: {
+      slidesPerView: 2,
+    },
+    1200: {
+        slidesPerView: 2,
+    },
+  },
+
   // Navigation arrows
   navigation: {
       nextEl: '.swiper-button-next',
