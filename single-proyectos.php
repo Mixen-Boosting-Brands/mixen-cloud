@@ -47,12 +47,14 @@
 				</div>
 			<?php endif; ?>
             </div>
-		<?php if( have_rows('nuestra_solucion') ): while( have_rows('nuestra_solucion') ): the_row(); ?>
+			<?php if( get_field('imagen_descanso') ): ?>
             <div class="row mb-5">
                 <div class="col-lg-8">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/internas/thumb-1.png" alt="" class="img-fluid" loading="lazy">
+                    <img src="<?php the_field('imagen_descanso'); ?>" alt="" class="img-fluid" loading="lazy">
                 </div>
             </div>
+		<?php endif; ?>
+		<?php if( have_rows('nuestra_solucion') ): while( have_rows('nuestra_solucion') ): the_row(); ?>
             <div class="row mb-5">
                 <div class="col-lg-7 text-lg-end">
                     <h4>Nuestra solución</h4>
