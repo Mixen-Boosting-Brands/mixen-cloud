@@ -56,7 +56,7 @@
                                     </div>
                                     <div class="col-lg-6 my-auto">
                                         <a href="<?php the_permalink(); ?>">
-                                            <h2><?php the_title(); ?></h2>
+                                            <h2 class="mt-3"><?php the_title(); ?></h2>
                                         </a>
                                         <h3>
                                             Capítulo #<?php echo $formatted_counter; ?>
