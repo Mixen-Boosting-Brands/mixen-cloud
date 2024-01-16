@@ -439,6 +439,10 @@ header {
 }
 
 #podcast {
+    a {
+        text-decoration: none;
+    }
+    
     h2 {
         text-transform: uppercase;
     }
