@@ -81,16 +81,25 @@
                                     <li>
                                         Proyectos destacados
                                     </li>
+                                <?php
+                                    $args = array(
+                                        'post_type'      => 'proyectos', // Specify the custom post type
+                                        'posts_per_page' => 5,
+                                        'category__in'   => array(48),   // Specify the category ID
+                                    );
+
+                                    $proyectosQuery = new WP_Query($args);
+                                    if ($proyectosQuery->have_posts()): while ($proyectosQuery->have_posts()) : $proyectosQuery->the_post();
+                                ?>
                                     <li>
-                                        <a href="#">
-                                            Project List
+                                        <a href="<?php the_permalink(); ?>">
+                                            <?php the_title(); ?>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#">
-                                            Project Details
-                                        </a>
-                                    </li>
+                                <?php 
+                                    endwhile; endif;
+                                    wp_reset_postdata();
+                                ?>
                                 </ul>
                             </nav>
                         </div>
