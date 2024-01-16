@@ -26,7 +26,9 @@
             </div>
             <div class="row mb-5">
                 <div class="col">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/internas/bg-video.png" alt="" class="img-fluid">
+					<div class="ratio ratio-16x9">
+						<iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
+					</div>
                 </div>
             </div>
             <div class="row mb-4">
