@@ -96,55 +96,55 @@
                     <div class="table-responsive">
                         <table class="table table-borderless">
                             <tbody>
-                                <tr class="focus">
+                                <tr <?php if( get_field('servicios') == 'Branding' ): ?>class="focus"<?php endif; ?>>
                                     <th scope="row">
                                         <h1 class="fs-4">Branding</h1>
                                     </th>
                                     <td>Crea una identidad única y memorable mediante diseño y mensajes impactantes.</td>
                                 </tr>
-                                <tr>
+                                <tr <?php if( get_field('servicios') == 'Web' ): ?>class="focus"<?php endif; ?>>
                                     <th scope="row">
                                         <h1 class="fs-4">Web</h1>
                                     </th>
                                     <td>Transforma tu visión en una experiencia en línea excepcional. Creamos soluciones.</td>
                                 </tr>
-                                <tr>
+                                <tr <?php if( get_field('servicios') == 'e-Commerce' ): ?>class="focus"<?php endif; ?>>
                                     <th scope="row">
                                         <h1 class="fs-4">e-Commerce</h1>
                                     </th>
                                     <td>Impulsa tus ventas en línea con nuestras soluciones de comercio electrónico, ofreemos una experiencia de compra segura y eficiente.</td>
                                 </tr>
-                                <tr class="focus">
+                                <tr <?php if( get_field('servicios') == 'Social media' ): ?>class="focus"<?php endif; ?>>
                                     <th scope="row">
                                         <h1 class="fs-4">Social media</h1>
                                     </th>
                                     <td>Mejora tu presencia en redes sociales con nuestra gestión estratégica. Creamos contenido atractivo, aumentando la conexión y compromiso con tu audiencia.</td>
                                 </tr>
-                                <tr>
+                                <tr <?php if( get_field('servicios') == 'Development' ): ?>class="focus"<?php endif; ?>>
                                     <th scope="row">
                                         <h1 class="fs-4">Development</h1>
                                     </th>
                                     <td>Transforma tus ideas en aplicaciones móviles atractivas y funcionales, trabajamos contiho para crear soluciones valiosas y fluidas para tus usuarios.</td>
                                 </tr>
-                                <tr>
+                                <tr <?php if( get_field('servicios') == 'CX' ): ?>class="focus"<?php endif; ?>>
                                     <th scope="row">
                                         <h1 class="fs-4">CX</h1>
                                     </th>
                                     <td>Pon a tus clientes en el centro de nuestro enfoque en la Experiencia del Cliente (CX). Optimizamos cada interacción desde el inicio hasta la posventa.</td>
                                 </tr>
-                                <tr class="focus">
+                                <tr <?php if( get_field('servicios') == 'Contenido' ): ?>class="focus"<?php endif; ?>>
                                     <th scope="row">
                                         <h1 class="fs-4">Contenido</h1>
                                     </th>
                                     <td>Cuenta tu historia de manera convincente con contenido multimedia relevante y valioso, estableciendo autoridad y manteniendo el compromiso de tu audiencia.</td>
                                 </tr>
-                                <tr class="focus">
+                                <tr <?php if( get_field('servicios') == 'SEO/SEM' ): ?>class="focus"<?php endif; ?>>
                                     <th scope="row">
                                         <h1 class="fs-4">SEO/SEM</h1>
                                     </th>
                                     <td>Mejora tu visibilidad en línea con SEO y SEM. Aumentamos la clasificación y generamos tráfico de calidad para maximizar tu alcance y conversiones.</td>
                                 </tr>
-                                <tr>
+                                <tr <?php if( get_field('servicios') == 'Automatización' ): ?>class="focus"<?php endif; ?>>
                                     <th scope="row">
                                         <h1 class="fs-4">Automatización</h1>
                                     </th>
