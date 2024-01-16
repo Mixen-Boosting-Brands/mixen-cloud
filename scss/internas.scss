@@ -114,7 +114,13 @@
     .page-link {
         &:hover,
         &:focus {
-            color: $primary;
+            color: $primary !important;
+            text-decoration: none;
+
         }
+    }
+
+    .active {
+        border-color: $white !important;
     }
 }
