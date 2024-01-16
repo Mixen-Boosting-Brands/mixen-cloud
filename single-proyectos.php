@@ -17,30 +17,37 @@
             <div class="row mb-1 mb-lg-3">
                 <div class="col">
                     <h1 class="titulo">
-                        <span class="fs-4">Suláwe</span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid"> <?php if( get_field('tipo_de_proyecto') ): ?><?php the_field('tipo_de_proyecto'); ?><?php endif; ?>
+                        <span class="fs-4"><?php the_title(); ?></span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid"> <?php if( get_field('tipo_de_proyecto') ): ?><?php the_field('tipo_de_proyecto'); ?><?php endif; ?>
                     </h1>
                     <p class="subtitulo">
                         <small><?php if( get_field('ubicacion') ): ?><?php the_field('ubicacion'); ?><?php endif; ?> - <?php if( get_field('servicios') ): ?><?php the_field('servicios'); ?><?php endif; ?></small>
                     </p>
                 </div>
             </div>
+		<?php if( get_field('video') ): ?>
             <div class="row mb-5">
                 <div class="col">
 					<div class="ratio ratio-21x9">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/kcoFqvzs1uU?si=zx-jF5l9MEIRVjrB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						<?php the_field('video'); ?>
 					</div>
                 </div>
             </div>
+		<?php endif; ?>
             <div class="row mb-4">
+			<?php if( get_field('texto_nuestro_cliente') ): ?>
                 <div class="col-lg-6">
                     <h4>Nuestro cliente</h4>
-                    <p>SULÁWE nace de las manos del Chef Christian Duthoy, empezando su vida culinaria en Monterrey, después CDMX, y ahora decide emprender en Chihuahua. Restaurante que busca enaltecer los sabores y técnicas de México, desde Oaxaca hasta Baja California, mezclando con toques orientales, en donde se busca el apoyo constante a productores locales. SULÁWE es un espacio sobrio e íntimo, con alta variedad en etiquetas de vino y coctelería de autor.</p>
+                    <p><?php the_field('texto_nuestro_cliente'); ?></p>
                 </div>
+			<?php endif; ?>
+			<?php if( get_field('texto_el_reto') ): ?>
                 <div class="col-lg-6">
                     <h4>El reto</h4>
-                    <p>Suláwe es un concepto nuevo en la ciudad de Chihuahua, que viene a competir con restaurantes mejor posicionados, con mayor consumo y reconocimiento, ¿cómo sobresalir con un chef quien, a pesar de tener una trayectoria sólida, no es conocido en la ciudad?</p>
-                </div>
+					<p><?php the_field('texto_el_reto'); ?></p>
+				</div>
+			<?php endif; ?>
             </div>
+		<?php if( have_rows('nuestra_solucion') ): while( have_rows('nuestra_solucion') ): the_row(); ?>
             <div class="row mb-5">
                 <div class="col-lg-8">
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/internas/thumb-1.png" alt="" class="img-fluid">
@@ -49,21 +56,24 @@
             <div class="row mb-5">
                 <div class="col-lg-7 text-lg-end">
                     <h4>Nuestra solución</h4>
-                    <p>Se desarrolló una marca, concepto y una narrativa comercial que abraza la esencia de la tierra y el mar para generar una imponente comunicación de los valores de la marca y su ADN. Además, se creó un sitio web, se generaron contenidos de alto valor apoyados por fotografía de alto impacto, un video institucional, manejo de medios tradicionales y digitales, identidad visual y coordinación de actividades de mercadotecnia y pauta publicitaria.</p>
-                </div>
+					<p><?php the_sub_field('texto_nuestra_solucion'); ?></p>
+				</div>
                 <div class="col-lg-5">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/internas/thumb-2.png" alt="" class="img-fluid">
+                    <img src="<?php the_sub_field('imagen_nuestra_solucion'); ?>" alt="" class="img-fluid">
                 </div>
             </div>
+		<?php endwhile; endif; ?>
+		<?php if( have_rows('nuestros_resultados') ): while( have_rows('nuestros_resultados') ): the_row(); ?>
             <div class="row">
                 <div class="col-lg-5">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/internas/thumb-3.png" alt="" class="img-fluid">
+                    <img src="<?php the_sub_field('imagen_nuestros_resultados'); ?>" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-6">
                     <h4>Nuestros resultados</h4>
-                    <p>En menos de 6 meses, hemos logrado posicionar a Suláwe en la mente del segmento destinado como un lugar predilecto para pasar el rato o festejar los logros de grandes negocios en el corazón del complejo exclusivo más importante de Chihuahua.</p>
-                </div>
+					<p><?php the_sub_field('texto_nuestros_resultados'); ?></p>
+				</div>
             </div>
+		<?php endwhile; endif; ?>
 			<?php edit_post_link(); ?>
         </div>
     </section>
