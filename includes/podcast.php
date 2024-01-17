@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col overflow-hidden">
                     <!-- Slider main container -->
-                    <div class="swiper-resultados">
+                    <div class="swiper-podcast">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                         <?php
