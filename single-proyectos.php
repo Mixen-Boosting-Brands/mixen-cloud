@@ -80,6 +80,7 @@
         </div>
     </section>
 
+<?php if( have_rows('carrusel_de_imagenes') ): while( have_rows('carrusel_de_imagenes') ): the_row(); ?>
     <section id="carrusel" class="common-light py-60">
         <div class="container">
             <div class="row">
@@ -88,7 +89,6 @@
                     <div class="swiper-carrusel">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
-                    <?php if( have_rows('carrusel_de_imagenes') ): while( have_rows('carrusel_de_imagenes') ): the_row(); ?>
                         <?php if( get_sub_field('imagen_1') ): ?>
                             <!-- Inicio Slide -->
                             <div class="swiper-slide">
@@ -155,7 +155,6 @@
                             </div>
                             <!-- /Fin Slide -->
                         <?php endif; ?>
-                    <?php endwhile; endif; ?>
                         </div>
 
                         <!-- If we need navigation buttons -->
@@ -166,6 +165,7 @@
             </div>
         </div>
     </section>
+<?php endwhile; endif; ?>
 
     <section id="como-lo-logramos" class="py-60">
         <div class="container">
