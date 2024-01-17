@@ -148,16 +148,16 @@ const swiperCarrusel = new Swiper('.swiper-carrusel', {
   slidesPerView: 1,
   breakpoints: {
     576: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     768: {
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
     992: {
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
     1200: {
-        slidesPerView: 3,
+        slidesPerView: 2,
     },
   },
 
