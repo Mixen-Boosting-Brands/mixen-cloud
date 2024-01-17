@@ -6,6 +6,9 @@
 
 	// Get the raw URL of the post thumbnail
 	$post_thumbnail_url = wp_get_attachment_image_src($post_thumbnail_id, 'large');
+
+	// Get the post categories
+	$categories = get_the_category();
 ?>
 
 	<section id="jumbotron" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo $post_thumbnail_url[0]; ?>">
@@ -16,6 +19,9 @@
         <div class="container">
             <div class="row mb-1 mb-lg-3">
                 <div class="col">
+					<span class="badge bg-primary rounded-pill mb-2">
+						<?php foreach ($categories as $category): echo esc_html($category->name); endforeach; ?>
+					</span>
 					<h1 class="titulo">
                         <span class="fs-4"><?php the_title(); ?></span>
                     </h1>
