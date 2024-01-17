@@ -36,8 +36,10 @@
 
                     if ($related_query->have_posts()) :
                         while ($related_query->have_posts()) : $related_query->the_post();
+                            $categories = get_the_category();
                             $excerpt = get_the_excerpt();
                             $words = explode(' ', $excerpt);
+
                             
                             if (count($words) > 30) {
                                 $words = array_slice($words, 0, 30);
@@ -54,6 +56,9 @@
                                         </a>
                                         <div class="row">
                                             <div class="col-10 my-auto">
+                                                <span class="badge bg-primary rounded-pill">
+                                                    <?php foreach ($categories as $category): echo esc_url(get_category_link($category->name)); endforeach; ?>
+                                                </span>
                                                 <a href="<?php the_permalink(); ?>">
                                                     <h2><?php the_title(); ?></h2>
                                                 </a>
