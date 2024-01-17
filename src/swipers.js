@@ -130,7 +130,36 @@ const swiperRelacionados = new Swiper('.swiper-relacionados', {
     1200: {
         slidesPerView: 3,
     },
-},
+  },
+
+  // Navigation arrows
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+  },
+});
+
+const swiperCarrusel = new Swiper('.swiper-carrusel', {
+  // configure Swiper to use modules
+  modules: [Navigation],
+
+  // Optional parameters
+  spaceBetween: 30,
+  slidesPerView: 1,
+  breakpoints: {
+    576: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    992: {
+      slidesPerView: 3,
+    },
+    1200: {
+        slidesPerView: 3,
+    },
+  },
 
   // Navigation arrows
   navigation: {

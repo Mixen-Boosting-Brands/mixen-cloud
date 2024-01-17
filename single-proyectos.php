@@ -80,6 +80,93 @@
         </div>
     </section>
 
+    <section id="carrusel" class="common-light py-60">
+        <div class="container">
+            <div class="row">
+                <div class="col overflow-hidden">
+                    <!-- Slider main container -->
+                    <div class="swiper-carrusel">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                    <?php if( have_rows('carrusel_de_imagenes') ): while( have_rows('carrusel_de_imagenes') ): the_row(); ?>
+                        <?php if( get_sub_field('imagen_1') ): ?>
+                            <!-- Inicio Slide -->
+                            <div class="swiper-slide">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="<?php the_sub_field('imagen_1'); ?>" alt="" class="img-fluid" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Fin Slide -->
+                        <?php endif; ?>
+                        <?php if( get_sub_field('imagen_2') ): ?>
+                            <!-- Inicio Slide -->
+                            <div class="swiper-slide">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="<?php the_sub_field('imagen_2'); ?>" alt="" class="img-fluid" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Fin Slide -->
+                        <?php endif; ?>
+                        <?php if( get_sub_field('imagen_3') ): ?>
+                            <!-- Inicio Slide -->
+                            <div class="swiper-slide">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="<?php the_sub_field('imagen_3'); ?>" alt="" class="img-fluid" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Fin Slide -->
+                        <?php endif; ?>
+                        <?php if( get_sub_field('imagen_4') ): ?>
+                            <!-- Inicio Slide -->
+                            <div class="swiper-slide">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="<?php the_sub_field('imagen_4'); ?>" alt="" class="img-fluid" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Fin Slide -->
+                        <?php endif; ?>
+                        <?php if( get_sub_field('imagen_5') ): ?>
+                            <!-- Inicio Slide -->
+                            <div class="swiper-slide">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="<?php the_sub_field('imagen_5'); ?>" alt="" class="img-fluid" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Fin Slide -->
+                        <?php endif; ?>
+                        <?php if( get_sub_field('imagen_6') ): ?>
+                            <!-- Inicio Slide -->
+                            <div class="swiper-slide">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="<?php the_sub_field('imagen_6'); ?>" alt="" class="img-fluid" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Fin Slide -->
+                        <?php endif; ?>
+                    <?php endwhile; endif; ?>
+                        </div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="como-lo-logramos" class="py-60">
         <div class="container">
             <div class="row text-center">
