@@ -12,7 +12,7 @@
 		<div id="overlay"></div>
 	</section>
 
-    <section id="body" class="py-60">
+    <section id="body" class="py-60 pb-30">
         <div class="container">
             <div class="row mb-1 mb-lg-3">
                 <div class="col">
@@ -81,7 +81,7 @@
     </section>
 
 <?php if( have_rows('carrusel_de_imagenes') ): while( have_rows('carrusel_de_imagenes') ): the_row(); ?>
-    <section id="carrusel" class="common-light py-60">
+    <section id="carrusel" class="common-light pb-30">
         <div class="container">
             <div class="row">
                 <div class="col overflow-hidden">
