@@ -57,7 +57,7 @@
                                         <div class="row">
                                             <div class="col-10 my-auto">
                                                 <span class="badge bg-primary rounded-pill">
-                                                    <?php foreach ($categories as $category): echo esc_url(get_category_link($category->name)); endforeach; ?>
+                                                    <?php foreach ($categories as $category): echo esc_html($category->name); endforeach; ?>
                                                 </span>
                                                 <a href="<?php the_permalink(); ?>">
                                                     <h2><?php the_title(); ?></h2>
