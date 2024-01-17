@@ -68,7 +68,7 @@
 		<?php if( have_rows('nuestros_resultados') ): while( have_rows('nuestros_resultados') ): the_row(); ?>
             <div class="row">
                 <div class="col-lg-5">
-                    <img src="<?php the_sub_field('imagen_nuestros_resultados'); ?>" alt="" class="img-fluid" loading="lazy">
+                    <img src="<?php the_sub_field('imagen_nuestros_resultados'); ?>" alt="" class="img-fluid mb-3 mb-lg-0" loading="lazy">
                 </div>
                 <div class="col-lg-6">
                     <h4>Nuestros resultados</h4>
