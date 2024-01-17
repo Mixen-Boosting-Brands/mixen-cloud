@@ -11,10 +11,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 my-auto">
-                    <h1>
-                        Blog<br>
-                        entries
-                    </h1>
+                    <h1><?php echo get_cat_name(2); ?></h1>
                 </div>
                 <div class="col-lg-6 my-3 my-lg-auto">
                     <div class="row mb-4">
