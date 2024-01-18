@@ -23,6 +23,7 @@
 
                             $proyectosFooterQuery = new WP_Query($args);
                             if ($proyectosFooterQuery->have_posts()): while ($proyectosFooterQuery->have_posts()) : $proyectosFooterQuery->the_post();
+                                if( get_field('thumbnail_del_carrusel_proyectos_destacados') ):
                         ?>
                             <!-- Inicio Slide -->
                             <div class="swiper-slide">
@@ -30,14 +31,14 @@
                                     <div class="col-12">
                                         <h2><?php the_title(); ?></h2>
                                         <a href="<?php the_permalink(); ?>">
-                                            <?php the_post_thumbnail('home-proyecto', array('class' => 'img-fluid mb-3')); ?>
+                                            <img src="<?php the_field('thumbnail_del_carrusel_proyectos_destacados'); ?>" alt="" class="img-fluid mb-3" loading="lazy">
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <!-- /Fin Slide -->
                         <?php 
-                            endwhile; endif;
+                            endif; endwhile; endif;
                             wp_reset_postdata();
                         ?>
                         </div>

@@ -33,6 +33,13 @@
                 </div>
             </div>
 		<?php endif; ?>
+        <?php if( get_field('imagen') ): ?>
+            <div class="row mb-5">
+                <div class="col">
+                    <img src="<?php the_field('imagen'); ?>" alt="" class="img-fluid" loading="lazy">
+                </div>
+            </div>
+		<?php endif; ?>
             <div class="row mb-4">
 			<?php if( get_field('texto_nuestro_cliente') ): ?>
                 <div class="col-lg-6">
