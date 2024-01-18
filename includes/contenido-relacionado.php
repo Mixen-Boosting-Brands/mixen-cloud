@@ -55,6 +55,7 @@
                     }
 
                     $related_query = new WP_Query($args);
+                    var_dump($related_query->posts);
 
                     if ($related_query->have_posts()) :
                         while ($related_query->have_posts()) : $related_query->the_post();
