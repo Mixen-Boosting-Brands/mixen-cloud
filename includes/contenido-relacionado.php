@@ -24,21 +24,21 @@
                         $tag_ids[] = $tag->term_id;
                     }
 
-                    if ( !is_singular('proyectos') ) {
+                    if ( is_singular('proyectos') ) {
+                       // Query related posts based on shared tags
+                        $args = array(
+                            'post__not_in' => array(get_the_ID()), // Exclude the current post
+                            'posts_per_page' => 9, // Adjust the number of related posts to display
+                            'ignore_sticky_posts' => 1,
+                            'post_type' => 'proyectos', // Specify the custom post type
+                        );
+                    } else {
                         // Query related posts based on shared tags
                         $args = array(
                             'tag__in' => $tag_ids,
                             'post__not_in' => array(get_the_ID()), // Exclude the current post
                             'posts_per_page' => 9, // Adjust the number of related posts to display
                             'ignore_sticky_posts' => 1,
-                        );
-                    } else {
-                        // Query related posts based on shared tags
-                        $args = array(
-                            'post__not_in' => array(get_the_ID()), // Exclude the current post
-                            'posts_per_page' => 9, // Adjust the number of related posts to display
-                            'ignore_sticky_posts' => 1,
-                            'post_type' => 'proyectos', // Specify the custom post type
                         );
                     }
 
