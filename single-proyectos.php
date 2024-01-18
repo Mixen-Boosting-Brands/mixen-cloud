@@ -252,7 +252,7 @@
         </div>
     </section>
 
-    <?php get_template_part( 'includes/contenido-relacionado' ); ?>
+    <?php get_template_part( 'includes/contenido-relacionado-proyectos' ); ?>
 
 	<?php get_template_part( 'includes/blog' ); ?>
 

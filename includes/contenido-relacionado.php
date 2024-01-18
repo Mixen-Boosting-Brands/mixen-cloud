@@ -24,38 +24,15 @@
                         $tag_ids[] = $tag->term_id;
                     }
 
-                    if ( is_singular('proyectos') ) {
-                        // Query related posts based on shared taxonomy (e.g., "post_tag")
-                        $args = array(
-                            'post__not_in' => array(get_the_ID()), // Exclude the current post
-                            'posts_per_page' => 9, // Adjust the number of related posts to display
-                            'ignore_sticky_posts' => 1,
-                            'post_type' => 'proyectos', // Specify the custom post type
-                            'tax_query' => array(
-                                array(
-                                    'taxonomy' => 'post_tag', // Adjust to your shared taxonomy
-                                    'terms' => wp_get_post_terms(get_the_ID(), 'post_tag', array("fields" => "ids")), // Get terms of the current post
-                                ),
-                            ),
-                        );
-                    } else {
-                        // Query related posts based on shared taxonomy (e.g., "post_tag")
-                        $args = array(
-                            'tax_query' => array(
-                                array(
-                                    'taxonomy' => 'post_tag', // Adjust to your shared taxonomy
-                                    'field' => 'id',
-                                    'terms' => $tag_ids,
-                                ),
-                            ),
-                            'post__not_in' => array(get_the_ID()), // Exclude the current post
-                            'posts_per_page' => 9, // Adjust the number of related posts to display
-                            'ignore_sticky_posts' => 1,
-                        );
-                    }
+                    // Query related posts based on shared tags
+                    $args = array(
+                        'tag__in' => $tag_ids,
+                        'post__not_in' => array(get_the_ID()), // Exclude the current post
+                        'posts_per_page' => 9, // Adjust the number of related posts to display
+                        'ignore_sticky_posts' => 1,
+                    );
 
                     $related_query = new WP_Query($args);
-                    var_dump($related_query->posts);
 
                     if ($related_query->have_posts()) :
                         while ($related_query->have_posts()) : $related_query->the_post();
