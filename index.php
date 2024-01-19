@@ -133,7 +133,7 @@
                             <h4 class="card-title">
                                 <i class="fa-solid fa-earth-americas"></i> Presencia
                             </h4>
-                            <p class="card-text">En un mundo digital, es escencial para tu empresa tener una sólida presencia en línea a través de</p>
+                            <p class="card-text">En un mundo digital, es escencial para tu empresa tener una sólida presencia en línea a través de sitios web, redes sociales y aplicaciones móviles.</p>
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
                             <h4 class="card-title">
                                 <i class="fa-solid fa-square-up-right"></i> Relevancia
                             </h4>
-                            <p class="card-text">Adaptarse a las tendencias del mercado y las necesidades de los clientes para mantener su</p>
+                            <p class="card-text">Adaptarse a las tendencias del mercado y las necesidades de los clientes para mantener su fidelidad.</p>
                         </div>
                     </div>
                 </div>
