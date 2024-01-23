@@ -156,13 +156,13 @@ const swiperCarrusel = new Swiper('.swiper-carrusel', {
       slidesPerView: 1,
     },
     768: {
-      slidesPerView: 2,
+      slidesPerView: 3,
     },
     992: {
-      slidesPerView: 2,
+      slidesPerView: 3,
     },
     1200: {
-        slidesPerView: 2,
+        slidesPerView: 3,
     },
   },
 
