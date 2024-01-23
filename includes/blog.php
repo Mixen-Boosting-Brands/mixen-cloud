@@ -15,13 +15,13 @@
                 </div>
                 <div class="col-lg-6 my-3 my-lg-auto">
                     <div class="row mb-4">
-                        <div class="col-12">
+                        <div class="col-12 text-end">
                             <a href="<?php echo get_category_link(2); ?>" class="btn btn-outline-secondary rounded-pill">
                                 <i class="fa-solid fa-blog"></i> Ver todos las entradas
                             </a>
                         </div>
                     </div>
-                    <div class="row">
+                    <!-- div class="row">
                         <div class="col-12">
                             <p class="text-small text-muted mb-0">Buscar por:</p>
                             <nav>
@@ -39,7 +39,7 @@
                                 </div>
                             </nav>
                         </div>
-                    </div>
+                    </div -->
                 </div>
             </div>
             <div class="row">

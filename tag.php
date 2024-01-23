@@ -5,7 +5,6 @@
             <div class="row">
                 <div class="col-12 my-auto">
                     <h1>
-                        Estás en<br>
                         <?php single_cat_title(); ?>
                     </h1>
                 </div>
