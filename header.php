@@ -53,6 +53,9 @@
                     <li>
                         <a id="btn-nav-7" href="<?php echo get_category_link(2); ?>"><?php echo get_cat_name(2); ?></a>
                     </li>
+                    <li>
+                        <a id="btn-nav-8" href="<?php echo get_category_link(28); ?>"><i class="fa-solid fa-headset"></i> <?php echo get_cat_name(28); ?></a>
+                    </li>
                 </ul>
             </nav>
             <a href="https://wa.me/5216145154943?text=Hola%20Mixen,%20necesito%20información." class="btn btn-outline-primary rounded-pill" id="btn-contacto" target="_blank">
