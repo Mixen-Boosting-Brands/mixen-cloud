@@ -5,10 +5,10 @@
 	$post_thumbnail_id = get_post_thumbnail_id();
 
 	// Get the raw URL of the post thumbnail
-	$post_thumbnail_url = wp_get_attachment_image_src($post_thumbnail_id, 'full');
+	$post_thumbnail_url = wp_get_attachment_url($post_thumbnail_id);
 ?>
 
-	<section id="jumbotron" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo $post_thumbnail_url[0]; ?>">
+	<section id="jumbotron" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo $post_thumbnail_url; ?>">
 		<div id="overlay"></div>
 	</section>
 
