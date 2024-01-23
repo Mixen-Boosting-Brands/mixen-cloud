@@ -84,10 +84,15 @@ const swiperSolucionesBottom = new Swiper('.swiper-soluciones-bottom', {
 const swiperResultados = new Swiper('.swiper-resultados', {
   // configure Swiper to use modules
   modules: [Navigation],
+  modules: [Autoplay],
 
   // Optional parameters
   spaceBetween: 30,
   slidesPerView: 1,
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
   breakpoints: {
     576: {
       slidesPerView: 1,
