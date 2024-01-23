@@ -17,7 +17,7 @@
                     <div class="row mb-4">
                         <div class="col-12 text-end">
                             <a href="<?php echo get_category_link(2); ?>" class="btn btn-outline-secondary rounded-pill">
-                                <i class="fa-solid fa-blog"></i> Ver todos las entradas
+                                <i class="fa-solid fa-blog"></i> <span class="d-lg-none">Más entradas</span><span class="d-none d-lg-block">Ver todos las entradas</span>
                             </a>
                         </div>
                     </div>
