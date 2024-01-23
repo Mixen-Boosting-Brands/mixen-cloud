@@ -54,7 +54,7 @@
                         <a id="btn-nav-7" href="<?php echo get_category_link(2); ?>"><?php echo get_cat_name(2); ?></a>
                     </li>
                     <li>
-                        <a id="btn-nav-8" href="<?php echo get_category_link(28); ?>"><i class="fa-solid fa-headset"></i> <?php echo get_the_title(28); ?></a>
+                        <a id="btn-nav-8" href="<?php echo get_permalink(28); ?>"><i class="fa-solid fa-headset"></i> <?php echo get_the_title(28); ?></a>
                     </li>
                 </ul>
             </nav>
