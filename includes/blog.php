@@ -10,10 +10,10 @@
     <section id="blog" class="common-dark py-60">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 my-auto">
+                <div class="col-6 my-auto">
                     <h1><?php echo get_cat_name(2); ?></h1>
                 </div>
-                <div class="col-lg-6 my-3 my-lg-auto">
+                <div class="col-6 my-3 my-lg-auto">
                     <div class="row mb-4">
                         <div class="col-12 text-end">
                             <a href="<?php echo get_category_link(2); ?>" class="btn btn-outline-secondary rounded-pill">
