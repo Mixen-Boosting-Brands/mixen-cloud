@@ -38,7 +38,7 @@
 							$published_time = get_the_time('g:i a');
 
 							// Output the post data
-							echo 'Publicado por ' . $author_name . ' el ' . $post_date . ' a la(s) ' . $published_time;
+							echo 'Por ' . $author_name . ' el ' . $post_date . ' a la(s) ' . $published_time;
 						?>
 						</small>
                     </p>
