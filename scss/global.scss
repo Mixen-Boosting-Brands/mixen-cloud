@@ -355,14 +355,6 @@ header {
     color: $white;
     padding: 60px 0;
 
-    h1 {
-        @include font-size(6rem);
-
-        span {
-            @include font-size(2rem);
-        }
-    }
-
     .btn-outline-secondary {
         --bs-btn-padding-y: .25rem;
         --bs-btn-padding-x: 1rem;
