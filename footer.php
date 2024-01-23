@@ -159,7 +159,7 @@
                                         </a>
                                     </li>
                                     <li class="mb-1 mb-lg-3">
-                                        <a href="<?php echo get_permalink(28); ?>">
+                                        <a class="badge rounded-pill" href="<?php echo get_permalink(28); ?>">
                                             <i class="fa-solid fa-headset"></i> ¿Necesitas soporte?
                                         </a>
                                     </li>
