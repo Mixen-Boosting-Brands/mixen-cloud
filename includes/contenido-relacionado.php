@@ -40,7 +40,6 @@
                             $excerpt = get_the_excerpt();
                             $words = explode(' ', $excerpt);
 
-                            
                             if (count($words) > 30) {
                                 $words = array_slice($words, 0, 30);
                                 $excerpt = implode(' ', $words) . '...';
@@ -52,7 +51,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <a href="<?php the_permalink(); ?>">
-                                            <?php the_post_thumbnail('relacionados', array('class' => 'img-fluid mb-3')); ?>
+                                            <img src="<?php the_field('thumbnail_del_carrusel_proyectos_destacados'); ?>" alt="" class="img-fluid">
                                         </a>
                                         <div class="row">
                                             <div class="col-10 my-auto">
