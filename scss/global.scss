@@ -562,4 +562,11 @@ footer {
             color: $primary;
         }
     }
+
+    .bg-primary {
+        &:hover,
+        &:focus {
+            color: $white;
+        }
+    }
 }
