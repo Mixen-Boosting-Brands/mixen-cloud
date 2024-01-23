@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <section id="jumbotron" style="background: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bg-404.png');">
+    <section id="jumbotron" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bg-404.png">
 		<div id="overlay"></div>
 	</section>
 

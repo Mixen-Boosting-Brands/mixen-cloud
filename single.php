@@ -5,13 +5,13 @@
 	$post_thumbnail_id = get_post_thumbnail_id();
 
 	// Get the raw URL of the post thumbnail
-	$post_thumbnail_url = wp_get_attachment_image_src($post_thumbnail_id, 'large');
+	$post_thumbnail_url = wp_get_attachment_image_src($post_thumbnail_id, 'full');
 
 	// Get the post categories
 	$categories = get_the_category();
 ?>
 
-	<section id="jumbotron" style="background: url('<?php the_post_thumbnail('full'); ?>');">
+	<section id="jumbotron" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo $post_thumbnail_url[0]; ?>">
 		<div id="overlay"></div>
 	</section>
 
