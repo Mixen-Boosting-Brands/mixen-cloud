@@ -130,7 +130,7 @@
                 <div class="col-lg-10 offset-lg-1">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="card text-bg-primary mb-1 mb-lg-3">
+                            <div class="card text-bg-primary mb-3">
                                 <div class="card-body">
                                     <h4 class="card-title">
                                         <i class="fa-solid fa-earth-americas"></i> Presencia
@@ -140,7 +140,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="card text-bg-primary mb-1 mb-lg-3">
+                            <div class="card text-bg-primary mb-3">
                                 <div class="card-body">
                                     <h4 class="card-title">
                                         <i class="fa-solid fa-square-up-right"></i> Relevancia
@@ -150,7 +150,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="card text-bg-primary mb-1 mb-lg-3">
+                            <div class="card text-bg-primary mb-3">
                                 <div class="card-body">
                                     <h4 class="card-title">
                                         <i class="fa-solid fa-lightbulb"></i> Inteligencia
@@ -160,7 +160,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="card text-bg-primary mb-1 mb-lg-3">
+                            <div class="card text-bg-primary mb-3">
                                 <div class="card-body">
                                     <h4 class="card-title">
                                         <i class="fa-solid fa-location-dot"></i> Posicionamiento
