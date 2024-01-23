@@ -182,22 +182,10 @@
                         <div class="swiper-wrapper no-swiping">
                             <!-- Slides -->
                             <div class="swiper-slide">
-                                Customer Experience
+                                Branding
                             </div>
                             <div class="swiper-slide">
-                                Content Management
-                            </div>
-                            <div class="swiper-slide">
-                                Lightning Schedule
-                            </div>
-                            <div class="swiper-slide">
-                                SEO/SEM
-                            </div>
-                            <div class="swiper-slide">
-                                Automation
-                            </div>
-                            <div class="swiper-slide">
-                                Mixen Cloud
+                                Web
                             </div>
                             <div class="swiper-slide">
                                 e-Commerce
@@ -206,25 +194,25 @@
                                 Social Media
                             </div>
                             <div class="swiper-slide">
-                                App Development
+                                Development
                             </div>
                             <div class="swiper-slide">
-                                Customer Experience
+                                CX
                             </div>
                             <div class="swiper-slide">
-                                Content Management
-                            </div>
-                            <div class="swiper-slide">
-                                Lightning Schedule
+                                Contenido
                             </div>
                             <div class="swiper-slide">
                                 SEO/SEM
                             </div>
                             <div class="swiper-slide">
-                                Automation
+                                Automatización
                             </div>
                             <div class="swiper-slide">
-                                Mixen Cloud
+                                Branding
+                            </div>
+                            <div class="swiper-slide">
+                                Web
                             </div>
                             <div class="swiper-slide">
                                 e-Commerce
@@ -233,25 +221,25 @@
                                 Social Media
                             </div>
                             <div class="swiper-slide">
-                                App Development
+                                Development
                             </div>
                             <div class="swiper-slide">
-                                Customer Experience
+                                CX
                             </div>
                             <div class="swiper-slide">
-                                Content Management
-                            </div>
-                            <div class="swiper-slide">
-                                Lightning Schedule
+                                Contenido
                             </div>
                             <div class="swiper-slide">
                                 SEO/SEM
                             </div>
                             <div class="swiper-slide">
-                                Automation
+                                Automatización
                             </div>
                             <div class="swiper-slide">
-                                Mixen Cloud
+                                Branding
+                            </div>
+                            <div class="swiper-slide">
+                                Web
                             </div>
                             <div class="swiper-slide">
                                 e-Commerce
@@ -260,34 +248,19 @@
                                 Social Media
                             </div>
                             <div class="swiper-slide">
-                                App Development
+                                Development
                             </div>
                             <div class="swiper-slide">
-                                Customer Experience
+                                CX
                             </div>
                             <div class="swiper-slide">
-                                Content Management
-                            </div>
-                            <div class="swiper-slide">
-                                Lightning Schedule
+                                Contenido
                             </div>
                             <div class="swiper-slide">
                                 SEO/SEM
                             </div>
                             <div class="swiper-slide">
-                                Automation
-                            </div>
-                            <div class="swiper-slide">
-                                Mixen Cloud
-                            </div>
-                            <div class="swiper-slide">
-                                e-Commerce
-                            </div>
-                            <div class="swiper-slide">
-                                Social Media
-                            </div>
-                            <div class="swiper-slide">
-                                App Development
+                                Automatización
                             </div>
                         </div>
                     </div>
