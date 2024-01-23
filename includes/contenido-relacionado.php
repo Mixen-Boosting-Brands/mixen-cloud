@@ -51,7 +51,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <a href="<?php the_permalink(); ?>">
-                                            <img src="<?php the_field('thumbnail_del_carrusel_proyectos_destacados'); ?>" alt="" class="img-fluid">
+                                            <?php the_post_thumbnail('relacionados', array('class' => 'img-fluid mb-3')); ?>
                                         </a>
                                         <div class="row">
                                             <div class="col-10 my-auto">
