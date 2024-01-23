@@ -53,7 +53,6 @@
         }
     
         .thumb-1 {
-            @include background('../images/jumbotron/thumb-1.png', center, cover);
             height: 458px;
         }
 
