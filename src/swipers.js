@@ -90,8 +90,8 @@ const swiperResultados = new Swiper('.swiper-resultados', {
   spaceBetween: 30,
   slidesPerView: 1,
   autoplay: {
-    delay: 2000,
-    disableOnInteraction: false,
+    delay: 5000,
+    disableOnInteraction: true,
   },
   breakpoints: {
     576: {
