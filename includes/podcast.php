@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-6 my-auto text-end">
                     <a href="<?php echo get_category_link(45); ?>" class="btn btn-outline-primary rounded-pill">
-                        <i class="fa-solid fa-headphones-simple"></i> <span class="d-lg-none">Más episodios</span><span class="d-none d-lg-block">Escuchar más episodios</span>
+                        <i class="fa-solid fa-headphones-simple"></i> <span class="d-lg-none">Más episodios</span><span class="d-none d-lg-inline-block">Escuchar más episodios</span>
                     </a>
                 </div>
             </div>
