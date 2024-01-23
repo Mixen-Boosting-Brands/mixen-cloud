@@ -127,33 +127,47 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="card text-bg-primary mb-1 mb-lg-3">
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <i class="fa-solid fa-earth-americas"></i> Presencia
-                            </h4>
-                            <p class="card-text">En un mundo digital, es escencial para tu empresa tener una sólida presencia en línea a través de sitios web, redes sociales y aplicaciones móviles.</p>
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card text-bg-primary mb-1 mb-lg-3">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <i class="fa-solid fa-earth-americas"></i> Presencia
+                                    </h4>
+                                    <p class="card-text">En un mundo digital, es escencial para tu empresa tener una sólida presencia en línea a través de sitios web, redes sociales y aplicaciones móviles.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card text-bg-primary mb-1 mb-lg-3">
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <i class="fa-solid fa-square-up-right"></i> Relevancia
-                            </h4>
-                            <p class="card-text">Adaptarse a las tendencias del mercado y las necesidades de los clientes para mantener su fidelidad.</p>
+                        <div class="col-lg-6">
+                            <div class="card text-bg-primary mb-1 mb-lg-3">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <i class="fa-solid fa-square-up-right"></i> Relevancia
+                                    </h4>
+                                    <p class="card-text">Adaptarse a las tendencias del mercado y las necesidades de los clientes para mantener su fidelidad.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card text-bg-primary mb-1 mb-lg-3">
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <i class="fa-solid fa-lightbulb"></i> Inteligencia
-                            </h4>
-                            <p class="card-text">La inteligencia implica tomar decisiones basadas en datos, analizarlos y y utilizar tecnologías avanzadas para una mejor toma de decisiones.</p>
+                        <div class="col-lg-6">
+                            <div class="card text-bg-primary mb-1 mb-lg-3">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <i class="fa-solid fa-lightbulb"></i> Inteligencia
+                                    </h4>
+                                    <p class="card-text">La inteligencia implica tomar decisiones basadas en datos, analizarlos y y utilizar tecnologías avanzadas para una mejor toma de decisiones.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card text-bg-primary mb-1 mb-lg-3">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <i class="fa-solid fa-location-dot"></i> Posicionamiento
+                                    </h4>
+                                    <p class="card-text">La inteligencia implica tomar decisiones basadas en datos, analizarlos y y utilizar tecnologías avanzadas para una mejor toma de decisiones.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
