@@ -352,7 +352,8 @@
             <div class="row">
                 <div class="col-lg-8 mb-1 mb-lg-3 my-lg-auto">
                     <h1>
-                        <span>Almacenamiento inteligente</span><br>
+                        <span>Almacenamiento inteligente</span>
+                        <br class="d-none d-lg-block">
                         Mixen Cloud
                     </h1>
                 </div>
