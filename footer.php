@@ -24,6 +24,11 @@
                                            Inteligencia
                                         </a>
                                     </li>
+                                    <li class="mb-5">
+                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#soluciones">
+                                           Posicionamiento
+                                        </a>
+                                    </li>
                                     <li>
                                         ¿Cómo lo logramos?
                                     </li>
