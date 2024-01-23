@@ -11,7 +11,7 @@
 	$categories = get_the_category();
 ?>
 
-	<section id="jumbotron" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo $post_thumbnail_url[0]; ?>">
+	<section id="jumbotron" style="background: url('<?php the_post_thumbnail('full'); ?>');">
 		<div id="overlay"></div>
 	</section>
 
