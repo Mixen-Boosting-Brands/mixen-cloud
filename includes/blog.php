@@ -51,6 +51,7 @@
                                 $args = array(
                                     'category_name' => 'blog', // Specify the category slug here
                                     'posts_per_page' => 2,    // Use -1 to fetch all posts from the category
+                                    'orderby' => 'rand',
                                 );
 
                                 $query = new WP_Query($args);
