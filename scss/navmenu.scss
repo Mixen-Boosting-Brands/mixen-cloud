@@ -44,11 +44,15 @@
         }
 
         nav,
-        #btn-contacto,
         #social,
         #contacto-menu {
             width: 100%;
             float: left;
+            display: block;
+        }
+
+        #btn-contacto {
+            width: 100%;
             display: block;
         }
 
