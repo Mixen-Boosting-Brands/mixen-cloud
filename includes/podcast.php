@@ -59,7 +59,7 @@
                                             <h2 class="mt-3"><?php the_title(); ?></h2>
                                         </a>
                                         <h3>
-                                            Capítulo #<?php echo $formatted_counter; ?>
+                                            <!-- Capítulo #<?php echo $formatted_counter; ?> -->
                                             <span class="date badge bg-primary rounded-pill">
                                                 <time datetime="<?php the_time('Y-m-d'); ?> <?php the_time('H:i'); ?>">
                                                     <?php echo get_the_date('M j, Y'); ?>
