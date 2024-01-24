@@ -42,6 +42,12 @@
     .menu {
         width: 40%;
         border-left: 1px solid $primary;
+
+        .menu-contenido {
+            #btn-contacto {
+                width: 55%;
+            }
+        }
     }
 
     #jumbotron {
