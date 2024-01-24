@@ -187,6 +187,20 @@
         <i class="fab fa-whatsapp whatsapp-icon"></i>
     </a -->
 
+    <!-- Modales -->
+    <div class="modal fade" id="modalFolioINE" tabindex="-1" aria-labelledby="modalFolioINELabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="<?php echo esc_url( home_url() ); ?>/wp-content/uploads/2024/01/folio-ine.png" alt="" class="img-fluid" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/app.bundle.js"></script>
 </body>
 </html>
