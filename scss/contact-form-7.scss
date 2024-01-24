@@ -21,6 +21,10 @@
     margin: 0 0 28px;
 }
 
+.wpcf7-form h2 {
+    @include font-size(1.2rem);
+}
+
 .wpcf7-text:focus, 
 .wpcf7-textarea:focus {
     outline: 1px solid rgba(84, 222, 197, 0.9);
