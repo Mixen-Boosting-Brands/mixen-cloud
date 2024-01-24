@@ -27,7 +27,7 @@
             <i class="fas fa-times"></i>
         </a>
         <div class="menu-contenido">
-            <a class="anchor" id="btn-logo" href="<?php echo esc_url( home_url() ); ?>">
+            <a class="anchor" id="btn-logo" href="#">
                 <img class="logo img-fluid" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo.svg" alt="Mixen: Boosting Brands">
             </a>
             <nav>
