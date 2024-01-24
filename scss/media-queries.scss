@@ -44,7 +44,7 @@
         border-left: 1px solid $primary;
 
         .menu-contenido {
-            width: 50%;
+            width: 90%;
         }
     }
 
@@ -114,6 +114,12 @@
 
 // X-Large devices (large desktops, 1200px and up)
 @include media-breakpoint-up(xl) {
+    .menu {
+        .menu-contenido {
+            width: 78%;
+        }
+    }
+
     .common-dark {
         h1 {
             &::after {
@@ -133,5 +139,9 @@
 
 // XX-Large devices (larger desktops, 1400px and up)
 @include media-breakpoint-up(xxl) {
-
+    .menu {
+        .menu-contenido {
+            width: 62%;
+        }
+    }
 }
