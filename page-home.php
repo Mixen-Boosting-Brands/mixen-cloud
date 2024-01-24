@@ -167,7 +167,7 @@
                                     <h4 class="card-title">
                                         <i class="fa-solid fa-lightbulb"></i> Inteligencia
                                     </h4>
-                                    <p class="card-text">La inteligencia implica tomar decisiones basadas en datos, analizarlos y y utilizar tecnologías avanzadas para una mejor toma de decisiones.</p>
+                                    <p class="card-text">La inteligencia implica tomar decisiones basadas en datos, analizarlos y utilizar tecnologías avanzadas para una mejor toma de decisiones.</p>
                                 </div>
                             </div>
                         </div>
@@ -177,7 +177,7 @@
                                     <h4 class="card-title">
                                         <i class="fa-solid fa-location-dot"></i> Posicionamiento
                                     </h4>
-                                    <p class="card-text">La inteligencia implica tomar decisiones basadas en datos, analizarlos y y utilizar tecnologías avanzadas para una mejor toma de decisiones.</p>
+                                    <p class="card-text">Se obtiene y destaca al adaptarse a las percepciones del mercado y las expectativas del cliente. La coherencia en la comunicación y la conexión emocional son fundamentales para consolidar una imagen de marca perdurable.</p>
                                 </div>
                             </div>
                         </div>
