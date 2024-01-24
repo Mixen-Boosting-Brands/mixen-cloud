@@ -30,7 +30,8 @@
                         <?php
                             $args = array(
                                 'category_name' => 'podcast', // Specify the category slug here
-                                'posts_per_page' => 8,    // Use -1 to fetch all posts from the category
+                                'posts_per_page' => 1,    // Use -1 to fetch all posts from the category
+                                'orderby' => 'rand',
                             );
 
                             $query = new WP_Query($args);
