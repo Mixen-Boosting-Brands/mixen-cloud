@@ -374,6 +374,8 @@
         </div>
     </section>
 
+    <!-- Aquí van alianzas -->
+
     <?php get_template_part( 'includes/portafolio' ); ?>
 
     <section id="clientes" class="common-light py-60">
