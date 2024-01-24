@@ -28,7 +28,7 @@
                     $args = array(
                         'tag__in' => $tag_ids,
                         'post__not_in' => array(get_the_ID()), // Exclude the current post
-                        'posts_per_page' => 9, // Adjust the number of related posts to display
+                        'posts_per_page' => -1, // Adjust the number of related posts to display
                         'ignore_sticky_posts' => 1,
                     );
 
