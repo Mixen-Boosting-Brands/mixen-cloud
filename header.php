@@ -20,14 +20,14 @@
 
     <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/styles.css">
 </head>
-<body <?php if( !is_page(5) ): ?>class="is-single"<?php endif; ?>>
+<body <?php if( !is_page(5) ): ?>class="is-single"<?php endif; ?> id="top">
     <div id="backdrop"></div>
     <div class="menu">
         <a id="cerrar-menu" href="javascript:void(0)">
             <i class="fas fa-times"></i>
         </a>
         <div class="menu-contenido">
-            <a class="anchor" id="btn-logo" href="#">
+            <a class="anchor" id="btn-logo" href="#top">
                 <img class="logo img-fluid" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo.svg" alt="Mixen: Boosting Brands">
             </a>
             <nav>
