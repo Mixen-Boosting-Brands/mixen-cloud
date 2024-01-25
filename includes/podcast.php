@@ -10,7 +10,7 @@
     <section id="podcast" class="common-light py-60">
         <div class="container">
             <div class="row">
-                <div class="col-6 my-auto">
+                <div class="col-6 col-lg-8 my-auto">
                     <h1 class="mb-0">
                         <?php echo get_cat_name(45); ?>:
                         <small class="d-block">
@@ -18,7 +18,7 @@
                         </small>
                     </h1>
                 </div>
-                <div class="col-6 my-auto text-end">
+                <div class="col-6 col-lg-4 my-auto text-end">
                     <a href="<?php echo get_category_link(45); ?>" class="btn btn-outline-primary rounded-pill">
                         <i class="fa-solid fa-headphones-simple"></i> <span class="d-lg-none">Más episodios</span><span class="d-none d-lg-inline-block">Escuchar más episodios</span>
                     </a>
