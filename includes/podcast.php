@@ -13,7 +13,7 @@
                 <div class="col-6 my-auto">
                     <h1 class="mb-0">
                         <?php echo get_cat_name(45); ?>:
-                        <small>
+                        <small class="d-block">
                             Aprobado Sin Cambios
                         </small>
                     </h1>
