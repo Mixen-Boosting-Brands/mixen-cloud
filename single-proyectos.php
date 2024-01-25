@@ -174,7 +174,7 @@
     </section>
 <?php endwhile; endif; ?>
 
-    <section id="como-lo-logramos" class="py-60">
+    <!-- section id="como-lo-logramos" class="py-60">
         <div class="container">
             <div class="row text-center">
                 <div class="col">
@@ -250,7 +250,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section -->
 
     <?php get_template_part( 'includes/contenido-relacionado-proyectos' ); ?>
 
