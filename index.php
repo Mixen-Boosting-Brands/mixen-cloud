@@ -422,7 +422,7 @@
 
     <?php get_template_part( 'includes/portafolio' ); ?>
 
-    <section id="clientes" class="common-light py-60">
+    <section id="clientes" class="common-light pt-60 pb-30">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -442,73 +442,118 @@
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Abitat.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Alsuper.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Allstar.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/American-Industries.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Bafar.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/BCC.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Brunswick.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Burger.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Burger-King.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Canadevi.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Cedehm.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/CEDEHM.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Century.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Century-21.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Coparmex.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Codetec.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Ctu.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Compecer.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Copamex.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/CTU.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Demsa.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Dynamo.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Escala-del-Norte.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Farmacias-Guadalajara.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Fibra-Nova.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Fibras-y-Semillas.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Grupo-Harinas.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Gobierno-de-Estado-de-Chihuahua.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Gobierno-de-Estado-de-Queretaro.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Grupo-Bafar.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Grupo-GEG.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Grupo-SIEE.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/IMI.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/ISAD.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/ITCH.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/KIA.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/LaSalle.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/La-Nacional.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Pemex.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/La-Salle.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Queretaro.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Mercedes-Benz.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Municipio-Chihuahua.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Real.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Seguros-MTY.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Rigba.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Sulawe.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/RUBA.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Tec-de-MTY.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Secretaria-de-Educacion.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Tec-Milenio.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Tec-MTY.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Thomson-Reuters.webp" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Trimlight.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/UACH.webp" alt="" class="img-fluid" loading="lazy">
@@ -517,7 +562,7 @@
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Unilever.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Walmart.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Vitalhealth.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                         </div>
                     </div>
