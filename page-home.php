@@ -391,19 +391,19 @@
             </div>
             <div class="row">
                 <div class="col-lg-2 offset-lg-1 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/adobe.webp" alt="" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/adobe.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
                 <div class="col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/canaco.webp" alt="" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/canaco.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
                 <div class="col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/heineken.webp" alt="" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/heineken.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
                 <div class="col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/hubspot.webp" alt="" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/hubspot.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
                 <div class="col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/inc-mty.webp" alt="" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/inc-mty.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
             </div>
         </div>
