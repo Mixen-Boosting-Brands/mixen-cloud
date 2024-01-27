@@ -36,7 +36,7 @@
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Canadevi.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/CEDEHM.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Cedehm.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Century-21.webp" alt="" class="img-fluid" loading="lazy">
@@ -51,7 +51,7 @@
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Copamex.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/CTU.webp" alt="" class="img-fluid" loading="lazy">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/ctu.webp" alt="" class="img-fluid" loading="lazy">
                             </div>
                             <div class="swiper-slide">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/clientes/Demsa.webp" alt="" class="img-fluid" loading="lazy">
