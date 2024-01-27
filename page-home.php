@@ -380,7 +380,7 @@
         </div>
     </section>
 
-    <section id="alianzas" class="common-light py-30">
+    <section id="alianzas" class="common-light pt-60 pb-30">
         <div class="container">
             <div class="row">
                 <div class="col">
