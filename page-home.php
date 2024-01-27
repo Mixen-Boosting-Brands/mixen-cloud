@@ -405,6 +405,8 @@
                 <div class="col-6 col-lg-2 my-auto">
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/inc-mty.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
+            </div>
+            <div class="row text-center">
                 <div class="col-6 col-lg-2 offset-lg-1 my-auto">
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/nova-orion.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
