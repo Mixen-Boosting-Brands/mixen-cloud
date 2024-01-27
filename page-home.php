@@ -391,42 +391,42 @@
             </div>
             <div class="row text-center">
                 <div class="col-6 col-lg-2 offset-lg-1 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/adobe.webp" alt="" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/adobe.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
                 <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/canaco.webp" alt="" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/canaco.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
                 <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/heineken.webp" alt="" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/heineken.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
                 <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/hubspot.webp" alt="" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/hubspot.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
                 <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/inc-mty.webp" alt="" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/inc-mty.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
                 <div class="col-6 col-lg-2 offset-lg-1 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/nova-orion.webp" alt="" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/nova-orion.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
                 <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/oracle.webp" alt="" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/oracle.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
                 <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/startup-cuu.webp" alt="" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/startup-cuu.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
                 <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/stella-orion.webp" alt="" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/stella-orion.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
                 <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/tec-mty.webp" alt="" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/tec-mty.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
-    
+
     <?php get_template_part( 'includes/portafolio' ); ?>
 
-    <section id="clientes" class="common-light py-60">
+    <section id="clientes" class="common-light pt-60 pb-30">
         <div class="container">
             <div class="row">
                 <div class="col">
