@@ -10,7 +10,7 @@
         </div> 
     </section>
 
-    <section id="paquetes">
+    <section id="paquetes" class="common-dark">
         <div class="container">
             <div class="row">
                 <div class="col text-center">
@@ -18,7 +18,7 @@
                     <div class="card text-center mb-3" style="max-width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">Mixen Cloud</h5>
-                            <ul class="card-text">
+                            <ul class="card-text list-unstyled">
                                 <li>1 dominio (.com / .com.mx / .mx)</li>
                                 <li>5 GB de espacio general</li>
                                 <li>5 cuentas de correo personalizados de 1 GB de capacidad cada cuenta</li>
@@ -27,160 +27,6 @@
                             </ul>
                             $3,750 + IVA / Renovación anual
                             <a href="#" class="btn btn-primary rounded-pill">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="soluciones" class="common-dark py-60">
-        <div class="container mb-5">
-            <div class="row mb-1 mb-lg-3">
-                <div class="col-lg-7">
-                    <h1>
-                        Nuestras<br>
-                        soluciones
-                    </h1>
-                    <p>En Mixen: Boosting Brands te ofrecemos tres soluciones a estas problemáticas tan comunes:</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="card text-bg-primary mb-3">
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        <i class="fa-solid fa-earth-americas"></i> Presencia
-                                    </h4>
-                                    <p class="card-text">En un mundo digital, es escencial para tu empresa tener una sólida presencia en línea a través de sitios web, redes sociales y aplicaciones móviles.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="card text-bg-primary mb-3">
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        <i class="fa-solid fa-square-up-right"></i> Relevancia
-                                    </h4>
-                                    <p class="card-text">Adaptarse a las tendencias del mercado y las necesidades de los clientes para mantener su fidelidad.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="card text-bg-primary mb-3">
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        <i class="fa-solid fa-lightbulb"></i> Inteligencia
-                                    </h4>
-                                    <p class="card-text">La inteligencia implica tomar decisiones basadas en datos, analizarlos y utilizar tecnologías avanzadas para una mejor toma de decisiones.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="card text-bg-primary mb-3">
-                                <div class="card-body">
-                                    <h4 class="card-title">
-                                        <i class="fa-solid fa-location-dot"></i> Posicionamiento
-                                    </h4>
-                                    <p class="card-text">Se obtiene y destaca al adaptarse a las percepciones del mercado y las expectativas del cliente. La coherencia en la comunicación y la conexión emocional son fundamentales para consolidar una imagen de marca perdurable.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid container-fluid-bottom">
-            <div class="row">
-                <div class="col-12 mb-1 mb-lg-3">
-                    <!-- Slider main container -->
-                    <div class="swiper-soluciones-top">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper no-swiping">
-                            <!-- Slides -->
-                            <div class="swiper-slide">
-                                Branding
-                            </div>
-                            <div class="swiper-slide">
-                                Web
-                            </div>
-                            <div class="swiper-slide">
-                                e-Commerce
-                            </div>
-                            <div class="swiper-slide">
-                                Social Media
-                            </div>
-                            <div class="swiper-slide">
-                                Development
-                            </div>
-                            <div class="swiper-slide">
-                                CX
-                            </div>
-                            <div class="swiper-slide">
-                                Contenido
-                            </div>
-                            <div class="swiper-slide">
-                                SEO/SEM
-                            </div>
-                            <div class="swiper-slide">
-                                Automatización
-                            </div>
-                            <div class="swiper-slide">
-                                Branding
-                            </div>
-                            <div class="swiper-slide">
-                                Web
-                            </div>
-                            <div class="swiper-slide">
-                                e-Commerce
-                            </div>
-                            <div class="swiper-slide">
-                                Social Media
-                            </div>
-                            <div class="swiper-slide">
-                                Development
-                            </div>
-                            <div class="swiper-slide">
-                                CX
-                            </div>
-                            <div class="swiper-slide">
-                                Contenido
-                            </div>
-                            <div class="swiper-slide">
-                                SEO/SEM
-                            </div>
-                            <div class="swiper-slide">
-                                Automatización
-                            </div>
-                            <div class="swiper-slide">
-                                Branding
-                            </div>
-                            <div class="swiper-slide">
-                                Web
-                            </div>
-                            <div class="swiper-slide">
-                                e-Commerce
-                            </div>
-                            <div class="swiper-slide">
-                                Social Media
-                            </div>
-                            <div class="swiper-slide">
-                                Development
-                            </div>
-                            <div class="swiper-slide">
-                                CX
-                            </div>
-                            <div class="swiper-slide">
-                                Contenido
-                            </div>
-                            <div class="swiper-slide">
-                                SEO/SEM
-                            </div>
-                            <div class="swiper-slide">
-                                Automatización
-                            </div>
                         </div>
                     </div>
                 </div>
