@@ -99,7 +99,7 @@
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#acordion-faq">
                                 <div class="accordion-body">
-                                    <p>Claro, puedes tener todos los que requieras. Mixen cloud te ofrece 5 correos iniciales, si requieres más, cada cuenta de correo empresarial de 1 GB tiene un costo de $250 MXN + IVA por año. 😉</p>
+                                    <p>Claro, puedes tener todos los que requieras. Mixen Cloud te ofrece 5 correos iniciales, si requieres más, cada cuenta de correo empresarial de 1 GB tiene un costo de $250 MXN + IVA por año. 😉</p>
                                 </div>
                             </div>
                         </div>
@@ -163,73 +163,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="mixen-cloud" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/mixen-cloud/bg.png">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mb-1 mb-lg-3 my-lg-auto">
-                    <h1>
-                        <span>Almacenamiento inteligente</span>
-                        <br>
-                        Mixen Cloud
-                    </h1>
-                </div>
-                <div class="col-lg-4 my-auto">
-                    <!-- a href="https://mixen.cloud/" class="btn btn-outline-secondary rounded-pill mb-3">
-                        ¿Qué es?
-                    </a -->
-                    <p>Plataforma segura, versátil y escalable para tus aplicaciones, web, aplicaciones y datos en la nube. Tenemos la infraestructura tecnológica que necesitas.</p>
-                    <i class="fa-solid fa-cloud"></i>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="alianzas" class="common-light pt-60">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>
-                        Alianzas
-                    </h1>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-6 col-lg-2 offset-lg-1 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/adobe.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/canaco.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/heineken.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/hubspot.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/inc-mty.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-6 col-lg-2 offset-lg-1 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/nova-orion.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/oracle.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/startup-cuu.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/stella-orion.webp" alt="" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-6 col-lg-2 my-auto">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/alianzas/tec-mty.webp" alt="" class="img-fluid" loading="lazy">
                 </div>
             </div>
         </div>
