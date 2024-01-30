@@ -298,6 +298,16 @@ header {
     }
 }
 
+#faq {
+    .accordion-button:focus {
+        box-shadow: none;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: transparent;
+    }
+}
+
 #mixen-cloud {
     color: $white;
     padding: 60px 0;
