@@ -12,7 +12,7 @@
 
     <section id="paquetes" class="common-dark py-60">
         <div class="container">
-            <div class="row mb-3">
+            <div class="row mb-5">
                 <div class="col">
                     <div class="card text-bg-primary text-center" style="max-width: 18rem;">
                         <div class="card-body">
