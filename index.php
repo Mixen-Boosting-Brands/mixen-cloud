@@ -25,7 +25,7 @@
                                 <li>Certificado de seguridad SSL</li>
                                 <li>Cifrado de seguridad y confianza en navegadores</li>
                             </ul>
-                            $3,750 + IVA / Renovación anual
+                            <p>$3,750 + IVA / Renovación anual</p>
                             <a href="#" class="btn btn-primary rounded-pill">Comprar</a>
                         </div>
                     </div>

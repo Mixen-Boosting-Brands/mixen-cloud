@@ -285,7 +285,8 @@ header {
         @include font-size(0.8rem);
         @include transition(ease, 0.3s);
 
-        p {
+        p,
+        ul {
             color: $secondary;
         }
 
