@@ -223,7 +223,9 @@
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-
+                    <h2>Tener redes sociales no es suficiente. Si quieres una presencia formal en Internet, necesitas una página web.</h2>
+                    <h2>¡Aprovecha, nosotros te la regalamos!</h2>
+                    <a href="#" class="btn btn-primary btn-xl rounded-pill "></a>
                 </div>
             </div>
         </div>
