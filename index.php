@@ -10,63 +10,23 @@
         </div> 
     </section>
 
-    <section id="problematicas">
+    <section id="paquetes">
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <h1>
-                        <span class="fs-4">Hemos detectado</span><br>
-                        4 problemáticas<br>
-                        <span class="fs-4">Que posiblemente esté enfrentando tu negocio</span>
-                    </h1>
-                </div>
-            </div>
-            <div class="row cards">
-                <div class="col-lg-6">
-                    <hr>
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-1.png" alt="" class="img-fluid" loading="lazy">
-                        </div>
-                        <div class="col-8">
-                            <h4>Falta de diferenciación</h4>
-                            <p>Tu empresa compite en un mercado saturado con productos y servicios similares. La falta de diferenciación puede llevar a una guerra de precios y a la disminución de márgenes de ganancia. Además, es difícil destacar y atraer a los clientes en medio de la competencia.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <hr>
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-2.png" alt="" class="img-fluid" loading="lazy">
-                        </div>
-                        <div class="col-8">
-                            <h4>Falta de acceso a mercados digitales</h4>
-                            <p>La digitalización y la presencia en línea son cruciales en la actualidad, seguramente tu compañía enfrenta desafíos para adaptarse a la transformación digital. Queremos ayudarte.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <hr>
-                    <div class="row">
-                        <div class="col-4 col-lg-12 mb-1 mb-lg-3">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-3.png" alt="" class="img-fluid" loading="lazy">
-                        </div>
-                        <div class="col-8 col-lg-12">
-                            <h4>Falta de estrategias de marketing efectivas</h4>
-                            <p>Proyectos como el tuyo luchan por desarrollar estrategias de marketing efectivas por limitaciones de presupuesto y experiencia. Esto resulta en dificultades para llegar al prúblico objetivo y lograr resultados positivos, afectando alcances, conciencia y crecimiento.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <hr>
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/problematicas/thumb-4.png" alt="" class="img-fluid" loading="lazy">
-                        </div>
-                        <div class="col-8">
-                            <h4>Dificultad para la innovación y adaptación</h4>
-                            <p>Tu marca podría tener problemas para innovar y adaptarse debido a la falta de recursos y conocimientos. Esto puede llevar a la obsolencia y limitar el crecimiento. Identificar tendencias emergentes es crucial para mantener la competitividad.</p>
+                <div class="card mb-3" style="width: 18rem;">
+                    <div class="card text-center mb-3" style="max-width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Mixen Cloud</h5>
+                            <ul class="card-text">
+                                <li>1 dominio (.com / .com.mx / .mx)</li>
+                                <li>5 GB de espacio general</li>
+                                <li>5 cuentas de correo personalizados de 1 GB de capacidad cada cuenta</li>
+                                <li>Certificado de seguridad SSL</li>
+                                <li>Cifrado de seguridad y confianza en navegadores</li>
+                            </ul>
+                            $3,750 + IVA / Renovación anual
+                            <a href="#" class="btn btn-primary rounded-pill">Comprar</a>
                         </div>
                     </div>
                 </div>
