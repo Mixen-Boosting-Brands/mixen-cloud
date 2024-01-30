@@ -170,7 +170,7 @@
                             </h2>
                             <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#acordion-faq">
                                 <div class="accordion-body">
-                                    <p>La naturaleza de Mixen Cloud es de renovación anual para mantener activo tu servicio, que en todo momento esté vigente tu dominio, tus correos y almacenamiento. Al no renovar Mixen Cloud se corre el riesgo de ya no recibir y-o perder información en tus correos empresariales y que tu página web ya no sea visible, es por eso que invitamos a nuestros usuarios a que mantenga activo su servicio y sigan disfrutando año con año de los grandes beneficios que Mixen Cloud les ofrece. 😁</p>
+                                    <p>La naturaleza de Mixen Cloud es de renovación anual para mantener activo tu servicio, que en todo momento esté vigente tu dominio, tus correos y almacenamiento. Al no renovar Mixen Cloud se corre el riesgo de ya no recibir y/o perder información en tus correos empresariales y que tu página web ya no sea visible, es por eso que invitamos a nuestros usuarios a que mantenga activo su servicio y sigan disfrutando año con año de los grandes beneficios que Mixen Cloud les ofrece. 😁</p>
                                 </div>
                             </div>
                         </div>
