@@ -124,7 +124,7 @@
                             </h2>
                             <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#acordion-faq">
                                 <div class="accordion-body">
-                                    <p>Si se puede hacer, sin embargo, debemos recordar que los beneficios que ofrece Mixen Cloud tienen caracterísiticas iniciales como punto de partida, es una oferta muy concreta y clara, pero de ahí en más claro que se pueden aumentar los beneficios en general hasta donde quieras, sujeto a previa cotización, en mixen: boosting brands tenemos muchísimas soluciones en tecnología que pueden apoyarte a lograr cosas increíbles, dinos que necesitas y estamos 100% seguros que te podemos ayudar a resolverlo. 🤘</p>
+                                    <p>Si se puede hacer, sin embargo, debemos recordar que los beneficios que ofrece Mixen Cloud tienen caracterísiticas iniciales como punto de partida, es una oferta muy concreta y clara, pero de ahí en más claro que se pueden aumentar los beneficios en general hasta donde quieras, sujeto a previa cotización, en Mixen: Boosting Brands tenemos muchísimas soluciones en tecnología que pueden apoyarte a lograr cosas increíbles, dinos que necesitas y estamos 100% seguros que te podemos ayudar a resolverlo. 🤘</p>
                                 </div>
                             </div>
                         </div>
@@ -182,7 +182,7 @@
                             </h2>
                             <div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#acordion-faq">
                                 <div class="accordion-body">
-                                    <p>Por supuesto que si, todo servicio prestado por mixen: boosting brands, es facturable, ya sea de trato en persona, remoto o en línea. 👏</p>
+                                    <p>Por supuesto que si, todo servicio prestado por Mixen: Boosting Brands, es facturable, ya sea de trato en persona, remoto o en línea. 👏</p>
                                 </div>
                             </div>
                         </div>
