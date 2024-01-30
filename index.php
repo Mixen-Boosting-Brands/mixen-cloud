@@ -111,7 +111,7 @@
                             </h2>
                             <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#acordion-faq">
                                 <div class="accordion-body">
-                                    <p>Te podemos ofrecer un aumento de capacidad en tus correos, sin problema, la capacidad que sigue es de 10gb, cada cuenta de correo de 10gb tiene un costo de $750 MXN + IVA por año.</p>
+                                    <p>Te podemos ofrecer un aumento de capacidad en tus correos, sin problema, la capacidad que sigue es de 10 GB, cada cuenta de correo de 10 GB tiene un costo de $750 MXN + IVA por año.</p>
                                     <p>Es importante que te mencionemos que la unificación de capacidades en tus correos es necesaria, es decir, al momento de aumentar la capacidad de un correo, TODAS las cuentas activas de correo aumentan la capacidad de almacenamiento; de tal forma que aplica el  costo de aumento de capacidad para todas las cuentas que tengas. 🤗</p>
                                 </div>
                             </div>
