@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="card text-center" style="max-width: 18rem;">
+                    <div class="card text-bg-primary text-center" style="max-width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">Mixen Cloud</h5>
                             <ul class="card-text list-unstyled">
