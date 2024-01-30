@@ -13,9 +13,8 @@
     <section id="paquetes" class="common-dark py-60">
         <div class="container">
             <div class="row">
-                <div class="col text-center">
-                <div class="card mb-3" style="width: 18rem;">
-                    <div class="card text-center mb-3" style="max-width: 18rem;">
+                <div class="col">
+                    <div class="card text-center" style="max-width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">Mixen Cloud</h5>
                             <ul class="card-text list-unstyled">
