@@ -308,41 +308,12 @@ header {
     }
 }
 
-#mixen-cloud {
+.cta {
     color: $white;
-    padding: 60px 0;
-
-    .btn-outline-secondary {
-        --bs-btn-padding-y: .25rem;
-        --bs-btn-padding-x: 1rem;
-        --bs-btn-font-size: .75rem;
-        border-color: $white;
-        color: $white;
-
-        &:hover,
-        &:focus {
-            background-color: $white;
-            color: $primary;
-        }
-    }
 }
 
-#portafolio {
-    h2 {
-        text-transform: uppercase;
-        @include font-size(1.5rem);
-    }
-
-    a {
-        text-decoration: none;
-    }
-    
-    #ico-arrow {
-        max-width: 25px;
-        -webkit-transform: scaleY(-1);
-            -ms-transform: scaleY(-1);
-                transform: scaleY(-1);
-    }
+.cta-1 {
+    @include background('../images/cta/bg-cta-1.jpg', center, cover);
 }
 
 .common-light {
@@ -389,115 +360,6 @@ header {
         .swiper-button-next {
             right: 0;
         }
-    }
-}
-
-#podcast {
-    a {
-        text-decoration: none;
-    }
-    
-    h2 {
-        text-transform: uppercase;
-    }
-
-    h3 {
-        @include font-size(1rem);
-        position: relative;
-        display: flex;
-        align-items: center;
-
-        .badge {
-            @include font-size(0.7rem);
-            position: absolute;
-            @include absolute-center-y;
-            right: 0;
-            padding: 7px 12px 5px;
-        }
-
-        &::after {
-            background-color: $primary;
-            height: 1px;
-            flex: 1;
-            // margin-left: 1rem;
-            content: '';
-        }
-    }
-
-    img {
-        position: relative;
-    }
-}
-
-#blog {
-    background-color: $primary;
-    color: $white;
-
-    a {
-        color: $white;
-        text-decoration: none;
-        @include transition(ease, 0.3s);
-    
-        &:hover,
-        &:focus {
-            text-decoration: underline;
-        }
-    }
-
-    h1 {
-        &::after {
-            @include background('../images/common-dark/after-titulo-2.png', center, contain);
-        }
-    }
-
-    h2 {
-        @include font-size(1rem);
-        padding-right: 96px;
-        position: relative;
-        display: flex;
-        align-items: center;
-
-        .badge {
-            background-color: $white !important;
-            color: $primary;
-            @include font-size(0.7rem);
-            position: absolute;
-            @include absolute-center-y;
-            right: 0;
-            padding: 7px 12px 5px;
-        }
-
-        &::after {
-            background-color: $white;
-            height: 1px;
-            flex: 1;
-            margin-left: 1rem;
-            content: '';
-        }
-    }
-
-    .text-muted {
-        color: #717171 !important;
-    }
-
-    nav {
-        color: #717171;
-
-        .navs {
-            .nav-link {
-                padding: 5px 15px 5px 0;
-
-                &:first-child {}
-            }
-
-            .nav-link.active {
-                color: $white;
-            }
-        }
-    }
-
-    img {
-        position: relative;
     }
 }
 

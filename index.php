@@ -219,4 +219,14 @@
         </div>
     </section>
 
+    <section class="cta py-60">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
 <?php get_footer(); ?>
