@@ -4,54 +4,7 @@
         <div class="container">
             <div class="row py-30">
                 <div class="col text-center">
-                    <h1 id="smart-is-the-new-sexy">
-                        Smart <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid" loading="lazy"> <span class="fs-4">is the new sexy</span>
-                    </h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col p-0 overflow-hidden">
-                    <!-- Slider main container -->
-                    <div class="swiper-jumbotron">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            <!-- Inicio Slide -->
-                            <div class="swiper-slide">
-                                <div class="row g-1">
-                                <?php if( have_rows('proyecto_1') ): while( have_rows('proyecto_1') ): the_row(); ?>
-                                    <div class="col-lg-8">
-                                        <div class="thumb thumb-1" style="background: url('<?php the_sub_field('imagen'); ?>') no-repeat;">
-                                            <a href="<?php the_sub_field('link_del_proyecto'); ?>"></a>
-                                        </div>
-                                    </div>
-                                <?php endwhile; endif; ?>
-                                    <div class="col-lg-4">
-                                        <div class="row gy-1">
-                                        <?php if( have_rows('proyecto_2') ): while( have_rows('proyecto_2') ): the_row(); ?>
-                                            <div class="col-12">
-                                                <div class="thumb thumb-2" style="background: url('<?php the_sub_field('imagen'); ?>') no-repeat;">
-                                                    <a href="<?php the_sub_field('link_del_proyecto'); ?>"></a>
-                                                </div>
-                                            </div>
-                                        <?php endwhile; endif; ?>
-                                        <?php if( have_rows('proyecto_3') ): while( have_rows('proyecto_3') ): the_row(); ?>
-                                            <div class="col-12">
-                                                <div class="thumb thumb-3" style="background: url('<?php the_sub_field('imagen'); ?>') no-repeat;">
-                                                    <a href="<?php the_sub_field('link_del_proyecto'); ?>"></a>
-                                                </div>
-                                            </div>
-                                        <?php endwhile; endif; ?>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Fin Slide -->
-                        </div>
-
-                        <!-- If we need navigation buttons -->
-                        <!-- div class="swiper-button-prev"></div -->
-                        <!-- div class="swiper-button-next"></div -->
-                    </div>
+                    <h1>Dominio, hosting y correos empresariales para que tengas presencia formal en internet</h1>
                 </div>
             </div>
         </div> 
@@ -419,13 +372,5 @@
             </div>
         </div>
     </section>
-
- <?php get_template_part( 'includes/portafolio' ); ?>
-
-<?php get_template_part( 'includes/clientes' ); ?>
-
-<?php get_template_part( 'includes/podcast' ); ?>
-
-<?php get_template_part( 'includes/blog' ); ?>
 
 <?php get_footer(); ?>

@@ -1,5 +1,5 @@
 {
-  "name": "mixen",
+  "name": "mixen-cloud",
   "version": "4.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mixen-Boosting-Brands/mixen-2024.git"
+    "url": "git+https://github.com/Mixen-Boosting-Brands/mixen-cloud.git"
   },
   "author": "Luis Carlos Pando <hey@luiscarlospando.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mixen-Boosting-Brands/mixen-2024/issues"
+    "url": "https://github.com/Mixen-Boosting-Brands/mixen-cloud/issues"
   },
-  "homepage": "https://github.com/Mixen-Boosting-Brands/mixen-2024#readme",
+  "homepage": "https://github.com/Mixen-Boosting-Brands/mixen-cloud#readme",
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.17.10",
