@@ -32,6 +32,12 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col text-center">
+                    <h1>¡Espera, tenemos un regalo para ti! 😎</h1>
+                    <p>¡Al adquirir Mixen Cloud te regalamos un sitio web!</p>
+                </div>
+            </div>
         </div>
     </section>
 
