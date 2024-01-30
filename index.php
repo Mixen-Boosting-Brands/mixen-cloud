@@ -12,7 +12,7 @@
 
     <section id="paquetes" class="common-dark py-60">
         <div class="container">
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col">
                     <div class="card text-bg-primary text-center" style="max-width: 18rem;">
                         <div class="card-body">
@@ -34,7 +34,7 @@
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <h1>¡Espera, tenemos un regalo para ti! 😎</h1>
+                    <h2>¡Espera, tenemos un regalo para ti! 😎</h2>
                     <p>¡Al adquirir Mixen Cloud te regalamos un sitio web!</p>
                 </div>
             </div>
