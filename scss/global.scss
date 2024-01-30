@@ -275,7 +275,7 @@ header {
     }
 }
 
-#soluciones {
+#paquetes {
     background-color: #ECEAE7;
 
     .card {
@@ -292,29 +292,6 @@ header {
         &:hover,
         &:focus {
             background: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 0.8)) !important;
-        }
-    }
-
-    .container-fluid-bottom {
-        padding-right: 0;
-        padding-left: 0;
-        text-align: center;
-
-        .swiper-soluciones-top > .swiper-wrapper,
-        .swiper-soluciones-bottom > .swiper-wrapper {
-            transition-timing-function : linear;
-            justify-content: space-evenly;
-
-            .swiper-slide {
-                position: relative;
-
-                &::after {
-                    content: "●";
-                    position: absolute;
-                    @include absolute-center-y;
-                    right: 0;
-                }
-            }
         }
     }
 }
