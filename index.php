@@ -48,6 +48,7 @@
                     <h1 class="mb-1 mb-lg-3">
                         <span class="fs-4">Preguntas</span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid" loading="lazy"> frecuentes
                     </h1>
+                    <div class="separador"></div>
                 </div>
             </div>
             <div class="row">
@@ -59,7 +60,7 @@
                                 ¿Una página web gratis, cuál es el truco, hay que pagar algún costo oculto?
                                 </button>
                             </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#acordion-faq">
+                            <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#acordion-faq">
                                 <div class="accordion-body">
                                     No hay nada escondido en esto, es justo lo contrario, estamos tan comprometidos en demostrar que tener presencia formal en internet es esencial para que las empresas mejoren sus prácticas y se alineen a la digitalización, que queremos y podemos ayudarlos de esta forma, es una excelente oportunidad, es algo básico informativo muy bien hecho, perfectamente funcional y estético. 😌
                                 </div>
