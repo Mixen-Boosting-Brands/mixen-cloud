@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
     <section id="jumbotron">
+        <div id="overlay"></div>
         <div class="container">
             <div class="row py-30">
                 <div class="col text-center">
@@ -220,12 +221,13 @@
     </section>
 
     <section id="cta-1" class="cta py-60">
+        <div id="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col text-center">
                     <h2>Tener redes sociales no es suficiente. Si quieres una presencia formal en Internet, necesitas una página web.</h2>
                     <h3>¡Aprovecha, nosotros te la regalamos!</h3>
-                    <a href="#" class="btn btn-primary btn-lg rounded-pill ">
+                    <a href="#" class="btn btn-primary btn-lg rounded-pill">
                         Quiero Mixen Cloud
                     </a>
                 </div>
