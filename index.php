@@ -162,6 +162,57 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                                    ¿Qué pasa si no renuevo Mixen Cloud?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#acordion-faq">
+                                <div class="accordion-body">
+                                    <p>La naturaleza de Mixen Cloud es de renovación anual para mantener activo tu servicio, que en todo momento esté vigente tu dominio, tus correos y almacenamiento. Al no renovar Mixen Cloud se corre el riesgo de ya no recibir y-o perder información en tus correos empresariales y que tu página web ya no sea visible, es por eso que invitamos a nuestros usuarios a que mantenga activo su servicio y sigan disfrutando año con año de los grandes beneficios que Mixen Cloud les ofrece. 😁</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                                    ¿Me dan factura por adquirir Mixen Cloud en línea?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#acordion-faq">
+                                <div class="accordion-body">
+                                    <p>Por supuesto que si, todo servicio prestado por mixen: boosting brands, es facturable, ya sea de trato en persona, remoto o en línea. 👏</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                                    ¿Qué otros servicios ofrecen aparte de Mixen Cloud?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseEleven" class="accordion-collapse collapse" data-bs-parent="#acordion-faq">
+                                <div class="accordion-body">
+                                    <p>Podemos ofrecerte muchos más servicios especializados, somos una agencia con 12 años de experiencia en desarrollo de marcas, tecnología aplicada, inmersión interactiva y performance marketing enfocada en la transformación digital de los modelos de negocios de nuestros clientes.</p>
+                                    <p>Nos integramos a tu modelo de negocios, convirtiéndonos en socios  estratégicos con la finalidad de aumentar la rentabilidad de tu empresa,  basada en la obtención y análisis de datos para tomar decisiones más inteligentes.</p>
+                                    <p>Pensamos, hablamos y ejecutamos el lenguaje del crecimiento de los negocios.</p>
+                                    <p>Podemos apoyarte en lo que necesites. ✌️</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                                    ¿Puedo adquirir Mixen Cloud si estoy cualquier otro país del mundo?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#acordion-faq">
+                                <div class="accordion-body">
+                                    <p>Por supuesto que si, solo se tiene que considerar un costo adicional de $20 USD por el cargo que la misma institución bancaria hace por transferencias internacionales, es mínimo realmente para tener todos los beneficios que te ofrece Mixen Cloud. 🙃</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
