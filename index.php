@@ -57,7 +57,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                ¿Una página web gratis, cuál es el truco, hay que pagar algún costo oculto?
+                                    ¿Una página web gratis, cuál es el truco, hay que pagar algún costo oculto?
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#acordion-faq">
@@ -69,17 +69,21 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                Accordion Item #2
+                                    ¿Para quién va dirigido este servicio?
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#acordion-faq">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                <div class="accordion-body">
+                                    A emprendedores, micros y pequeñas empresas que busquen formalizar su presencia en internet y no tengan disponibles los recursos económicos para invertir en un servicio personalizado de diseño y desarrollo web.
+
+                                    Universitarios que busquen tener su portafolio personalizado con dominio propio para sus proyectos escolares y prácticas profesionales, sin embargo, este servicio también lo pueden adquirir empresas medianas y grandes que necesiten tener ramas de sus proyectos internos o divisiones de negocios, ya que la infraestructura digital que ofrecemos es muy rápida, sólida y segura 👍🏽
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                Accordion Item #3
+                                    Accordion Item #3
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#acordion-faq">
