@@ -225,7 +225,9 @@
                 <div class="col text-center">
                     <h2>Tener redes sociales no es suficiente. Si quieres una presencia formal en Internet, necesitas una página web.</h2>
                     <h2>¡Aprovecha, nosotros te la regalamos!</h2>
-                    <a href="#" class="btn btn-primary btn-xl rounded-pill "></a>
+                    <a href="#" class="btn btn-primary btn-xl rounded-pill ">
+                        Quiero Mixen Cloud
+                    </a>
                 </div>
             </div>
         </div>
