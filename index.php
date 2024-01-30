@@ -10,7 +10,7 @@
         </div> 
     </section>
 
-    <section id="paquetes" class="common-dark">
+    <section id="paquetes" class="common-dark py-60">
         <div class="container">
             <div class="row">
                 <div class="col text-center">
