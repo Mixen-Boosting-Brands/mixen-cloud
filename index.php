@@ -16,7 +16,9 @@
                 <div class="col">
                     <div class="card text-bg-primary text-center" style="max-width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title">Mixen Cloud</h5>
+                            <h5 class="card-title">
+                                <i class="fa-solid fa-cloud"></i>Mixen Cloud
+                            </h5>
                             <ul class="card-text list-unstyled">
                                 <li>1 dominio (.com / .com.mx / .mx)</li>
                                 <li>5 GB de espacio general</li>
