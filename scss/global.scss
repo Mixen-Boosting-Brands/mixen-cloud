@@ -312,7 +312,7 @@ header {
     color: $white;
 }
 
-.cta-1 {
+#cta-1 {
     @include background('../images/cta/bg-cta-1.jpg', center, cover);
 }
 
