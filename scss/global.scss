@@ -306,6 +306,18 @@ header {
             border: none;
         }
 
+        .btn-primary {
+            background-color: transparent;
+            border: 1px solid $white;
+            color: $white;
+
+            &:hover,
+            &:focus {
+                background-color: $white;
+                color: $primary;
+            }
+        }
+
         /*
         ul {
             line-height: 2rem;

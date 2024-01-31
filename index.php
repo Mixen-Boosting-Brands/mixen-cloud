@@ -30,7 +30,7 @@
                             <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> Cifrado de seguridad y confianza en navegadores</li>
                         </ul>
                         <div class="card-body text-center">
-                            <a href="#" class="btn btn-secondary rounded-pill">Comprar</a>
+                            <a href="#" class="btn btn-primary rounded-pill">Comprar</a>
                         </div>
                     </div>
                 </div>
