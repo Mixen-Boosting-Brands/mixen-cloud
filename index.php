@@ -22,16 +22,32 @@
                             </h5>
                             <p class="card-text">$3,750 + IVA / Renovación anual</p>
                         </div>
-                        <ul class="card-text list-group list-group-flush fa-ul">
-                            <li class="list-group-item">
+                        <ul class="card-text fa-ul">
+                            <li>
                                 <span class="fa-li">
                                     <i class="fa-regular fa-circle-check"></i>
                                 </span> 1 dominio (.com / .com.mx / .mx)
                             </li>
-                            <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> 5 GB de espacio general</li>
-                            <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> 5 cuentas de correo personalizados de 1 GB de capacidad cada cuenta</li>
-                            <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> Certificado de seguridad SSL</li>
-                            <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> Cifrado de seguridad y confianza en navegadores</li>
+                            <li>
+                                <span class="fa-li">
+                                    <i class="fa-regular fa-circle-check"></i>
+                                </span> 5 GB de espacio general
+                            </li>
+                            <li>
+                                <span class="fa-li">
+                                    <i class="fa-regular fa-circle-check"></i>
+                                </span> 5 cuentas de correo personalizados de 1 GB de capacidad cada cuenta
+                            </li>
+                            <li>
+                                <span class="fa-li">
+                                    <i class="fa-regular fa-circle-check"></i>
+                                </span> Certificado de seguridad SSL
+                            </li>
+                            <li>
+                                <span class="fa-li">
+                                    <i class="fa-regular fa-circle-check"></i>
+                                </span> Cifrado de seguridad y confianza en navegadores
+                            </li>
                         </ul>
                         <div class="card-body text-center">
                             <a href="#" class="btn btn-primary rounded-pill">Comprar</a>
