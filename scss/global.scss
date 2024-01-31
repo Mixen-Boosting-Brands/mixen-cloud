@@ -290,7 +290,6 @@ header {
 
     .card {
         background: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 1)) !important;
-        text-align: center;
         margin: 0 auto;
         padding: 80px 8px;
         @include font-size(0.8rem);
@@ -300,6 +299,12 @@ header {
         ul {
             color: $secondary;
         }
+
+        /*
+        ul {
+            line-height: 2rem;
+        }
+        */
 
         &:hover,
         &:focus {

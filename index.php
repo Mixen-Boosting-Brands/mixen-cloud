@@ -20,14 +20,17 @@
                             <h5 class="card-title">
                                 <i class="fa-solid fa-cloud"></i> Mixen Cloud
                             </h5>
-                            <ul class="card-text list-unstyled">
-                                <li><i class="fa-regular fa-circle-check"></i> 1 dominio (.com / .com.mx / .mx)</li>
-                                <li><i class="fa-regular fa-circle-check"></i> 5 GB de espacio general</li>
-                                <li><i class="fa-regular fa-circle-check"></i> 5 cuentas de correo personalizados de 1 GB de capacidad cada cuenta</li>
-                                <li><i class="fa-regular fa-circle-check"></i> Certificado de seguridad SSL</li>
-                                <li><i class="fa-regular fa-circle-check"></i> Cifrado de seguridad y confianza en navegadores</li>
-                            </ul>
-                            <p>$3,750 + IVA / Renovación anual</p>
+                            <p class="card-text">$3,750 + IVA / Renovación anual</p>
+                            <a href="#" class="btn btn-primary rounded-pill">Comprar</a>
+                        </div>
+                        <ul class="card-text list-group list-group-flush">
+                            <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> 1 dominio (.com / .com.mx / .mx)</li>
+                            <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> 5 GB de espacio general</li>
+                            <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> 5 cuentas de correo personalizados de 1 GB de capacidad cada cuenta</li>
+                            <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> Certificado de seguridad SSL</li>
+                            <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> Cifrado de seguridad y confianza en navegadores</li>
+                        </ul>
+                        <div class="card-body">
                             <a href="#" class="btn btn-primary rounded-pill">Comprar</a>
                         </div>
                     </div>
