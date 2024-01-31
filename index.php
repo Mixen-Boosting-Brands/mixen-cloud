@@ -15,17 +15,17 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col">
-                    <div class="card text-bg-primary text-center" style="max-width: 18rem;">
+                    <div class="card text-bg-primary" style="max-width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <i class="fa-solid fa-cloud"></i> Mixen Cloud
                             </h5>
                             <ul class="card-text list-unstyled">
-                                <li>1 dominio (.com / .com.mx / .mx)</li>
-                                <li>5 GB de espacio general</li>
-                                <li>5 cuentas de correo personalizados de 1 GB de capacidad cada cuenta</li>
-                                <li>Certificado de seguridad SSL</li>
-                                <li>Cifrado de seguridad y confianza en navegadores</li>
+                                <li><i class="fa-regular fa-circle-check"></i> 1 dominio (.com / .com.mx / .mx)</li>
+                                <li><i class="fa-regular fa-circle-check"></i> 5 GB de espacio general</li>
+                                <li><i class="fa-regular fa-circle-check"></i> 5 cuentas de correo personalizados de 1 GB de capacidad cada cuenta</li>
+                                <li><i class="fa-regular fa-circle-check"></i> Certificado de seguridad SSL</li>
+                                <li><i class="fa-regular fa-circle-check"></i> Cifrado de seguridad y confianza en navegadores</li>
                             </ul>
                             <p>$3,750 + IVA / Renovación anual</p>
                             <a href="#" class="btn btn-primary rounded-pill">Comprar</a>
@@ -220,7 +220,7 @@
         </div>
     </section>
 
-    <section id="cta-1" class="cta py-60">
+    <section id="cta-1" class="cta parallax-window py-60" data-parallax="scroll" data-image-src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/cta/bg-cta-1.jpg">
         <div id="overlay"></div>
         <div class="container">
             <div class="row">
