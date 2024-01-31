@@ -20,7 +20,7 @@
                             <h5 class="card-title">
                                 <i class="fa-solid fa-cloud"></i> Mixen Cloud
                             </h5>
-                            <p class="card-text">$3,750 + IVA / Renovación anual</p>
+                            <p class="card-text">$3,750 MXN + IVA / Renovación anual</p>
                         </div>
                         <ul class="card-text fa-ul">
                             <li>
