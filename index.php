@@ -21,7 +21,6 @@
                                 <i class="fa-solid fa-cloud"></i> Mixen Cloud
                             </h5>
                             <p class="card-text">$3,750 + IVA / Renovación anual</p>
-                            <a href="#" class="btn btn-primary rounded-pill">Comprar</a>
                         </div>
                         <ul class="card-text list-group list-group-flush">
                             <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> 1 dominio (.com / .com.mx / .mx)</li>
