@@ -291,7 +291,7 @@ header {
     .card {
         background: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 1)) !important;
         margin: 0 auto;
-        padding: 25px 24px 0px;
+        padding: 25px 24px 16px;
         @include font-size(0.8rem);
         @include transition(ease, 0.3s);
 
