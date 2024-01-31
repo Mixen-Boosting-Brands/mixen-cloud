@@ -16,7 +16,7 @@
             <div class="row mb-5">
                 <div class="col">
                     <div class="card text-bg-primary" style="max-width: 18rem;">
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <h5 class="card-title">
                                 <i class="fa-solid fa-cloud"></i> Mixen Cloud
                             </h5>
@@ -30,7 +30,7 @@
                             <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> Certificado de seguridad SSL</li>
                             <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> Cifrado de seguridad y confianza en navegadores</li>
                         </ul>
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <a href="#" class="btn btn-primary rounded-pill">Comprar</a>
                         </div>
                     </div>
