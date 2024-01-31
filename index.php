@@ -23,7 +23,11 @@
                             <p class="card-text">$3,750 + IVA / Renovación anual</p>
                         </div>
                         <ul class="card-text list-group list-group-flush fa-ul">
-                            <li class="list-group-item fa-li"><i class="fa-regular fa-circle-check"></i> 1 dominio (.com / .com.mx / .mx)</li>
+                            <li class="list-group-item">
+                                <span class="fa-li">
+                                    <i class="fa-regular fa-circle-check"></i>
+                                </span> 1 dominio (.com / .com.mx / .mx)
+                            </li>
                             <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> 5 GB de espacio general</li>
                             <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> 5 cuentas de correo personalizados de 1 GB de capacidad cada cuenta</li>
                             <li class="list-group-item"><i class="fa-regular fa-circle-check"></i> Certificado de seguridad SSL</li>
