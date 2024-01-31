@@ -296,8 +296,14 @@ header {
         @include transition(ease, 0.3s);
 
         p,
-        ul {
-            color: $secondary;
+        ul,
+        .list-group-item {
+            color: $white;
+        }
+
+        .list-group-item {
+            background-color: transparent;
+            border: none;
         }
 
         /*
