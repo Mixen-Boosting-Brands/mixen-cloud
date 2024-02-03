@@ -55,10 +55,32 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mb-5">
                 <div class="col text-center">
                     <h2>¡Espera, tenemos un regalo para ti! 😎</h2>
                     <p>¡Al adquirir Mixen Cloud te regalamos un sitio web!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3>Métodos de pago admitidos</h3>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <i class="fa-brands fa-cc-amex"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fa-brands fa-cc-mastercard"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fa-brands fa-google-pay"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fa-brands fa-apple-pay"></i>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
