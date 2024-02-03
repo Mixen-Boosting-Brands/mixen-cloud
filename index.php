@@ -50,7 +50,12 @@
                             </li>
                         </ul>
                         <div class="card-body text-center">
-                            <a href="#" class="btn btn-primary rounded-pill">Comprar</a>
+                            <stripe-buy-button
+                                buy-button-id="buy_btn_1Ofb3iIBLuMcCAz79KUue4xm"
+                                publishable-key="pk_live_51OfOvtIBLuMcCAz7KCDzROrCs3Prn9BH4TC67SsZjwHogeTG7IIMeZDiQjExbT1iDmKNF804m8bCLggV5Um0BwaX00UkGqkBAB"
+                            >
+                            </stripe-buy-button>
+                            <!-- a href="#" class="btn btn-primary rounded-pill">Comprar</a -->
                         </div>
                     </div>
                 </div>
