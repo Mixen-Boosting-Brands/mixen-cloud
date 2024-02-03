@@ -63,8 +63,8 @@
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <h3>Métodos de pago admitidos</h3>
-                    <ul class="list-inline">
+                    <h2>Métodos de pago admitidos</h2>
+                    <ul class="pagos list-inline">
                         <li class="list-inline-item">
                             <i class="fa-brands fa-cc-amex"></i>
                         </li>
