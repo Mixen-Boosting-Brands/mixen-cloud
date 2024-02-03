@@ -203,11 +203,6 @@
         </div>
     </div>
 
-    <!-- Stripe -->
-    <script async
-        src="https://js.stripe.com/v3/buy-button.js">
-    </script>
-
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/app.bundle.js"></script>
 </body>
 </html>
