@@ -3,29 +3,29 @@
             <div class="row mb-1 mb-lg-3">
                 <div class="col-lg-6">
                     <div class="row mb-4">
-                        <div class="col-6">
+                        <div class="col-12">
                             <nav>
                                 <ul class="list-unstyled">
                                     <li>
                                         Nuestras soluciones
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#soluciones">
+                                        <a href="https://mixen.mx#soluciones">
                                             Presencia
                                         </a>
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#soluciones">
+                                        <a href="https://mixen.mx#soluciones">
                                             Relevancia
                                         </a>
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#soluciones">
+                                        <a href="https://mixen.mx#soluciones">
                                            Inteligencia
                                         </a>
                                     </li>
                                     <li class="mb-5">
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#soluciones">
+                                        <a href="https://mixen.mx#soluciones">
                                            Posicionamiento
                                         </a>
                                     </li>
@@ -33,54 +33,54 @@
                                         ¿Cómo lo logramos?
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a href="https://mixen.mx#como-lo-logramos">
                                             Branding
                                         </a>
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a href="https://mixen.mx#como-lo-logramos">
                                             Web
                                         </a>
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a href="https://mixen.mx#como-lo-logramos">
                                             e-Commerce
                                         </a>
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a href="https://mixen.mx#como-lo-logramos">
                                             Social Media
                                         </a>
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a href="https://mixen.mx#como-lo-logramos">
                                             Development
                                         </a>
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a href="https://mixen.mx#como-lo-logramos">
                                             CX
                                         </a>
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a href="https://mixen.mx#como-lo-logramos">
                                             Contenido
                                         </a>
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a href="https://mixen.mx#como-lo-logramos">
                                             SEO/SEM
                                         </a>
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#como-lo-logramos">
+                                        <a href="https://mixen.mx#como-lo-logramos">
                                             Automatización
                                         </a>
                                     </li>
                                 </ul>
                             </nav>
                         </div>
-                        <div class="col-6">
+                        <!-- div class="col-6">
                             <nav>
                                 <ul class="list-unstyled">
                                     <li>
@@ -107,24 +107,24 @@
                                 ?>
                                 </ul>
                             </nav>
-                        </div>
+                        </div -->
                     </div>
                     <div class="row mb-4">
-                        <div class="col-6">
+                        <div class="col-12">
                             <nav>
                                 <ul class="list-unstyled">
                                     <li>
                                         Almacenamiento inteligente
                                     </li>
                                     <li>
-                                        <a <?php if( is_home() ): ?>class="anchor"<?php endif; ?> href="<?php if( !is_home() ): ?><?php echo esc_url( home_url() ); ?><?php endif; ?>#mixen-cloud">
+                                        <a href="https://mixen.mx#mixen-cloud">
                                             Mixen Cloud
                                         </a>
                                     </li>
                                 </ul>
                             </nav>
                         </div>
-                        <div class="col-6">
+                        <!-- div class="col-6">
                             <nav>
                                 <ul class="list-unstyled">
                                     <li>
@@ -142,7 +142,7 @@
                                     </li>
                                 </ul>
                             </nav>
-                        </div>
+                        </div -->
                     </div>
                     <div class="row">
                         <div class="col-6">
