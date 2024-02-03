@@ -149,7 +149,7 @@
                             <nav>
                                 <ul class="list-unstyled">
                                     <li class="mb-1 mb-lg-3">
-                                        <a href="#">
+                                        <a href="https://mixen.mx/#">
                                             Unirme al equipo
                                         </a>
                                     </li>
@@ -159,7 +159,7 @@
                                         </a>
                                     </li>
                                     <li class="mb-1 mb-lg-3">
-                                        <a class="bg-primary badge rounded-pill" href="<?php echo get_permalink(28); ?>">
+                                        <a class="bg-primary badge rounded-pill" href="https://mixen.mx/soporte">
                                             <i class="fa-solid fa-headset"></i> ¿Necesitas soporte?
                                         </a>
                                     </li>
@@ -174,7 +174,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <p class="mb-0">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. Todos los derechos reservados.</p>
+                    <p class="mb-0">&copy; <?php echo date('Y'); ?> Mixen: Boosting Brands. Todos los derechos reservados.</p>
                 </div>
                 <div class="col text-end">
                     <p class="mb-0">Made with <i class="fa-solid fa-heart" alt="love" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="love"></i> @MixenMx</p>
