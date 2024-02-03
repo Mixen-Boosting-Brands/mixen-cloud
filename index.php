@@ -62,7 +62,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col text-center">
                     <h3>Métodos de pago admitidos</h3>
                     <ul class="list-inline">
                         <li class="list-inline-item">
