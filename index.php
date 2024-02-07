@@ -8,7 +8,8 @@
                     <h1>Dominio, hosting y correos empresariales para que tengas presencia formal en internet</h1>
                 </div>
             </div>
-        </div> 
+        </div>
+        <i class="fa-solid fa-arrow-down"></i>
     </section>
 
     <section id="paquetes" class="common-dark py-60">
