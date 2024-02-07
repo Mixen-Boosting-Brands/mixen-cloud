@@ -9,7 +9,9 @@
                 </div>
             </div>
         </div>
-        <i class="fa-solid fa-arrow-down"></i>
+        <a class="anchor" href="#paquetes">
+            <i class="fa-solid fa-arrow-down"></i>
+        </a>
     </section>
 
     <section id="paquetes" class="common-dark py-60">
