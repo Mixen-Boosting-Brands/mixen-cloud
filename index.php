@@ -275,6 +275,27 @@
                     </a>
                 </div>
             </div>
+            <div class="row">
+                <div class="col text-center">
+                    <ul class="pagos list-inline">
+                        <li class="list-inline-item">
+                            <i class="fa-brands fa-cc-amex"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fa-brands fa-cc-mastercard"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fa-brands fa-google-pay"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fa-brands fa-apple-pay"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
