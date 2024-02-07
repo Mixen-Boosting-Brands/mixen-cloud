@@ -9,7 +9,7 @@
                 </div>
             </div>
         </div>
-        <a href="#paquetes">
+        <a id="ver-mas" class="btn btn-primary" href="#paquetes">
             <i class="fa-solid fa-arrow-down"></i>
         </a>
     </section>
