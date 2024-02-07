@@ -114,11 +114,16 @@
                             <nav>
                                 <ul class="list-unstyled">
                                     <li>
-                                        Almacenamiento inteligente
+                                        Nuestra opinión
                                     </li>
                                     <li>
-                                        <a href="https://mixen.mx#mixen-cloud">
-                                            Mixen Cloud
+                                        <a href="https://mixen.mx/blog/">
+                                            Blog
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://mixen.mx/podcast/">
+                                            Podcast
                                         </a>
                                     </li>
                                 </ul>
