@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mb-5">
+            <div class="row">
                 <div class="col text-center">
                     <h2>¡Espera, tenemos un regalo para ti! 😎</h2>
                     <p>¡Al adquirir Mixen Cloud te regalamos un sitio web!</p>
