@@ -341,10 +341,6 @@ header {
             background: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 0.8)) !important;
         }
     }
-
-    .pagos {
-        @include font-size(2rem);
-    }
 }
 
 #faq {
@@ -457,6 +453,10 @@ footer {
             color: $white;
         }
     }
+}
+
+.pagos {
+    @include font-size(2rem);
 }
 
 // Hubspot

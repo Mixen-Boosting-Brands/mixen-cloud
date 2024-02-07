@@ -266,7 +266,7 @@
     <section id="cta-1" class="cta py-60"">
         <div id="overlay"></div>
         <div class="container">
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col text-center">
                     <h2>Tener redes sociales no es suficiente. Si quieres una presencia formal en Internet, necesitas una página web.</h2>
                     <h3>¡Aprovecha, nosotros te la regalamos!</h3>
