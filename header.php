@@ -42,9 +42,6 @@
                         <a href="https://mixen.mx#como-lo-logramos">¿Cómo lo logramos?</a>
                     </li>
                     <li>
-                        <a href="https://mixen.mx#mixen-cloud">Mixen Cloud</a>
-                    </li>
-                    <li>
                         <a href="https://mixen.mx#portafolio">Proyectos destacados</a>
                     </li>
                     <li>
