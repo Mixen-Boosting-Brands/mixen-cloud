@@ -9,7 +9,7 @@
                 </div>
             </div>
         </div>
-        <a class="anchor" href="#paquetes">
+        <a href="#paquetes">
             <i class="fa-solid fa-arrow-down"></i>
         </a>
     </section>
