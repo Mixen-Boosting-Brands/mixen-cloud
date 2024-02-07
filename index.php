@@ -50,7 +50,7 @@
                             </li>
                         </ul>
                         <div class="card-body text-center">
-                            <a href="https://buy.stripe.com/dR6g2y15d2MZ092dQS" class="btn btn-primary rounded-pill" target="_blank">Comprar</a>
+                            <a href="https://buy.stripe.com/cN217E6pxafr5tm4gj" class="btn btn-primary rounded-pill" target="_blank">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,6 @@
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <h2>Métodos de pago admitidos</h2>
                     <ul class="pagos list-inline">
                         <li class="list-inline-item">
                             <i class="fa-brands fa-cc-amex"></i>
