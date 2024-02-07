@@ -243,13 +243,13 @@ header {
 
     @keyframes jumpInfinite {
         0% {
-            margin-top: 0;
+            bottom: 30px;
         }
         50% {
-            margin-top: 20px;
+            bottom: 0;
         }
         100% {
-            margin-top: 0;
+            bottom: 30px;
         }
     }
 
@@ -275,6 +275,7 @@ header {
         align-items: center;
         border-radius: 50px;
         @include font-size(2rem);
+        z-index: 2;
     }
 
     h1 {
