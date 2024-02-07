@@ -129,7 +129,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                    ¿Es una buena relación costo beneficio?
+                                    ¿Es una buena relación costo-beneficio?
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#acordion-faq">
