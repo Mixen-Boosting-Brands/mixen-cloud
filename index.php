@@ -50,7 +50,7 @@
                             </li>
                         </ul>
                         <div class="card-body text-center">
-                            <a href="https://buy.stripe.com/cN217E6pxafr5tm4gj" class="btn btn-primary rounded-pill" target="_blank">Comprar</a>
+                            <a href="https://buy.stripe.com/cN217E6pxafr5tm4gj" class="btn btn-primary rounded-pill">Comprar</a>
                         </div>
                     </div>
                 </div>
