@@ -243,13 +243,13 @@ header {
 
     @keyframes jumpInfinite {
         0% {
-            bottom: 30px;
+            bottom: 60px;
         }
         50% {
-            bottom: 0;
+            bottom: 30px;
         }
         100% {
-            bottom: 30px;
+            bottom: 60px;
         }
     }
 
@@ -266,7 +266,7 @@ header {
     #ver-mas {
         position: absolute;
         @include absolute-center-x;
-        bottom: 30px;
+        bottom: 60px;
         animation: jumpInfinite 1.5s infinite;
         width: 50px;
         height: 50px;
