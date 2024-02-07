@@ -243,13 +243,13 @@ header {
 
     @keyframes jumpInfinite {
         0% {
-            bottom: 60px;
-        }
-        50% {
             bottom: 30px;
         }
+        50% {
+            bottom: 0;
+        }
         100% {
-            bottom: 60px;
+            bottom: 30px;
         }
     }
 
