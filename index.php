@@ -5,9 +5,9 @@
         <div class="container">
             <div class="row py-30">
                 <div class="col-lg-6 offset-lg-3 text-center">
-                    <h1 class="word-break">Dominio, hosting y</h1>
-                    <h2 class="word-break">Correos empresariales</h2>
-                    <h3 class="word-break">Para que tengas presencia formal en Internet</h3>
+                    <h1 class="text-break">Dominio, hosting y</h1>
+                    <h2 class="text-break">Correos empresariales</h2>
+                    <h3 class="text-break">Para que tengas presencia formal en Internet</h3>
                 </div>
             </div>
         </div>
