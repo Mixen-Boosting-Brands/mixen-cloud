@@ -22,10 +22,12 @@
                 <div class="col">
                     <div class="card text-bg-primary" style="max-width: 18rem;">
                         <div class="card-body text-center">
+                            <h1>
+                                <i class="fa-solid fa-cloud"></i>
+                            </h1>
                             <h5 class="card-title">
-                                <i class="fa-solid fa-cloud"></i> Mixen Cloud
+                                Mixen Cloud
                             </h5>
-                            <p class="card-text">$3,750 MXN + IVA / Renovación anual</p>
                         </div>
                         <ul class="card-text fa-ul">
                             <li>
@@ -55,6 +57,7 @@
                             </li>
                         </ul>
                         <div class="card-body text-center">
+                            <p class="card-text">$3,750 MXN + IVA / Renovación anual</p>
                             <a href="https://buy.stripe.com/cN217E6pxafr5tm4gj" class="btn btn-primary rounded-pill">Comprar</a>
                         </div>
                     </div>
