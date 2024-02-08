@@ -4,10 +4,13 @@
         <div id="overlay"></div>
         <div class="container">
             <div class="row py-30">
-                <div class="col-lg-6 offset-lg-3 text-center">
-                    <h1 class="text-break">Dominio, hosting y</h1>
-                    <h2 class="text-break">Correos empresariales</h2>
-                    <h3 class="text-break">Para que tengas presencia formal en Internet</h3>
+                <div class="col-lg-6 offset-lg-3 text-center text-container">
+                    <h1>Dominio, hosting y</h1>
+                    <span></span>
+                    <h2>Correos empresariales</h2>
+                    <span></span>
+                    <h3>Para que tengas presencia formal en Internet</h3>
+                    <span></span>
                 </div>
             </div>
         </div>
