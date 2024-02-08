@@ -240,7 +240,9 @@ header {
     display: flex;
     align-items: center;
     position: relative;
-    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     @keyframes jumpInfinite {
         0% {
@@ -279,9 +281,23 @@ header {
         z-index: 2;
     }
 
-    h1 {
+    h1,
+    h2,
+    h3 {
         position: relative;
         z-index: 2;
+    }
+
+    h1 {
+        @include font-size(4rem);
+    }
+
+    h2 {
+        @include font-size(3rem);
+    }
+
+    h3 {
+        @include font-size(2rem);
     }
 }
 
