@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col">
-                    <div class="card text-bg-primary" style="max-width: 18rem;">
+                    <div class="card" style="max-width: 18rem;">
                         <div class="card-body text-center">
                             <h1>
                                 <i class="fa-solid fa-cloud"></i>
