@@ -336,19 +336,20 @@ header {
 }
 
 #paquetes {
-    background-color: #ECEAE7;
-
     .card {
-        background: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 1)) !important;
+        border-radius: 35px 0px 58px 0px;
+        background: #F4F4F4;
+        box-shadow: 15px 4px 35.2px 0px rgba(0, 0, 0, 0.25);
         margin: 0 auto;
         padding: 25px 24px 16px;
+        border-radius: 35px 0px 58px 0px;
         @include font-size(0.8rem);
         @include transition(ease, 0.3s);
 
         p,
         ul,
         .list-group-item {
-            color: $white;
+            color: $primary;
         }
 
         .list-group-item {
@@ -357,8 +358,6 @@ header {
         }
 
         .btn-primary {
-            background-color: transparent;
-            border: 1px solid $white;
             color: $white;
 
             &:hover,
