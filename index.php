@@ -5,7 +5,9 @@
         <div class="container">
             <div class="row py-30">
                 <div class="col text-center">
-                    <h1>Dominio, hosting y correos empresariales para que tengas presencia formal en internet</h1>
+                    <h1>Dominio, hosting y</h1>
+                    <h2>Correos empresariales</h2>
+                    <h3>Para que tengas presencia formal en Internet</h3>
                 </div>
             </div>
         </div>
