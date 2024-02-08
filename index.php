@@ -22,7 +22,7 @@
                 <div class="col">
                     <div class="card" style="max-width: 18rem;">
                         <div class="card-body text-center">
-                            <h1>
+                            <h1 class="mb-0">
                                 <i class="fa-solid fa-cloud"></i>
                             </h1>
                             <h5 class="card-title">
