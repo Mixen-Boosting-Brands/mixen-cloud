@@ -16,7 +16,7 @@
         </a>
     </section>
 
-    <section id="paquetes" class="common-dark py-60">
+    <section id="paquetes" class="common-dark pt-60 pb-30">
         <div class="container">
             <div class="row mb-5">
                 <div class="col">
@@ -95,7 +95,7 @@
         </div>
     </section>
 
-    <section id="faq" class="py-60">
+    <section id="faq" class="pt-30 pb-60">
         <div class="container">
             <div class="row text-center">
                 <div class="col">
