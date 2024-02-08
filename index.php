@@ -58,7 +58,9 @@
                         </ul>
                         <div class="card-body text-center">
                             <p class="card-text">$3,750 MXN + IVA / Renovación anual</p>
-                            <a href="https://buy.stripe.com/cN217E6pxafr5tm4gj" class="btn btn-primary rounded-pill">Adquirir</a>
+                            <a href="https://buy.stripe.com/cN217E6pxafr5tm4gj" class="btn btn-primary rounded-pill">
+                                <i class="fa-solid fa-cart-shopping"></i> Adquirir
+                            </a>
                         </div>
                     </div>
                 </div>
