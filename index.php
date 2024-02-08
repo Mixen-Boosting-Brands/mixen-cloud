@@ -286,7 +286,7 @@
                 <div class="col-lg-6 offset-lg-3">
                     <h3 class="mb-3">¡Aprovecha, nosotros te la regalamos!</h3>
                     <a href="#paquetes" class="btn btn-primary btn-lg rounded-pill">
-                        Quiero Mixen Cloud
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Quiero Mixen Cloud
                     </a>
                 </div>
             </div>
