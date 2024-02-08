@@ -4,7 +4,7 @@
         <div id="overlay"></div>
         <div class="container">
             <div class="row py-30">
-                <div class="col text-center">
+                <div class="col-lg-6 offset-lg-3 text-center">
                     <h1 class="word-break">Dominio, hosting y</h1>
                     <h2 class="word-break">Correos empresariales</h2>
                     <h3 class="word-break">Para que tengas presencia formal en Internet</h3>
@@ -276,9 +276,14 @@
     <section id="cta-1" class="cta py-60"">
         <div id="overlay"></div>
         <div class="container">
-            <div class="row mb-3">
-                <div class="col text-center">
-                    <h2>Tener redes sociales no es suficiente. Si quieres una presencia formal en Internet, necesitas una página web.</h2>
+            <div class="row text-start">
+                <div class="col-lg-6 offset-lg-3">
+                    <h4>Tener redes sociales no es suficiente.</h4>
+                    <h2>Si quieres una presencia formal en Internet, necesitas un sitio web.</h2>
+                </div>
+            </div>
+            <div class="row text-center mb-3">
+                <div class="col-lg-6 offset-lg-3">
                     <h3 class="mb-3">¡Aprovecha, nosotros te la regalamos!</h3>
                     <a href="#paquetes" class="btn btn-primary btn-lg rounded-pill">
                         Quiero Mixen Cloud
