@@ -98,7 +98,7 @@ h6 {
     justify-content: center;
     align-items: center;
 
-     h1 {
+     h1.card-text {
         @include font-size(2rem);
 
         small {
