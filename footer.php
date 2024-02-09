@@ -123,7 +123,7 @@
                                     </li>
                                     <li>
                                         <a href="https://mixen.mx/podcast/">
-                                            Podcast
+                                            Podcast: Aprobado Sin Cambios
                                         </a>
                                     </li>
                                 </ul>
