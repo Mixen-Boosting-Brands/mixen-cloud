@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col">
-                    <div class="card" style="max-width: 18rem;">
+                    <div class="card">
                         <div class="card-body text-center">
                             <h1 class="mb-0">
                                 <i class="fa-solid fa-cloud"></i>
@@ -71,7 +71,7 @@
             <div class="row mb-4">
                 <div class="col-lg-4 offset-lg-4 text-center">
                     <h2>¡Espera, tenemos un regalo para ti! 😎</h2>
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/regalo.png" alt="¡Al adquirir Mixen Cloud te regalamos un sitio web!" class="img-fluid" loading="lazy">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/regalo.png" alt="¡Al adquirir Mixen Cloud te regalamos un sitio web!" class="img-fluid" id="regalo" loading="lazy">
                     <!-- p>¡Al adquirir Mixen Cloud te regalamos un sitio web!</p -->
                 </div>
             </div>

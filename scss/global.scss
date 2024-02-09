@@ -350,6 +350,7 @@ header {
         background: rgb(236, 234, 231);
         box-shadow: 15px 4px 35.2px 0px rgba(0, 0, 0, 0.25);
         margin: 0 auto;
+        max-width: 18rem;
         padding: 25px 24px 16px;
         @include font-size(0.8rem);
         @include transition(ease, 0.3s);
@@ -400,6 +401,10 @@ header {
                 }
             }
         }
+    }
+
+    #regalo {
+        max-width: 18rem;
     }
 }
 
