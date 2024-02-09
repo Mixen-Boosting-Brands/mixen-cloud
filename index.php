@@ -6,11 +6,8 @@
             <div class="row py-30">
                 <div class="col-lg-6 offset-lg-3 text-center text-container">
                     <h1>Dominio, hosting y</h1>
-                    <span></span>
                     <h2>Correos empresariales</h2>
-                    <span></span>
                     <h3>Para que tengas presencia formal en Internet</h3>
-                    <span></span>
                 </div>
             </div>
         </div>
@@ -285,7 +282,7 @@
                     <h2>Si quieres una presencia formal en Internet, necesitas un sitio web.</h2>
                 </div>
             </div>
-            <div class="row text-center mb-3">
+            <div class="row text-start mb-3">
                 <div class="col-lg-6 offset-lg-3">
                     <h3 class="mb-3">¡Aprovecha, nosotros te la regalamos!</h3>
                     <a href="#paquetes" class="btn btn-primary btn-lg rounded-pill">
@@ -294,7 +291,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col text-center">
+                <div class="col-lg-6 offset-lg-3 text-center">
                     <ul class="pagos list-inline">
                         <li class="list-inline-item">
                             <i class="fa-brands fa-cc-amex"></i>
