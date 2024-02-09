@@ -432,6 +432,17 @@ header {
     h6 {
         text-transform: none;
     }
+
+    .btn-primary {
+        background-color: $white;
+        color: $primary;
+
+        &:hover,
+        &:focus {
+            background-color: $primary;
+            color: $white;
+        }
+    }
 }
 
 #cta-1 {
