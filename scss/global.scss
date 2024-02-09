@@ -97,6 +97,14 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
+
+     h1 {
+        @include font-size(2rem);
+
+        small {
+            @include font-size(.575em);
+        }
+     }
 }
 
 .btn,
