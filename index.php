@@ -65,8 +65,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col text-center">
+            <div class="row mb-4">
+                <div class="col-lg-4 offset-lg-4 text-center">
                     <h2>¡Espera, tenemos un regalo para ti! 😎</h2>
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/regalo.png" alt="¡Al adquirir Mixen Cloud te regalamos un sitio web!" class="img-fluid" loading="lazy">
                     <!-- p>¡Al adquirir Mixen Cloud te regalamos un sitio web!</p -->
