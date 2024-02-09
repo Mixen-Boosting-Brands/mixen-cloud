@@ -362,7 +362,8 @@ header {
         }
 
         h1.card-text {
-            @include font-size(2rem);
+            @include font-size(2.1rem);
+            line-height: 2rem;
     
             small {
                 @include font-size(.575em);
