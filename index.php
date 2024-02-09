@@ -57,7 +57,10 @@
                             </li>
                         </ul>
                         <div class="card-body text-center">
-                            <p class="card-text">$3,750 MXN + IVA / Renovación anual</p>
+                            <h1 class="card-text">
+                                $3,750 MXN<br>
+                                <small>+ IVA / Renovación anual</small>
+                            </h1>
                             <a href="https://buy.stripe.com/cN217E6pxafr5tm4gj" class="btn btn-primary rounded-pill">
                                 <i class="fa-solid fa-cart-shopping"></i> Adquirir
                             </a>
