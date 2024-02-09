@@ -107,36 +107,19 @@
             <div class="row text-start mb-3">
                 <div class="col-lg-6 offset-lg-3">
                     <h3 class="mb-3">¡Aprovecha, nosotros te la regalamos!</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-6 offset-lg-3">
                     <a href="#paquetes" class="btn btn-primary btn-lg rounded-pill">
                         <i class="fa-solid fa-wand-magic-sparkles"></i> Quiero Mixen Cloud
                     </a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3 text-center">
-                    <ul class="pagos list-inline">
-                        <li class="list-inline-item">
-                            <i class="fa-brands fa-cc-amex"></i>
-                        </li>
-                        <li class="list-inline-item">
-                            <i class="fa-brands fa-cc-mastercard"></i>
-                        </li>
-                        <li class="list-inline-item">
-                            <i class="fa-brands fa-cc-visa"></i>
-                        </li>
-                        <li class="list-inline-item">
-                            <i class="fa-brands fa-google-pay"></i>
-                        </li>
-                        <li class="list-inline-item">
-                            <i class="fa-brands fa-apple-pay"></i>
-                        </li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </section>
 
-    <section id="faq" class="pt-30 pb-60">
+    <section id="faq" class="pt-60">
         <div class="container">
             <div class="row text-center">
                 <div class="col">
