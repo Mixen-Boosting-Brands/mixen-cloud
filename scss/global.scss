@@ -97,14 +97,6 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-
-     h1.card-text {
-        @include font-size(2rem);
-
-        small {
-            @include font-size(.575em);
-        }
-     }
 }
 
 .btn,
@@ -355,7 +347,7 @@ header {
     .card {
         border: none;
         border-radius: 35px 0px 58px 0px;
-        background: #F4F4F4;
+        background: rgb(236, 234, 231);
         box-shadow: 15px 4px 35.2px 0px rgba(0, 0, 0, 0.25);
         margin: 0 auto;
         padding: 25px 24px 16px;
@@ -365,6 +357,14 @@ header {
         h1 {
             &::after {
                 content: none;
+            }
+        }
+
+        h1.card-text {
+            @include font-size(2rem);
+    
+            small {
+                @include font-size(.575em);
             }
         }
 
