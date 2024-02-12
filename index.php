@@ -4,7 +4,7 @@
         <div id="overlay"></div>
         <div class="container">
             <div class="row py-30">
-                <div class="col-lg-6 offset-lg-3 text-center text-container">
+                <div class="col-lg-8 offset-lg-1 text-center text-container">
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/texto-jumbotron.png" alt="Dominio, hosting y correos empresaariales, para que tengas presencia formal en Internet." class="img-fluid" loading="lazy">
                 </div>
             </div>
