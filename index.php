@@ -22,9 +22,7 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center">
-                            <h1 class="mb-0">
-                                <i class="fa-solid fa-cloud"></i>
-                            </h1>
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-cloud.png" alt="" class="img-fluid" loading="lazy">
                             <h5 class="card-title">
                                 Mixen Cloud
                             </h5>
