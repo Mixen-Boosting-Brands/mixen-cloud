@@ -20,7 +20,7 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-cloud.png" alt="" class="img-fluid" loading="lazy">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-cloud.png" alt="" class="img-fluid" id="ico-cloud" loading="lazy">
                             <h5 class="card-title">
                                 Mixen Cloud
                             </h5>

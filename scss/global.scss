@@ -355,6 +355,10 @@ header {
         @include font-size(0.8rem);
         @include transition(ease, 0.3s);
 
+        #ico-cloud {
+            max-width: 108px;
+        }
+
         h1 {
             &::after {
                 content: none;
