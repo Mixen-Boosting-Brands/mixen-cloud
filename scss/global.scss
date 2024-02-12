@@ -370,6 +370,10 @@ header {
             }
         }
 
+        h2.card-text {
+            @include font-size(0.9rem);
+        }
+
         p,
         ul,
         .list-group-item {
