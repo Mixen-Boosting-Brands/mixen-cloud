@@ -5,9 +5,7 @@
         <div class="container">
             <div class="row py-30">
                 <div class="col-lg-6 offset-lg-3 text-center text-container">
-                    <h1>Dominio, hosting y</h1>
-                    <h2>Correos empresariales</h2>
-                    <h3>Para que tengas presencia formal en Internet</h3>
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/texto-jumbotron.png" alt="Dominio, hosting y correos empresaariales, para que tengas presencia formal en Internet." class="img-fluid" loading="lazy">
                 </div>
             </div>
         </div>
