@@ -103,13 +103,13 @@
     <section id="cta-1" class="cta py-60"">
         <div id="overlay"></div>
         <div class="container">
-            <div class="row text-start mb-4">
+            <div class="row text-center mb-4">
                 <div class="col-lg-6 offset-lg-3">
                     <h4>Tener redes sociales no es suficiente.</h4>
                     <h2>Si quieres una presencia formal en Internet, necesitas un sitio web.</h2>
                 </div>
             </div>
-            <div class="row text-start mb-3">
+            <div class="row text-center mb-3">
                 <div class="col-lg-6 offset-lg-3">
                     <h3 class="mb-3">¡Aprovecha, nosotros te la regalamos!</h3>
                 </div>
