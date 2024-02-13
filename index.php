@@ -60,7 +60,7 @@
                                 + IVA / Renovación anual
                             </h2>
                             <a href="https://buy.stripe.com/dR6g2y15d2MZ092dQS" class="btn btn-primary rounded-pill">
-                                <i class="fa-solid fa-cart-shopping"></i> Adquirir
+                                <i class="fa-solid fa-cart-shopping"></i> Comenzar
                             </a>
                         </div>
                     </div>
@@ -100,13 +100,13 @@
         </div>
     </section>
 
-    <section id="cta-1" class="cta py-60"">
+    <section id="cta-1" class="cta py-60 parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/cta/bg-cta-1.jpg">
         <div id="overlay"></div>
         <div class="container">
             <div class="row text-center mb-4">
                 <div class="col-lg-6 offset-lg-3">
                     <h4>Tener redes sociales no es suficiente.</h4>
-                    <h2>Si quieres una presencia formal en Internet, necesitas un sitio web.</h2>
+                    <h2>Si quieres una presencia formal en Internet, necesitas una página web.</h2>
                 </div>
             </div>
             <div class="row text-center mb-3">

@@ -374,6 +374,10 @@ header {
             }
         }
 
+        h2 {
+            text-transform: none;
+        }
+
         h2.card-text {
             @include font-size(0.9rem);
         }
@@ -418,6 +422,8 @@ header {
 }
 
 #faq {
+    overflow: hidden;
+
     .accordion-button:focus {
         box-shadow: none;
     }
@@ -432,7 +438,7 @@ header {
     position: relative;
 
     #overlay {
-        background: rgba(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.7);
         position: absolute;
         top: 0;
         left: 0;
@@ -468,7 +474,7 @@ header {
 }
 
 #cta-1 {
-    @include background('../images/cta/bg-cta-1.jpg', center, cover);
+    // @include background('../images/cta/bg-cta-1.jpg', center, cover);
 }
 
 .common-light {
