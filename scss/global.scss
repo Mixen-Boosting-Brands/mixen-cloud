@@ -374,10 +374,6 @@ header {
             }
         }
 
-        h2 {
-            text-transform: none;
-        }
-
         h2.card-text {
             @include font-size(0.9rem);
         }
@@ -414,6 +410,10 @@ header {
                 }
             }
         }
+    }
+
+    h2 {
+        text-transform: none;
     }
 
     #regalo {
