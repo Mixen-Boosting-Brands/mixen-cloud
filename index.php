@@ -60,7 +60,7 @@
                                 + IVA / Renovación anual
                             </h2>
                             <a href="https://buy.stripe.com/dR6g2y15d2MZ092dQS" class="btn btn-primary rounded-pill">
-                                <i class="fa-solid fa-cart-shopping"></i> Comenzar
+                                <i class="fa-solid fa-cart-shopping"></i> Quiero comenzar
                             </a>
                         </div>
                     </div>
