@@ -67,7 +67,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mb-4">
+            <div class="row">
                 <div class="col text-center">
                     <ul class="pagos list-inline">
                         <li class="list-inline-item">
@@ -90,18 +90,5 @@
             </div>
         </div>
     </section>
-
-    <section id="cta-1" class="cta py-60 parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/cta/bg-cta-1.jpg">
-        <div id="overlay"></div>
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-6 offset-lg-3">
-                    <a href="#paquetes" class="btn btn-primary btn-lg rounded-pill">
-                        <i class="fa-solid fa-wand-magic-sparkles"></i> Quiero Mixen Cloud
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    
 <?php get_footer(); ?>
