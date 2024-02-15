@@ -69,7 +69,7 @@
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <ul class="pagos list-inline">
+                    <ul class="pagos list-inline mb-0">
                         <li class="list-inline-item">
                             <i class="fa-brands fa-cc-amex"></i>
                         </li>
