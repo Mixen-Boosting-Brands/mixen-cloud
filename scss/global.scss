@@ -474,7 +474,8 @@ header {
 }
 
 #cta-1 {
-    // @include background('../images/cta/bg-cta-1.jpg', center, cover);
+    @include background('../images/cta/bg-cta-1.jpg', center, cover);
+    background-attachment: fixed;
 }
 
 .common-light {
