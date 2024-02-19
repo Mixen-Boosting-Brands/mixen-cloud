@@ -145,7 +145,7 @@
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#acordion-faq">
                                 <div class="accordion-body">
-                                    <p>No hay nada escondido en esto, es justo lo contrario, estamos tan comprometidos en demostrar que tener presencia formal en Internet es esencial para que las empresas mejoren sus prácticas y se alineen a la digitalización, que queremos y podemos ayudarlos de esta forma, es una excelente oportunidad, es algo básico informativo muy bien hecho, perfectamente funcional y estético. 😌</p>
+                                    <p>No hay nada escondido en esto, es justo lo contrario, estamos tan comprometidos en demostrar que tener presencia formal en Internet es esencial para que las empresas mejoren sus prácticas y se alineen a la digitalización, que queremos y podemos ayudarlos de esta forma, es una excelente oportunidad, es algo básico informativo muy bien hecho con base en inteligencia artificial, perfectamente funcional y estético. 😌</p>
                                 </div>
                             </div>
                         </div>
