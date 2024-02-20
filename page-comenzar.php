@@ -1,6 +1,6 @@
 <?php 
     /*
-        * Template Name: Renovación anual
+        * Template Name: Comenzar
     */
 
 	get_header();
