@@ -6,7 +6,7 @@
 	get_header();
 ?>
 
-    <section id="body" class="py-60">
+    <section id="body" class="py-60" style="margin-top: 60px;">
         <div class="container">
             <div class="row mb-1 mb-lg-3">
                 <div class="col">
