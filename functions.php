@@ -555,44 +555,39 @@ function html5_shortcode_demo_2( $atts, $content = null ) {
     Stripe API
 \*------------------------------------*/
 
-// Step 1: Set up a Webhook Endpoint
-// This endpoint will listen for events from Stripe
-// Make sure to secure this endpoint to prevent unauthorized access
+// Add a custom endpoint to handle webhook requests from Stripe
+add_action( 'rest_api_init', 'create_stripe_webhook_endpoint' );
 
-// Webhook endpoint URL: https://mixen.cloud/stripe-webhook
-add_action('wp_ajax_stripe_webhook', 'handle_stripe_webhook');
-add_action('wp_ajax_nopriv_stripe_webhook', 'handle_stripe_webhook');
-
-function handle_stripe_webhook() {
-    // Retrieve the raw request body sent by Stripe
-    $input = @file_get_contents("php://input");
-
-    // Parse the request body as JSON
-    $event = json_decode($input);
-
-    // Handle different types of Stripe events
-    if ($event->type == 'checkout.session.completed') {
-        // Extract the payment session ID from the event
-        $payment_session_id = $event->data->object->id;
-
-        // Step 3: Generate a Token
-        $token = generate_unique_token();
-
-        // Step 4: Redirect the User with Token
-        $redirect_url = 'https://mixen.cloud/comenzar/?token=' . $token;
-        wp_redirect($redirect_url);
-        exit;
-    }
-
-    // Handle other types of Stripe events if needed
-
-    // Respond to Stripe to acknowledge receipt of the event
-    http_response_code(200);
-    exit;
+function create_stripe_webhook_endpoint() {
+    register_rest_route( 'stripe/v1', '/webhook', array(
+        'methods' => 'POST',
+        'callback' => 'handle_stripe_webhook'
+    ) );
 }
 
-// Example function to generate a unique token
-function generate_unique_token() {
-    // Generate a unique token using a combination of timestamp and random string
-    return md5(uniqid(rand(), true));
+// Handle Stripe webhook events
+function handle_stripe_webhook( $request ) {
+    $body = $request->get_body();
+    $event = null;
+
+    try {
+        $event = \Stripe\Event::constructFrom(
+            json_decode( $body, true )
+        );
+    } catch ( \UnexpectedValueException $e ) {
+        http_response_code( 400 );
+        exit();
+    }
+
+    // Verify the event is of type 'checkout.session.completed'
+    if ( $event->type === 'checkout.session.completed' ) {
+        $session = $event->data->object;
+        // Generate a token (you can use any method to generate a unique token)
+        $token = md5( uniqid() );
+        // Store the token in your WordPress database
+        update_option( 'stripe_success_token', $token );
+    }
+
+    http_response_code( 200 );
+    exit();
 }
