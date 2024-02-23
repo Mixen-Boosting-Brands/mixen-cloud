@@ -552,41 +552,38 @@ function html5_shortcode_demo_2( $atts, $content = null ) {
 }
 
 /*------------------------------------*\
-    Stripe API
+    Stripe Webhook Endpoint
 \*------------------------------------*/
 
-// Add a custom endpoint to handle webhook requests from Stripe
+// Add your custom endpoint
 add_action( 'rest_api_init', 'create_stripe_webhook_endpoint' );
-
 function create_stripe_webhook_endpoint() {
     register_rest_route( 'stripe/v1', '/webhook', array(
-        'methods' => 'POST',
-        'callback' => 'handle_stripe_webhook'
-    ) );
+        'methods'  => 'POST',
+        'callback' => 'handle_stripe_webhook',
+    ));
 }
 
-// Handle Stripe webhook events
-function handle_stripe_webhook( $request ) {
-    $body = $request->get_body();
-    $event = null;
+// Handle webhook events
+function handle_stripe_webhook() {
+    $payload = file_get_contents( 'php://input' );
+    $event = json_decode( $payload );
 
-    try {
-        $event = \Stripe\Event::constructFrom(
-            json_decode( $body, true )
-        );
-    } catch ( \UnexpectedValueException $e ) {
-        http_response_code( 400 );
-        exit();
-    }
+    if ( $event->type == 'checkout.session.completed' ) {
+        // Process the successful payment and generate token
+        $token = generate_token();
 
-    // Verify the event is of type 'checkout.session.completed'
-    if ( $event->type === 'checkout.session.completed' ) {
-        // Generate a token (you can use any method to generate a unique token)
-        $token = md5( uniqid() );
         // Store the token in your WordPress database
-        update_option( 'stripe_success_token', $token );
+        update_option( 'stripe_payment_token', $token );
     }
 
-    http_response_code( 200 );
-    exit();
+    // Return a response to Stripe
+    http_response_code(200);
+    echo json_encode(array('message' => 'Received'));
+    exit;
+}
+
+// Generate a unique token
+function generate_token() {
+    return md5( uniqid( rand(), true ) );
 }
