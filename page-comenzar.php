@@ -9,7 +9,6 @@
     $stored_token = get_option( 'stripe_success_token' );
 ?>
 
-// Verify the token
 <?php if ( isset( $_GET['token'] ) && $_GET['token'] === $stored_token ): ?>
     <section id="body" class="py-60" style="margin-top: 60px;">
         <div class="container">
