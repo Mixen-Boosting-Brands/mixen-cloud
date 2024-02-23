@@ -581,7 +581,6 @@ function handle_stripe_webhook( $request ) {
 
     // Verify the event is of type 'checkout.session.completed'
     if ( $event->type === 'checkout.session.completed' ) {
-        $session = $event->data->object;
         // Generate a token (you can use any method to generate a unique token)
         $token = md5( uniqid() );
         // Store the token in your WordPress database
