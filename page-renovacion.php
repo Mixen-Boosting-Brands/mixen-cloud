@@ -66,7 +66,7 @@
                                 + IVA / Renovación anual
                             </h2>
                             <a href="https://buy.stripe.com/4gw03AbJR0ERcVO4gk" class="btn btn-primary rounded-pill">
-                                <i class="fa-solid fa-cart-shopping"></i> Quiero renovar
+                                <i class="fa-solid fa-rotate"></i> Quiero renovar
                             </a>
                         </div>
                     </div>
