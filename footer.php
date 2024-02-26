@@ -49,17 +49,12 @@
                                     </li>
                                     <li>
                                         <a href="https://mixen.mx#como-lo-logramos">
+                                            SEO/SEM
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://mixen.mx#como-lo-logramos">
                                             Social Media
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://mixen.mx#como-lo-logramos">
-                                            Development
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://mixen.mx#como-lo-logramos">
-                                            CX
                                         </a>
                                     </li>
                                     <li>
@@ -69,12 +64,17 @@
                                     </li>
                                     <li>
                                         <a href="https://mixen.mx#como-lo-logramos">
-                                            SEO/SEM
+                                            CX
                                         </a>
                                     </li>
                                     <li>
                                         <a href="https://mixen.mx#como-lo-logramos">
-                                            Automatización
+                                            IA
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://mixen.mx#como-lo-logramos">
+                                            Desarrollo
                                         </a>
                                     </li>
                                 </ul>
