@@ -154,13 +154,13 @@
                             <nav>
                                 <ul class="list-unstyled">
                                     <li class="mb-1 mb-lg-3">
-                                        <a href="https://mixen.mx/#">
+                                        <a href="mailto:torh@mixen.mx?subject=Deseo%20unirme%20al%20equipo%20de%20Mixen">
                                             Unirme al equipo
                                         </a>
                                     </li>
                                     <li class="mb-1 mb-lg-3">
-                                        <a href="https://mixen.mx/politica-privacidad">
-                                            Política de privacidad
+                                        <a href="https://mixen.mx/aviso-de-privacidad">
+                                            Aviso de Privacidad
                                         </a>
                                     </li>
                                     <li class="mb-1 mb-lg-3">
