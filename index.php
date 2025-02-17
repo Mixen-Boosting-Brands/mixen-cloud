@@ -4,21 +4,23 @@
         <div id="overlay"></div>
         <div class="container">
             <div class="row py-30">
-                <div class="col-lg-8 offset-lg-2 text-center text-container">
+                <div class="col-lg-8 offset-lg-2 text-container text-center">
                     <!-- img src="<?php echo esc_url(
                         get_template_directory_uri()
                     ); ?>/assets/images/jumbotron/texto.png" alt="Dominio, hosting, correos empresaariales y SSL, para que tengas presencia formal en Internet." class="img-fluid" loading="lazy" -->
-                    <h1>Hasta finalizar febrero</h1>
+                    <h1 class="fw-bold mb-2">Hasta finalizar febrero</h1>
 
-                    <ul class="list-unstyled">
-                        <li>Dominio</li>
-                        <li>Hosting</li>
-                        <li>Correos empresariales</li>
-                        <li>Certificado de seguridad SSL</li>
-                        <li>*Página web en 3 días hábiles</li>
-                    </ul>
+                    <div class="w-100 d-block text-left">
+                        <ul class="list-unstyled fs-3 fw-bold">
+                            <li class="mb-0">Dominio</li>
+                            <li class="mb-0">Hosting</li>
+                            <li class="mb-0">Correos empresariales</li>
+                            <li class="mb-0">Certificado de seguridad SSL</li>
+                            <li class="mb-0">*Página web en 3 días hábiles</li>
+                        </ul>
+                    </div>
 
-                    <h2>$2,500 + IVA (*primer año)</h2>
+                    <h2 class="fw-bold">$2,500 + IVA (*primer año)</h2>
                 </div>
             </div>
         </div>
