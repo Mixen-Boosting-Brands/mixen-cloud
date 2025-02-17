@@ -5,7 +5,20 @@
         <div class="container">
             <div class="row py-30">
                 <div class="col-lg-8 offset-lg-2 text-center text-container">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/jumbotron/texto.png" alt="Dominio, hosting, correos empresaariales y SSL, para que tengas presencia formal en Internet." class="img-fluid" loading="lazy">
+                    <!-- img src="<?php echo esc_url(
+                        get_template_directory_uri()
+                    ); ?>/assets/images/jumbotron/texto.png" alt="Dominio, hosting, correos empresaariales y SSL, para que tengas presencia formal en Internet." class="img-fluid" loading="lazy" -->
+                    <h1>Hasta finalizar febrero</h1>
+
+                    <ul class="list-unstyled">
+                        <li>Dominio</li>
+                        <li>Hosting</li>
+                        <li>Correos empresariales</li>
+                        <li>Certificado de seguridad SSL</li>
+                        <li>*Página web en 3 días hábiles</li>
+                    </ul>
+
+                    <h2>$2,500 + IVA (*primer año)</h2>
                 </div>
             </div>
         </div>
@@ -20,7 +33,9 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-cloud.png" alt="" class="img-fluid" id="ico-cloud" loading="lazy">
+                            <img src="<?php echo esc_url(
+                                get_template_directory_uri()
+                            ); ?>/assets/images/ico-cloud.png" alt="" class="img-fluid" id="ico-cloud" loading="lazy">
                             <h5 class="card-title">
                                 Mixen Cloud
                             </h5>
@@ -94,7 +109,9 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 offset-lg-4 text-center">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/regalo.png" alt="¡Al adquirir Mixen Cloud te regalamos un sitio web!" class="img-fluid" id="regalo" loading="lazy">
+                    <img src="<?php echo esc_url(
+                        get_template_directory_uri()
+                    ); ?>/assets/images/regalo.png" alt="¡Al adquirir Mixen Cloud te regalamos un sitio web!" class="img-fluid" id="regalo" loading="lazy">
                 </div>
             </div>
         </div>
@@ -129,7 +146,9 @@
             <div class="row text-center">
                 <div class="col">
                     <h1 class="mb-1 mb-lg-3">
-                        <span class="fs-4">Preguntas</span> <img class="ico-arrow" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid" loading="lazy"> frecuentes
+                        <span class="fs-4">Preguntas</span> <img class="ico-arrow" src="<?php echo esc_url(
+                            get_template_directory_uri()
+                        ); ?>/assets/images/ico-arrow.png" alt="" class="img-fluid" loading="lazy"> frecuentes
                     </h1>
                     <div class="separador"></div>
                 </div>
