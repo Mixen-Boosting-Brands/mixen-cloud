@@ -8,7 +8,7 @@
                     <!-- img src="<?php echo esc_url(
                         get_template_directory_uri()
                     ); ?>/assets/images/jumbotron/texto.png" alt="Dominio, hosting, correos empresaariales y SSL, para que tengas presencia formal en Internet." class="img-fluid" loading="lazy" -->
-                    <h1 class="fw-bold mb-2">Hasta finalizar febrero</h1>
+                    <h1 class="fw-bold">Hasta finalizar febrero</h1>
 
                     <div class="w-100 d-block my-5">
                         <ul class="list-unstyled mb-0 fs-3 fw-bold">
