@@ -5,22 +5,9 @@
         <div class="container">
             <div class="row py-30">
                 <div class="col-lg-8 offset-lg-2 text-container text-center">
-                    <!-- img src="<?php echo esc_url(
+                    <img src="<?php echo esc_url(
                         get_template_directory_uri()
-                    ); ?>/assets/images/jumbotron/texto.png" alt="Dominio, hosting, correos empresaariales y SSL, para que tengas presencia formal en Internet." class="img-fluid" loading="lazy" -->
-                    <h1 class="fw-bold">📅 Hasta finalizar febrero</h1>
-
-                    <div class="w-100 d-block my-4">
-                        <ul class="list-unstyled fs-3 fw-bold">
-                            <li class="mb-0">Dominio</li>
-                            <li class="mb-0">Hosting</li>
-                            <li class="mb-0">Correos empresariales</li>
-                            <li class="mb-0">Certificado de seguridad SSL</li>
-                            <li class="mb-0">*Página web en 3 días hábiles</li>
-                        </ul>
-                    </div>
-
-                    <h2 class="fw-bold">$2,500 + IVA (*primer año)</h2>
+                    ); ?>/assets/images/jumbotron/texto.png" alt="Dominio, hosting, correos empresariales y SSL, para que tengas presencia formal en Internet." class="img-fluid" loading="lazy">
                 </div>
             </div>
         </div>
@@ -71,7 +58,7 @@
                         </ul>
                         <div class="card-body text-center">
                             <h1 class="card-text">
-                                $2,500 MXN
+                                $3,750 MXN
                             </h1>
                             <h2 class="card-text">
                                 + IVA / Renovación anual
@@ -83,7 +70,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mb-4">
                 <div class="col text-center">
                     <ul class="pagos list-inline">
                         <li class="list-inline-item">
@@ -104,18 +91,18 @@
                     </ul>
                 </div>
             </div>
-            <!-- div class="row mb-4">
+            <div class="row mb-4">
                 <div class="col-lg-4 offset-lg-4 text-center">
                     <h2>¡Espera, tenemos un regalo para ti! 😎</h2>
                 </div>
-            </div -->
-            <!-- div class="row">
+            </div>
+            <div class="row">
                 <div class="col-lg-4 offset-lg-4 text-center">
                     <img src="<?php echo esc_url(
                         get_template_directory_uri()
                     ); ?>/assets/images/regalo.png" alt="¡Al adquirir Mixen Cloud te regalamos un sitio web!" class="img-fluid" id="regalo" loading="lazy">
                 </div>
-            </div-->
+            </div>
         </div>
     </section>
 
