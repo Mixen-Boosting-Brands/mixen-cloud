@@ -583,6 +583,39 @@ function handle_stripe_webhook() {
     exit;
 }
 
+// Bloquear REST API anónima
+add_filter("rest_authentication_errors", function ($result) {
+    if (!empty($result)) {
+        return $result;
+    }
+    if (is_user_logged_in()) {
+        return $result;
+    }
+    
+    // Permitir endpoints necesarios para WooCommerce
+    $request_uri = $_SERVER['REQUEST_URI'] ?? '';
+    $allowed = [
+        '/wp-json/wc/',
+        '/wp-json/wc-blocks/',
+        '/wp-json/wc-auth/',
+        '/wp-json/wp/v2/settings',
+    ];
+    
+    foreach ($allowed as $endpoint) {
+        if (strpos($request_uri, $endpoint) !== false) {
+            return $result;
+        }
+    }
+    
+    // Bloquear todo lo demás
+    return new WP_Error("rest_forbidden", "REST API restricted", [
+        "status" => 401,
+    ]);
+});
+
+// Desactivar registro de usuarios nuevos
+add_filter("option_users_can_register", "__return_false");
+
 // Generate a unique token
 function generate_token() {
     return md5( uniqid( rand(), true ) );
